@@ -12,6 +12,6 @@ In terms of licenses, my request puts this repository under [3.0 Creative Common
 
 Most of the data is written in Brazilian Portuguese, but I'll translate into English the materials that have reached a more stable and conclusive state. In the future, when this research is completed (at least I hope it will be), I will translate into English all the remainings.
 
-Last, but not least, feel free to write me with questions, suggestions, criticism, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" session of this repository or you can send my a message to my email: silveira.gustavocampos@gmail.com
+Last, but not least, feel free to write me with questions, suggestions, criticism, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" session of this repository or you can send a message to my email: silveira.gustavocampos@gmail.com
 
 For the time being, that's it! Thank you for you interest!

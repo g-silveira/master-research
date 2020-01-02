@@ -15,4 +15,4 @@ Most of the data is written in Brazilian Portuguese, but I'll translate into Eng
 
 Last, but not least, feel free to write me with questions, suggestions, criticisms, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" section of this repository or you can send a message to my email (silveira.gustavocampos@gmail.com). It will be a pleasure to reply.
 
-For the time being, that's it! Thank you for you interest!
+For the time being, that's it! Thank you for your interest!

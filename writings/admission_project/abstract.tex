@@ -1,0 +1,65 @@
+\documentclass[a4paper, 12pt, article, oneside, brazil,leqno]{memoir}
+
+% PACOTES BÁSICOS
+\usepackage[utf8]{inputenc} % Codificação de caracter
+\usepackage[T1]{fontenc} % Codificação de fonte
+\usepackage[brazil]{babel} % Tradução para português
+\usepackage{times} % Times New Roman
+% \usepackage{indentfirst} % Recuo na primeira linha
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{amsmath} % Pacote para escrita matemática
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage{units}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl} % Cores em tabelas
+%\renewcommand{\arraystretch}{1.25} % Espaçamento entre linhas da tabela
+
+% FORMATAÇÃO
+\setlrmarginsandblock{2.5cm}{2.5cm}{*} % Margens esquerda e direita
+\setulmarginsandblock{2.5cm}{2.5cm}{*} % Margens superior e inferior
+\checkandfixthelayout %
+\setlength{\parindent}{0.5in} % Ajuste de recuo de primeira linha
+\setlength{\parskip}{0em} % Espaço entre parágrafos
+\renewcommand{\baselinestretch}{1.5} % Espaço entre linhas
+\pagestyle{empty}
+
+% CITAÇÃO E BIBLIOGRAFIA
+\usepackage[backend=biber,style=abnt,ittitles,sccite,noslsn]{biblatex} % Pacote do BibLatex
+\addbibresource{zotero.bib} % Arquivo .bib
+\renewcommand*{\bibfont}{\footnotesize} % Reduzir fonte da bibliografia
+
+% CORES
+\usepackage{xcolor}
+\definecolor{azul}{HTML}{0b365a}
+\definecolor{vermelho}{HTML}{B20000}
+\definecolor{verde}{HTML}{004d00}
+\definecolor{cinza1}{HTML}{DCDCDC}
+\definecolor{cinza2}{HTML}{A9A9A9}
+
+% HYPERLINK
+\usepackage[colorlinks=true, citecolor=azul, linkcolor=vermelho, urlcolor=verde]{hyperref}
+
+\begin{document}
+	\thispagestyle{empty}
+	
+	\begin{center}
+		\vspace*{\fill}
+	{\Large\bfseries Efeitos do contato dialetal no ritmo da fala de migrantes paraibanos e alagoanos em São Paulo}
+	\par\vspace*{\fill}\vspace*{\fill}
+	{\large Gustavo de Campos Pinheiro da Silveira}
+	\vspace*{\fill}\vspace*{\fill}\vspace*{\fill}
+		\end{center}
+	{\bfseries Resumo}
+
+	
+	\noindent A partir do paradigma teórico da Sociolinguística Variacionista, este projeto de pesquisa tem como objetivo investigar em que medida os padrões rítmicos da fala de migrantes paraibanos e alagoanos residentes no estado de São Paulo sofreram alterações em função do contato com a fala paulista. Para atingir essa meta, será realizada uma análise sociofonética de enunciados extraídos de quatro amostras de fala semiespontânea já coletadas em pesquisas sociolinguísticas anteriores. Uma delas é a amostra de 40 entrevistas com migrantes paraibanos e alagoanos coletada no âmbito do Projeto \enquote{Processos de acomodação dialetal na fala de nordestinos em São Paulo}, coordenado por Oushiro \citeyear{oushiro2018}. As outras três serão usadas apenas como amostras de controle: (i) uma amostra composta por entrevistas com paulistas não migrantes, coletada pelo ProjetoSP2010 \cite{mendes2012}; (ii) uma outra apenas com paraibanos não migrantes, coletada pelo Projeto VALPB \cite{hora1993}; e, por fim, (iii) uma apenas com alagoanos não migrantes, coletada pelo Projeto PORTAL \cite{oliveira2017}. Com o uso do software Praat \cite{boersma2019}, serão feitas análises acústicas dos enunciados selecionados a fim de computar os valores das seguintes variáveis rítmicas: as métricas de ritmo \%V \cite{ramus1999}, Varco$\Delta$V \cite{white2007a} e nPVI-V \cite{grabe2002}; e a redução das vogais pretônicas e postônicas (finais e não finais). Por fim, utilizando o modelo de regressão linear na plataforma R \cite{rcoreteam2019}, será feita uma análise sociolinguística com o intuito de examinar possíveis correlações entre essas variáveis rítmicas e os seguintes fatores sociais: (i) idade de migração, (ii) tempo de residência; e (iii) rede social. Espera-se que os resultados contribuam para a compreensão dos efeitos do contato dialetal no ritmo da fala.
+	
+\vspace{.5em}\noindent\textbf{Palavras-chave:} variação linguística, contato dialetal, ritmo da fala, sociofonética, migração.
+	
+	\printbibliography
+\end{document}

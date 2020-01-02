@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'Projeto_Fapesp.tex.blg'
+[39] biber:315> INFO - === qua dez  4, 2019, 13:41:37
+[164] Utils.pm:209> ERROR - Cannot find control file 'Projeto_Fapesp.tex.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[165] Biber.pm:114> INFO - ERRORS: 1

@@ -1,0 +1,452 @@
+\documentclass[
+			a4paper,		% Dimensão do documento
+			12pt,			% Tamanho default de fonte
+			oneside,
+			]{article}		% Classe do documento
+
+% CODIFICAÇÕES E FONTES
+\usepackage[utf8]{inputenc}	% Codificação de caracteres
+\usepackage[T1]{fontenc}	% Codificação de fontes
+\usepackage{kpfonts}		% Fonte KP (Kepler)
+\usepackage[brazil]{babel}	% Português brasileiro como idioma padrão
+
+% FORMATAÇÃO
+\usepackage{geometry}	% Modificar margens
+	\geometry{
+		left	= 20mm,		% Margem esquerda
+		right	= 20mm,		% Margem direita
+		top		= 25mm, 	% Margem superior
+		bottom	= 25mm, 	% Margem inferior
+		}
+\usepackage{microtype}	% Melhora tipografia
+\usepackage{setspace}	% Permite definir espaçamento entre linhas
+\renewcommand{\baselinestretch}{2.0}	% Espaçamento padrão: duplo
+
+% GRÁFICOS E FIGURAS
+\usepackage{graphicx}	% Para inserir imagens
+\usepackage{tikz}		% Para criar ilustrações
+
+% CORES
+\usepackage{xcolor}							% Permite usar cores
+	\definecolor{azul}{HTML}{0b365a}		% Azul
+	\definecolor{vermelho}{HTML}{B20000}	% Vermelho
+	\definecolor{verde}{HTML}{004d00}		% Verde
+	\definecolor{cinzaclaro}{HTML}{DCDCDC}	% Cinza claro
+	\definecolor{cinzaescuro}{HTML}{A9A9A9}	% Cinza escuro
+
+% HYPERREF
+\usepackage[
+		colorlinks=true,	% Texto colorido ao invés de frame
+		linkcolor=blue,		% Cor de referências internas
+		citecolor=azul,		% Cor de citações
+		filecolor=magenta,  % Definir cor de links que abrem arquivos locais (?)
+		urlcolor=cyan,		% Cor de links externos (urls, emails)
+		pdftitle={ 			% Título que aparece na janela do visualizador
+			O ritmo da fala em situação de contato dialetal
+			},
+		bookmarks=true,		% Mostrar bookmarks ao abrir o documento
+		]{hyperref} 
+
+% TABELAS E LISTAS
+\usepackage{array}		% Mais recursos nos ambientes array e tabular
+\usepackage{booktabs}	% Mais recursos para criação de tabelas
+\usepackage{multicol}	% Permite aglutinar cédulas na dimensão da coluna
+\usepackage{multirow}	% Permite aglutinar cédulas na dimensão da linha
+\usepackage{colortbl}	% Colorir tabelas
+\usepackage{dcolumn}	% Esqueci a função deste pacote
+\usepackage[
+	ampersand,			% Define como caractere '&' como operador
+	]{easylist}			% Facilita a criação de listas mais complexas
+
+% MATEMÁTICA
+\usepackage{amsmath}	% Pacote para expressões matemáticas
+
+% BIBLIOGRAFIA E CITAÇÃO
+\usepackage[ 
+		backend=biber, 				% Compilador de bibliografia
+		style=authoryear,			% Estilo de bibliografia
+		citestyle=authoryear-comp, 	% Estilo de citação
+		natbib=true, 				% Ativar compatibilidade com comandos do Natbib
+		]{biblatex}	
+	
+\addbibresource{/home/gustavo/Zotero/zotero.bib}	% Caminho do arquivo .bib
+\DeclareNameAlias{sortname}{last-first}		% Último nome antes dos demais
+
+% SEÇÕES
+\usepackage{titlesec}			% Modificar parâmetros dos títulos de seções
+	\titleformat*{\section}{	% Ajustes nos títulos das seções
+		\Large\bfseries\sffamily
+		} 		
+	\titleformat*{\subsection}{ % Ajustes nos títulos das subseções
+		\large\bfseries\sffamily
+		}	
+
+% Outros
+\usepackage{tipa} 			% Permite inserir caracteres fonéticos do IPA
+\usepackage{csquotes}		% Melhora as marcas de citação direta (e.g, aspas)
+\usepackage[page]{appendix}	% Permite criar apêndices
+\usepackage{blindtext}		% Permite gerar textos lorem ipsum
+
+\begin{document}
+	
+{\setstretch{1.3} % Espaçamento simples
+	% TÍTULO
+	\begin{center}
+		{\bfseries\Large\sffamily
+			O ritmo da fala em situação de contato dialetal: um experimento sociofonético 
+			sobre a fala de migrantes paraibanos em São Paulo
+		}
+	\end{center}
+}
+	
+	\vspace{0.35em}
+{\setstretch{1.0} % Espaçamento simples	
+	% AUTORES
+	\begin{flushright} 
+		Gustavo de Campos Pinheiro da Silveira \\ 
+		\vspace{5pt}
+		Orientadora: Prof.\textsuperscript{a} Dr.\textsuperscript{a} Livia Oushiro
+	\end{flushright}
+
+	% RESUMO
+	\begin{center} 
+	    {\bfseries\sffamily Resumo} \\ 
+	\end{center}
+	 \par
+	\vspace{0.35em}
+	\noindent{\bfseries\sffamily Palavras-chave:} 
+		
+}
+
+\section{Introdução e justificativa}
+
+Este projeto propõe uma investigação sociofonética da variação no ritmo da fala de 
+migrantes paraibanos que residem na Região Metropolitana de Campinas, no Estado de São 
+Paulo. O objetivo central é investigar em que medida os padrões rítmicos da fala desses 
+migrantes sofreram alterações em função do contato com a fala paulista. Para atingir essa 
+meta, serão analisados os efeitos de duas variáveis extralinguísticas, a idade de 
+migração e o tempo de residência na comunidade anfitriã, sobre um conjunto de vinte e 
+cinco métricas de ritmo.  
+
+
+Este projeto propõe uma investigação sociofonética da variação rítmica na fala de 
+migrantes paraibanos que residem na Região Metropolitana de Campinas, no Estado de São 
+Paulo. O objetivo central é investigar em que medida o ritmo da fala desses migrantes 
+
+os efeitos da idade de migração e do tempo de residência em São Paulo sobre o ritmo da 
+fala desses migrantes a fim de verificar se 
+
+O objetivo central é investigar os efeitos da idade de migração e do tempo de 
+residência em São Paulo sobre o ritmo da fala desse migrantes com base em duas métricas 
+de ritmo: o percentual vocálico \citep{Ramus.etal1999} e o índice de variabilidade em 
+pares (Grabe e Low 2002) aplicado à sílaba fonética, também chamada de unidade VV 
+(Barbosa, 
+2019). Essas métricas, que serão descritas com mais detalhes na próxima seção, foram 
+desenvolvidas para indicar, com base na duração de intervalos acústicos, o grau de 
+variação nos padrões duracionais de línguas ou variedades linguísticas. Seus valores são 
+interpretados como se dando numa escala contínua que vai do ritmo mais silábico, de um 
+lado dos polos, ao 	mais acentual, do outro (Fuchs 2016). Com base no trabalho de 
+Abaurre-Gnerre (1981), a seguinte hipótese guiará este projeto: o ritmo da fala de 
+migrantes paraibanos deve ser menos silábico e mais acentual quanto menor for a idade de 
+migração e maior o tempo de residência no Estado de São Paulo.
+	
+		\subsection{O estudo da fala dos migrantes}
+		
+Tradicionalmente, a pesquisa sociolinguística privilegiou a análise da fala dos membros 
+considerados mais “prototípicos” de suas respectivas comunidades, isto é, dos residentes 
+que nasceram e cresceram na região estudada, sobretudo daqueles cujos pais também são 
+nativos \citep{Britain2018, Oushiro2016, Milroy2002, Kerswill1993}. A restrição da 
+comunidade de fala aos falantes nativos é um procedimento 
+metodológico que busca circunscrever a investigação sociolinguística apenas aos processos 
+de variação e de mudança linguística desencadeados por fatores internos a uma variedade 
+da língua \citep[][p. 20]{Milroy2002, Labov2001}. Em outras palavras, os residentes 
+migrantes são excluídos da amostra para 
+evitar que fatores relacionados ao contato com outros dialetos ou línguas interfiram nos 
+resultados da análise.
+
+Ao lado dessa justificativa metodológica, a exclusão dos migrantes também se apoia na 
+hipótese de \citet{Lenneberg1967} acerca do período crítico para a aquisição da 
+linguagem. De acordo com essa hipótese, em torno dos primeiros anos da puberdade, o 
+sistema linguístico do indivíduo se estabiliza e, daí em diante, deixa de sofrer 
+alterações significativas, interrompendo-se o processo de aquisição natural. Se, de fato, 
+esse for o caso, então o estudo da fala de uma comunidade deve se concentrar nos membros 
+nativos, uma vez que os padrões sociolinguísticos dos migrantes adultos refletirão os 
+padrões das variedades de suas respectivas regiões de origem, adquiridos no decorrer da 
+infância. É com base nesse raciocínio que muitas pesquisas sociolinguísticas decidem 
+excluir de suas amostras os residentes migrantes que chegaram na comunidade depois da 
+puberdade \citep[p. ex.][p. 111]{Labov1966}.
+
+Ainda que a restrição da análise sociolinguística à fala dos nativos seja compreensível, 
+diversos estudos têm mostrado a importância de se considerar o papel dos migrantes na 
+dinâmica das comunidades de fala \citep{Britain2018, Bortoni-Ricardo2011, Trudgill1986}. 
+De acordo com \citet{Milroy2002}, não há sociedade urbana contemporânea que se aproxime 
+do ideal de comunidade isolada do contato linguístico e dialetal decorrentes da 
+mobilidade geográfica e dos fluxos migratórios. E muitas pesquisas mostraram que o 
+contato entre nativos e migrantes pode desencadear na comunidade anfitriã uma série de 
+processos de mudança linguística, tal como nivelamentos, realocações, misturas dialetais, 
+simplificações e formações de variantes interdialetais \citep{Trudgill1986}.
+
+A fala dos residentes migrantes é importante não apenas no nível da comunidade, mas 
+também no nível do indivíduo. Isto porque a hipótese do período crítico 
+\citep{Lenneberg1967} ainda não foi confirmada de modo definitivo e o debate sobre a 
+estabilidade da fala adulta continua a ocupar as discussões sociolinguísticas. Algumas 
+pesquisas recentes sugerem que são possíveis alterações na fala do indivíduo após o 
+período crítico, ainda que tais alterações não sejam tão frequentes, nem tão drásticas 
+como as que acontecem na fala de crianças \citep{Cukor-Avila.Bailey2013}. E mesmo quando 
+se consideram as crianças migrantes (portanto, em fase de aquisição), uma série de 
+perguntas ainda estão à espera de respostas \citep{Oushiro2016, Nycz2015, Chambers1992, 
+Trudgill1986}: até que idade a criança deve chegar na comunidade anfitriã para adquirir 
+competência na variedade dessa comunidade? Quais fatores linguísticos e sociais podem 
+acelerar ou inibir a aquisição de traços próprios da nova comunidade?
+
+		\subsection{A fala de migrantes nordestinos no Estado de São Paulo}
+		
+Recentemente, foi realizado um dos primeiros estudos sistemáticos sobre a fala de 
+migrantes internos no Brasil. O Projeto “Processos de acomodação dialetal na fala de 
+nordestinos em São Paulo” do Laboratório de Variação, Identidade, Estilo e Mudança 
+(VARIEM) da Universidade Estadual de Campinas, coordenado por \citep{Oushiro2018} e 
+financiado pela FAPESP (Processo 2016/04960-7), analisou a fala de paraibanos e alagoanos 
+residentes no Estado de São Paulo e investigou em que medida ela sofreu alterações em 
+função do contato com a variedade paulista. Mais especificamente, a análise se concentrou 
+nos efeitos da idade de migração e do tempo de residência em São Paulo sobre cinco 
+variáveis linguísticas: (i) a realização de /r/ em coda silábica; (ii) a realização de 
+/t/ e /d/ antes de [i]; (iii) a altura das vogais médias pretônicas /e/ e /o/; (iv) a 
+concordância nominal de número; (v) e a negação sentencial. Os resultados obtidos indicam 
+que a idade com que os falantes migraram para São Paulo teve um papel importante para a 
+acomodação às variantes fonéticas da fala paulista, mas não às variantes 
+morfossintáticas. Por outro lado, o tempo de residência na comunidade anfitriã apresentou 
+correlação apenas com a variável /r/ em coda.
+
+O Projeto coordenado por \citep{Oushiro2018} ajudou a consolidar uma agenda de pesquisas 
+sobre 
+a fala de migrantes no Estado de São Paulo. Atualmente, outros pesquisadores também estão 
+se dedicando a esse assunto. Em sua dissertação recém-defendida, \citet{Santana2019} 
+analisou 
+a fala de migrantes sergipanos que residem no município de São Paulo com o objetivo de 
+investigar em que medida eles se acomodaram à fala paulista na abertura das vogais médias 
+pretônicas. Seus resultados indicam que houve acomodação à pronúncia paulistana da vogal 
+média /e/, mas não da vogal média /o/, sugerindo que o processo de acomodação fonética 
+não necessariamente segue o princípio do paralelismo, um resultado que também foi 
+observado por \citet{Oushiro2019}. Por sua vez, \citet{Souza2017} e \citet{Oliveira2019} 
+estão analisando, em suas pesquisas de doutorado e de mestrado, respectivamente, a fala 
+de migrantes baianos no estado paulista. \citet{Souza2017} está investigando os processos 
+de acomodação dialetal na fala de residentes baianos da Região Metropolitana de São 
+Paulo. Sua análise está se concentrando em quatro variáveis linguísticas: (i) a 
+realização de /r/ em coda silábica; (ii) a altura das vogais médias pretônicas /e/ e /o/; 
+(iii) a negação sentencial; (iv) e o uso do artigo definido diante de antropônimos. Já o 
+estudo de \citet{Oliveira2019} se concentra na acomodação da fala de baianos que moram em 
+Bauru, município do interior paulista, em relação à pronúncia do /r/ em coda silábica. 
+Por fim, três outras pesquisadoras bolsistas em nível de iniciação científica estão dando 
+continuidade à análise sociolinguística do corpus coletado pelo já mencionado Projeto 
+coordenado por \citet{Oushiro2018}.
+
+	\subsection{A prosódia da fala nos estudos sociolinguísticos}
+		
+Embora já tenham obtido resultados relevantes, esses estudos são etapas de uma agenda 
+mais longa e ainda em andamento de pesquisas sobre a aquisição de novos traços dialetais 
+por migrantes internos em São Paulo. Dentre as questões delineadas por 
+\citet{Oushiro2018}, uma que ainda não foi investigada diz respeito aos aspectos 
+prosódicos da fala dos migrantes e aos efeitos que o contato dialetal tem sobre eles. Na 
+verdade, não apenas no contexto dos estudos sobre a fala de migrantes, mas na pesquisa 
+sociolinguística de modo mais geral, ainda são poucos os trabalhos acerca da variação 
+prosódica se comparados àqueles que se dedicam à variação de segmentos vocálicos e 
+consonantais \citep{Thomas2013, Hay.Drager2007}. Apesar disso, as pesquisas realizadas 
+até o momento já indicam que o ritmo e a entoação da fala não apenas variam regionalmente 
+\citep{Clopper.Smiljanic2015, Grabe.etal2000}, como também podem apresentar 
+estratificações sociais de gênero \citep{Lowry2011} e de etnia \citep{Thomas2013, 
+Szakay2006}. Os resultados a que \citet{Podesva2011} chegou mostram que as variáveis 
+prosódicas podem inclusive ter função estilística, sendo usadas pelos falantes como uma 
+forma de modelar significados identitários.
+
+No âmbito do português brasileiro, alguns estudos apontam para a existência de variação 
+rítmica em função de diferenças regionais e estilísticas. Com base em análises 
+fonológicas, \citet{Abaurre-Gnerre1981} defende a hipótese de que, no português 
+brasileiro, duas tendências rítmicas opostas coexistem. Em algumas situações, ele 
+manifesta tendências de ritmo mais silábico (quando as durações das sílabas são 
+aproximadamente iguais) em alguns casos e de ritmo mais acentual (quando as durações dos 
+intervalos entre acentos são aproximadamente iguais) em outros. E o que determinará, 
+segundo a autora, a direção e o grau dessa tendência rítmica (se mais silábica ou mais 
+acentual) é a ocorrência de alguns processos fonológicos no nível segmental da fala.
+
+Uma série de estudos sobre o ritmo da fala em diversas línguas identificou correlações 
+entre classes rítmicas e complexidade da estrutura silábica. De modo geral, línguas de 
+ritmo acentual tendem a permitir mais tipos de encontros consonantais do que as línguas 
+de ritmo silábico. Enquanto nestas predominam sílabas abertas e ataques e codas simples, 
+sobretudo sílabas do tipo CV, naquelas ocorrem tanto sílabas mais simples como mais 
+complexas, com encontros consonantais formados por três, quatro e até cinco consoantes. 
+Com estruturas silábicas menos variáveis, as durações das silábicas também se tornam 
+menos variáveis, fazendo a língua se aproximar do polo silábico de ritmo. Por outro lado, 
+com mais formas silábicas, é mais fácil encaixar diferentes quantidades de sílabas em 
+intervalos entre acentos com durações aproximadamente iguais. Por isso, a maior 
+variabilidade nas formas silábicas aproxima as línguas do polo acentual de ritmo.
+
+Seguindo esse raciocínio, \citet{Abaurre-Gnerre1981} argumenta que alguns processos 
+fonológicos do português brasileiro podem alterar o grau de variação das estruturas 
+silábicas. A epêntese é um desses processos é a sua ocorrência faz com que a sílaba CCV, 
+com ataque complexo, se transforme nas suas sílabas CVCV com ataque simples, favorecendo 
+um ritmo mais silábico. Entre os processos mencionados, a pesquisadora enfatiza os de 
+redução e de harmonia vocálica. A correlação entre redução de vogais em sílabas não 
+acentuadas e ritmo mais acentual de fala já foi atestada em várias línguas. A redução 
+vocálica tem o efeito inverso ao da epêntese, transformando sílabas mais simples em 
+sílabas mais complexas (p. ex., transformando CVCV em CCV). Já a harmonia vocálica é 
+vista como um processo que inibe a redução das vogais átonas, pois intensifica o 
+sonoridade destes segmentos. 
+
+	\section{Objetivos}
+	
+O objetivo geral deste projeto é investigar em que medida o ritmo da fala dos migrantes 
+paraibanos que residem no Estado de São Paulo sofreu alterações em função do contato com 
+a fala paulista. Para atingir essa meta, será realizado um estudo sociofonético 
+experimental com os seguintes objetivos específicos:
+
+\begin{easylist}[enumerate]
+	& Coletar dados da fala de uma amostra de migrantes paraibanos que moram em São Paulo 
+	com o uso de técnicas experimentais que garantam a comparabilidade e a qualidade 
+	sonora dos dados;
+	& Realizar análises acústicas e estatísticas a fim de investigar:
+		&& Os efeitos da idade de migração e do tempo de residência na comunidade 
+		anfitriã sobre os padrões rítmicos da fala dos migrantes paraibanos;
+		&& Em que medida a variação rítmica entre migrantes paraibanos que moram em São 
+		Paulo se correlaciona com as taxas de redução e de harmonia da vogal pretônica em 
+		relação à tônica;
+\end{easylist}
+
+	\section{Hipóteses}
+	
+A hipótese central que guiará esta pesquisa e que se buscará testar é a seguinte: quanto 
+menor for a idade de migração e maior o tempo de residência no Estado de São Paulo, mais 
+acentual e menos silábico será o ritmo da fala dos migrantes paraibanos, e vice-versa. 
+Essa hipótese se baseia nas seguintes premissas sobre a variação rítmica no português 
+brasileiro:
+
+\begin{easylist}[enumerate]
+	& Taxas mais elevadas de redução vocálica em sílabas não acentuadas caracterizam 
+	ritmos mais acentuais de fala;
+	& Taxas mais elevadas de harmonia da vogal pretônica em relação à tônica caracterizam 
+	ritmos mais silábicos de fala;
+	& A harmonia vocálica funciona como um inibidor da redução das vogais pretônicas;
+	& A fala de paraibanos não migrantes apresenta taxas maiores de harmonia vocálica em 
+	comparação com a fala de paulistas não migrantes;
+\end{easylist}
+
+Essas premissas levam à conclusão hipotética de que a fala paulista é mais acentual e a 
+paraibana, mais silábica, e de que o processo de acomodação dialetal de migrantes 
+paraibanos à fala paulista resulta na diminuição da frequência de harmonia e no 
+consequente aumento de reduções vocálicas, tornando o ritmo da fala desses migrantes 
+menos silábicos e mais acentuais.
+
+\section{Plano de trabalho e cronograma}
+	
+\section{Materiais, métodos e formas de análise}
+
+	\subsection{Variáveis}
+		
+Esta pesquisa adotará o índice de variabilidade em pares (PVI) aplicado à unidade VV e o 
+percentual vocálico (\%V) como variáveis dependentes, e seus valores serão interpretados 
+como indicadores do ritmo da fala dos migrantes paraibanos que residem em São Paulo. Por 
+sua vez, dois grupos de fatores sociais e dois parâmetros fonéticos serão considerados 
+variáveis independentes: (i) a idade de migração (até 19 anos e 20 anos ou mais); (ii) o 
+tempo de residência em São Paulo (até 9 anos e 10 anos ou mais); (iii) a diferença de 
+duração entre vogal pretônica e tônica; (iv) e a diferença na frequência do primeiro (F1) 
+e do segundo formante (F2), também entre vogal pretônica e tônica. Serão realizadas 
+análises estatísticas, descritas mais adiante, a fim de investigar em que medida essas 
+quatro variáveis influenciam as métricas rítmicas dos migrantes paraibanos.
+
+	\subsection{Amostras}
+		
+As amostras de fala com as quais esta pesquisa irá trabalhar consistirão em 1.200 
+enunciados gravados com o uso de procedimentos experimentais. A amostra de interesse 
+contará com 800 enunciados pronunciados por migrantes paraibanas que vivem em São Paulo e 
+será estratificada por idade de migração e tempo de residência na comunidade anfitriã. O 
+cruzamento dessas duas variáveis estratificadoras, cada uma com dois fatores (mencionados 
+no item 7.1), gera quatro perfis de informantes, sendo que, para cada um desses perfis, 
+se buscará gravar cinco pessoas, totalizando uma amostra com vinte participantes. Na 
+medida em que esta pesquisa se concentra nas variáveis sociais relacionadas à migração 
+geográfica, as três variáveis “clássicas” dos estudos sociolinguísticos no Brasil 
+(gênero, faixa etária e escolaridade) serão consideradas variáveis de controle. Para 
+controlar essas variáveis, todos os participantes serão do gênero feminino, com 20 a 34 
+anos de idade e com escolaridade até o Ensino Médio.
+	
+Além da amostra de interesse, esta pesquisa também contará com duas amostras de controle, 
+cada uma formada por 200 enunciados, sendo que numa os enunciados serão pronunciados por 
+paulistas não migrantes e na outra, por paraibanas não migrantes. Essas duas amostras não 
+serão estratificadas e todas os participantes serão do gênero feminino, com 20 a 34 anos 
+de idade e com escolaridade até o Ensino Médio, de modo que tenham o mesmo perfil social 
+das participantes da amostra de interesse (com exceção de não serem migrantes). Essas 
+amostras servirão como um padrão de referência para investigar em que medida o ritmo da 
+fala das migrantes paraibanas se distancia do ritmo de suas conterrâneas e se aproxima da 
+fala paulista. É isso que permitirá saber se está ou não ocorrendo um processo de 
+acomodação dialetal na dimensão rítmica da fala. 
+
+	\subsection{Tarefas}
+	
+As gravações da fala das participantes serão realizadas presencialmente num laboratório 
+de fonética e conduzidas sempre pelo mesmo pesquisador com o uso de um gravador digital 
+de áudio. A tarefa a ser realizada por cada participante é uma adaptação da entrevista 
+sociolinguística (Labov 1966) e busca eliciar amostras de fala semiespontânea. Antes da 
+gravação, cada participante será convidada a assistir um filme de curta-metragem que 
+narre algum evento intenso de vida pelo qual a maioria das pessoas já passou, como ser 
+vítima de um assalto, ou ter passado por alguma outra experiência em que a vida estava em 
+risco. Em seguida, a participante será gravada conversando com o pesquisador sobre o 
+curta-metragem. Nessa etapa, o pesquisador seguirá um roteiro curto de perguntas que 
+buscará incentivar a participante a contar alguma experiência semelhante à narrada no 
+filme pela qual ela mesmo ou algum conhecido passou.
+
+Esse procedimento experimental é uma proposta metodológica para obter amostras de fala 
+mais controladas do que a entrevista sociolinguística, mas sem sair do âmbito da fala 
+semiespontânea. A exigência de se utilizar um laboratório de fonética para realizar as 
+gravações tem como objetivo garantir que as amostras de fala tenham qualidade sonora 
+suficiente para que sejam acusticamente segmentadas de modo preciso. Por sua vez, o filme 
+de curta-metragem deve desempenhar três funções: (i) fornecer um tema comum para guiar as 
+conversas com as participantes; (ii) descontrair, sensibilizar e envolver as 
+participantes de modo que monitorem menos a fala durante a gravação; (iii) e criar um 
+contexto favorável para que as participantes narrem um evento da sua vida cotidiana. 
+Espera-se que, com esse procedimento experimental, sejam obtidas amostras de fala que 
+permitam a comparação das variáveis de interesse entre as participantes e que tenham 
+excelente qualidade sonora para análise acústica.
+	
+	\subsection{Seleção dos enunciados}
+	
+Ainda que sejam aplicáveis a qualquer extensão da fala, as métricas de ritmo foram 
+pensadas para calcular o ritmo da fala num enunciado \citep{Fuchs2016}. Como a maioria 
+dos trabalhos se baseou em amostras de fala lida, cada enunciado equivalia a um período 
+do texto lido. Assim, para cada participante, o número de valores rítmicos era igual ao 
+número de períodos. Infelizmente, esse critério de delimitação de enunciado não é 
+aplicável a amostras de fala espontânea ou semiespontânea. Por isso, nesta pesquisa, 	
+
+	\subsection{Segmentação e etiquetagem}
+
+Os enunciados selecionados serão segmentados acusticamente e etiquetados com o uso do 
+programa Praat \citep{Boersma.Weenink2019}. Para se calcular os valores das métricas \%V 
+e nPVI-VV e dos parâmetros fonéticos (mencionados no item 7.1), será necessário segmentar 
+os enunciados em cinco unidades diferentes: vogal pretônica (P), vogal tônica (T), 
+intervalo vocálico (V), intervalo consonantal (C) e intervalo entre início de vogais 
+(VV). Para delimitar os intervalos vocálicos e consonantais, serão seguidas as convenções 
+adotadas por \citet{Ramus.etal1999}. Sequências de vogais (hiatos, ditongos e 
+tritongos) serão consideradas um único intervalo vocálico e encontros consonantais, um 
+único intervalo consonantal. Esse critério também será seguido na delimitação das 
+unidades VV. Cada uma dessas unidades começará no início de um intervalo vocálico e 
+terminará no início do seguinte, sempre tendo um intervalo consonantal no meio.
+
+A segmentação dos intervalos vocálicos e consonantais e das unidades VV envolve apenas 
+critérios fonéticos e dispensa qualquer consideração a respeito da fonologia da língua. 
+Por outro lado, a delimitação de vogais pretônicas e tônicas pressupõem 
+
+	\subsection{Medições acústicas}
+	
+Quando as amostras já estiverem devidamente segmentadas e etiquetadas, as métricas 
+rítmicas e os parâmetros fonéticos já poderão ser calculados. Isso será feito de modo 
+completamente automático por meio do algoritmo Metrics and Acoustics Extractor, 
+desenvolvido recentemente por \citet{Junior.Barbosa2019} para ser executado no Praat. 
+Basicamente, esse script aplica as equações de cada métrica às durações dos intervalos 
+segmentados previamente e gera uma planilha organizada com os resultados.
+
+	\subsection{Análises estatísticas}
+
+% BIBLIOGRAFIA
+
+{\setstretch{1.3} % Espaçamento 1,5
+	\printbibliography
+}
+
+\end{document}

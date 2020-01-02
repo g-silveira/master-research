@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'Projeto_Fapesp_v03.blg'
+[23] biber:315> INFO - === ter dez 31, 2019, 11:33:39
+[44] Biber.pm:371> INFO - Reading 'Projeto_Fapesp_v03.bcf'
+[106] Biber.pm:889> INFO - Found 8 citekeys in bib section 0
+[119] Biber.pm:4093> INFO - Processing section 0
+[148] Biber.pm:4254> INFO - Looking for bibtex format file '/home/gustavo/Zotero/zotero.bib' for section 0
+[204] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1574] bibtex.pm:1329> INFO - Found BibTeX data source '/home/gustavo/Zotero/zotero.bib'
+[1614] Utils.pm:193> WARN - BAD RECURSION! Entry alias 'labov2010' is identical to the entry key, skipping ...
+[1691] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1692] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1692] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
+[1692] Biber.pm:3927> INFO - No sort tailoring available for locale 'pt-BR'
+[1701] bbl.pm:636> INFO - Writing 'Projeto_Fapesp_v03.bbl' with encoding 'UTF-8'
+[1709] bbl.pm:739> INFO - Output to Projeto_Fapesp_v03.bbl
+[1709] Biber.pm:110> INFO - WARNINGS: 1

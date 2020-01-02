@@ -1,0 +1,163 @@
+\documentclass[
+			a4paper,		% Dimensão do documento
+			12pt,			% Tamanho default de fonte
+			]{article}		% Classe do documento
+
+% CODIFICAÇÕES E FONTES
+\usepackage[utf8]{inputenc}	% Codificação de caracteres
+\usepackage[T1]{fontenc}	% Codificação de fontes
+\usepackage{kpfonts}		% Fonte KP (Kepler)
+\usepackage[brazil]{babel}	% Português brasileiro como idioma padrão
+
+% FORMATAÇÃO
+\usepackage{geometry}	% Modificar margens
+	\geometry{
+		left	= 20mm,		% Margem esquerda
+		right	= 20mm,		% Margem direita
+		top		= 25mm, 	% Margem superior
+		bottom	= 25mm, 	% Margem inferior
+		}
+\usepackage{microtype}	% Melhora tipografia
+\usepackage{setspace}	% Permite definir espaçamento entre linhas
+\renewcommand{\baselinestretch}{2.0}	% Espaçamento duplo como default
+
+% GRÁFICOS E FIGURAS
+\usepackage{graphicx}	% Para inserir imagens
+\usepackage{tikz}		% Para criar ilustrações
+
+% CORES
+\usepackage{xcolor}							% Permite usar cores
+	\definecolor{azul}{HTML}{0b365a}		% Azul
+	\definecolor{vermelho}{HTML}{B20000}	% Vermelho
+	\definecolor{verde}{HTML}{004d00}		% Verde
+	\definecolor{cinzaclaro}{HTML}{DCDCDC}	% Cinza claro
+	\definecolor{cinzaescuro}{HTML}{A9A9A9}	% Cinza escuro
+
+% HYPERREF
+\usepackage[
+		colorlinks=true,	% Texto colorido ao invés de frame
+		linkcolor=blue,		% Cor de referências internas
+		citecolor=azul,		% Cor de citações
+		filecolor=magenta,  % Definir cor de links que abrem arquivos locais (?)
+		urlcolor=cyan,		% Cor de links externos (urls, emails)
+		pdftitle={ 			% Título que aparece na janela do visualizador
+			Variação regional na organização temporal do português brasileiro
+			},
+		bookmarks=true,		% Mostrar bookmarks ao abrir o documento
+		]{hyperref} 
+
+% TABELAS E LISTAS
+\usepackage{array}		% Mais recursos nos ambientes array e tabular
+\usepackage{booktabs}	% Mais recursos para criação de tabelas
+\usepackage{multicol}	% Permite aglutinar cédulas na dimensão da coluna
+\usepackage{multirow}	% Permite aglutinar cédulas na dimensão da linha
+\usepackage{colortbl}	% Colorir tabelas
+\usepackage{dcolumn}	% Esqueci a função deste pacote
+\renewcommand{\arraystretch}{1.3} % Espaçamento de linhas em tabelas
+\usepackage[
+	ampersand,			% Define como caractere '&' como operador
+	]{easylist}			% Facilita a criação de listas mais complexas
+
+% MATEMÁTICA
+\usepackage{amsmath}	% Pacote para expressões matemáticas
+
+% BIBLIOGRAFIA E CITAÇÃO
+\usepackage[ 
+		backend=biber, 				% Compilador de bibliografia
+		style=authoryear,			% Estilo de bibliografia
+		citestyle=authoryear-comp, 	% Estilo de citação
+		natbib=true, 				% Ativar compatibilidade com comandos do Natbib
+		]{biblatex}	
+	
+\addbibresource{/home/gustavo/Zotero/zotero.bib}	% Caminho do arquivo .bib
+\DeclareNameAlias{sortname}{last-first}		% Último nome antes dos demais
+
+% SEÇÕES
+\usepackage{titlesec}				% Modificar parâmetros dos títulos de seções
+	\titleformat*{\section}{		% Ajustes nos títulos das seções
+		\Large\bfseries\sffamily
+		} 		
+	\titleformat*{\subsection}{ 	% Ajustes nos títulos das subseções
+		\large\bfseries\sffamily
+		}
+	\titleformat*{\subsubsection}{ 	% Ajustes nos títulos das subsubseções
+		\bfseries\sffamily
+		}	
+
+% Outros
+\usepackage{tipa} 			% Permite inserir caracteres fonéticos do IPA
+\usepackage{csquotes}		% Melhora as marcas de citação direta (e.g, aspas)
+\usepackage[page]{appendix}	% Permite criar apêndices
+\usepackage{blindtext}		% Permite gerar textos lorem ipsum
+
+\begin{document}
+	
+{\setstretch{1.5} % Espaçamento simples
+	% TÍTULO
+	\begin{center}
+		{\bfseries\Large\sffamily
+			Variação regional na organização temporal do português brasileiro: um estudo 
+			sociofonético comparativo das variedades paulista e alagoana
+		}
+	\end{center}
+}
+	
+	\vspace{0.35em}
+{\setstretch{1.0} % Espaçamento simples	
+	% AUTORES
+	\begin{flushright} 
+		Gustavo de Campos Pinheiro da Silveira \\ 
+		\vspace{5pt}
+		Orientadora: Prof.\textsuperscript{a} Dr.\textsuperscript{a} Livia Oushiro
+	\end{flushright}
+
+	% RESUMO
+	\begin{center} 
+	    {\bfseries\sffamily Resumo} \\ 
+	\end{center}
+	\blindtext \par
+	\vspace{0.35em}
+	\noindent{\bfseries\sffamily Palavras-chave:} 
+		
+}
+
+\section{Introdução e justificativa}
+
+\section{Pressupostos teóricos e metodológicos}
+
+\section{Objetivos}
+
+O objetivo geral deste projeto é realizar uma descrição sociofonética das diferenças na organização temporal da fala entre a variedade paulista e a alagoana do português brasileiro. Para atingir essa meta, serão realizadas análises acústicas e estatísticas de duas amostras de fala já coletadas em pesquisas sociolinguísticas anteriores, descritas mais adiante no item \ref{Amostras}, com os seguintes objetivos específicos:
+
+\begin{easylist}[enumerate]
+	& Descrever e comparar a organização temporal da fala das duas variedades regionais em três dimensões, cada uma formada por um conjunto de variáveis fonético-acústicas correspondentes: velocidade, pausa e ritmo.
+	
+	& Analisar e comparar como as variáveis fonético-acústicas relativas às três dimensões mencionadas acima se distribuem entre as seguintes variáveis sociais: gênero, faixa etária e escolaridade.
+\end{easylist}
+
+\section{Plano de trabalho e cronograma}
+	
+\section{Materiais e métodos}
+
+	\subsection{Variáveis}
+
+	\subsection{Amostras de fala} \label{Amostras}
+	
+		\subsubsection{SP2010}
+		
+		\subsubsection{PORTAL}
+
+	\subsection{Seleção dos enunciados}
+
+	\subsection{Segmentação e etiquetagem}
+
+	\subsection{Medições acústicas}
+	
+\section{Formas de análise dos resultados}
+
+\section{Lista das variáveis acústicas e rítmicas}
+
+{\setstretch{1.3} % Espaçamento entre linhas
+	\printbibliography
+}
+\end{document}

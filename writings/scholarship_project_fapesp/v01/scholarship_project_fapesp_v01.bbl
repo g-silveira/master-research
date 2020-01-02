@@ -1,0 +1,1448 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Abaurre-Gnerre1981}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3e79d4825ab838f882bc248f6885a9c5}{%
+           family={Abaurre-Gnerre},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Maria\bibnamedelimb Bernadete\bibnamedelima Marques},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e79d4825ab838f882bc248f6885a9c5}
+      \strng{fullhash}{3e79d4825ab838f882bc248f6885a9c5}
+      \strng{bibnamehash}{3e79d4825ab838f882bc248f6885a9c5}
+      \strng{authorbibnamehash}{3e79d4825ab838f882bc248f6885a9c5}
+      \strng{authornamehash}{3e79d4825ab838f882bc248f6885a9c5}
+      \strng{authorfullhash}{3e79d4825ab838f882bc248f6885a9c5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cadernos de Estudos Lingüísticos}
+      \field{langid}{brazil}
+      \field{number}{2}
+      \field{title}{Processos fonológicos segmentais como índices de padrões prosódicos diversos nos estilos formal e casual do português do Brasil}
+      \field{year}{1981}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Abaurre-Gnerre_Processos fonológicos segmentais como índices de padrões prosódicos diversos.pdf
+      \endverb
+      \keyw{fichado,brazilian portuguese,lido integralmente,prosody}
+    \endentry
+    \entry{Barbosa2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c79ab928d0d8fa07ba57290ff656ae18}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Plínio\bibnamedelima Almeida},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{fullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{bibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorbibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authornamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorfullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beat {{Extractor}}}
+      \field{year}{2003}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Barbosa2012}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c79ab928d0d8fa07ba57290ff656ae18}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Plínio\bibnamedelima Almeida},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{fullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{bibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorbibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authornamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorfullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Revista de Estudos da Linguagem}
+      \field{number}{1}
+      \field{shorttitle}{Conhecendo Melhor a Prosódia}
+      \field{title}{Conhecendo Melhor a Prosódia: Aspectos Teóricos e Metodológicos Daquilo Que Molda Nossa Enuncia{ç}ão}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{11\bibrangedash 27}
+      \range{pages}{17}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Barbosa_2012_Conhecendo melhor a prosódia.pdf
+      \endverb
+    \endentry
+    \entry{Barbosa2019}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c79ab928d0d8fa07ba57290ff656ae18}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Plínio\bibnamedelima Almeida},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Parábola}%
+      }
+      \strng{namehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{fullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{bibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorbibnamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authornamehash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \strng{authorfullhash}{c79ab928d0d8fa07ba57290ff656ae18}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Prosódia}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Boersma.Weenink2019}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1de80d1e6db57bf71ae401df95e16936}{%
+           family={Boersma},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=62aca07f9b92af88b9127b7a78b12b05}{%
+           family={Weenink},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {retrieved 5 December 2019 from http://www.praat.org/}%
+      }
+      \strng{namehash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \strng{fullhash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \strng{bibnamehash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \strng{authorbibnamehash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \strng{authornamehash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \strng{authorfullhash}{44a7fb00f67e0cfbc14c52243d9a813f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Version 6.1.08,}
+      \field{series}{[{{Computer}} Program]}
+      \field{title}{Praat: Doing Phonetics by Computer}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Bortoni-Ricardo2011}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8f3b00f730c5b1c56bcfa09c4bde29b4}{%
+           family={Bortoni-Ricardo},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Stella\bibnamedelima Maris},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=8f3b00f730c5b1c56bcfa09c4bde29b4}{%
+           family={Bortoni-Ricardo},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Stella\bibnamedelima Maris},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=69a6d27ac6ac921eeaf53592cb76ce9d}{%
+           family={Caxangá},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelimb do\bibnamedelimb Rosário\bibnamedelima Rocha},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Parábola Editorial}%
+      }
+      \strng{namehash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{fullhash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{bibnamehash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{authorbibnamehash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{authornamehash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{authorfullhash}{8f3b00f730c5b1c56bcfa09c4bde29b4}
+      \strng{translatorbibnamehash}{c15d93c605afbcbe78f07830ab7dd8eb}
+      \strng{translatornamehash}{c15d93c605afbcbe78f07830ab7dd8eb}
+      \strng{translatorfullhash}{c15d93c605afbcbe78f07830ab7dd8eb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Do Campo Para a Cidade: Estudo Sociolinguístico de Migra{ç}ão e Redes Sociais}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Britain2018}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8543b62e196a059f6529944820b82a04}{%
+           family={Britain},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{8543b62e196a059f6529944820b82a04}
+      \strng{fullhash}{8543b62e196a059f6529944820b82a04}
+      \strng{bibnamehash}{8543b62e196a059f6529944820b82a04}
+      \strng{authorbibnamehash}{8543b62e196a059f6529944820b82a04}
+      \strng{authornamehash}{8543b62e196a059f6529944820b82a04}
+      \strng{authorfullhash}{8543b62e196a059f6529944820b82a04}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dialect contact approaches to language change examine the linguistic consequences of interaction between speakers of different but mutually intelligible varieties of a language. This chapter aims to explain and exemplify that link by examining the linguistic consequences of brief, short-term contacts, of more prolonged and longer-term contacts, of linguistic accommodation and second dialect acquisition at the level of the individual, and of new dialect formation at the level of the community. Later, the chapter examines what happened in the longer term-second dialect acquisition, interdialect forms and new dialect formation. Work in second dialect acquisition has tended to focus on individual migrants moving to new communities where a relatively distinct and focused ambient dialect prevails. Dialect contact theorists argue the challenge approaches to sociolinguistic principles apply in these situations as occur in the shorter-term and/or individual migrant forms of contact. This, together with humans' seemingly innate behavioral convergence, allowed dialect contact models to explain the changes.}
+      \field{booktitle}{The {{Handbook}} of {{Dialectology}}}
+      \field{langid}{english}
+      \field{title}{Dialect Contact and New Dialect Formation}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{143\bibrangedash 158}
+      \range{pages}{16}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Britain_2018_Dialect contact and new dialect formation.pdf
+      \endverb
+      \keyw{fichado,lido integralmente}
+    \endentry
+    \entry{Cagliari.Abaurre1986}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=802db842b8eb868d879b46efcb1c6065}{%
+           family={Cagliari},
+           familyi={C\bibinitperiod},
+           given={Luiz\bibnamedelima Carlos},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8da876407ea602405f057423eae70f5e}{%
+           family={Abaurre},
+           familyi={A\bibinitperiod},
+           given={Maria\bibnamedelima Bernadete},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1c5ec67c830853b15baed1d3ced784ef}
+      \strng{fullhash}{1c5ec67c830853b15baed1d3ced784ef}
+      \strng{bibnamehash}{1c5ec67c830853b15baed1d3ced784ef}
+      \strng{authorbibnamehash}{1c5ec67c830853b15baed1d3ced784ef}
+      \strng{authornamehash}{1c5ec67c830853b15baed1d3ced784ef}
+      \strng{authorfullhash}{1c5ec67c830853b15baed1d3ced784ef}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cadernos de Estudos Lingüísticos}
+      \field{langid}{portuguese}
+      \field{shortjournal}{1}
+      \field{title}{Elementos para uma investiga{ç}ão instrumental das rela{ç}ões entre padrões rítmicos e processos fonológicos no português brasileiro}
+      \field{volume}{10}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{39\bibrangedash 57}
+      \range{pages}{19}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Cagliari_Abaurre_1986_Elementos para uma investigação instrumental das relações entre padrões.pdf
+      \endverb
+      \keyw{fichado,lido integralmente}
+    \endentry
+    \entry{Chambers1992}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7de459bd4800d8eb95715905cc6434b0}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7de459bd4800d8eb95715905cc6434b0}
+      \strng{fullhash}{7de459bd4800d8eb95715905cc6434b0}
+      \strng{bibnamehash}{7de459bd4800d8eb95715905cc6434b0}
+      \strng{authorbibnamehash}{7de459bd4800d8eb95715905cc6434b0}
+      \strng{authornamehash}{7de459bd4800d8eb95715905cc6434b0}
+      \strng{authorfullhash}{7de459bd4800d8eb95715905cc6434b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shortjournal}{Language}
+      \field{title}{Dialect Acquisition}
+      \field{volume}{68}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{pages}{673\bibrangedash 705}
+      \range{pages}{33}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Chambers_1992_Dialect acquisition.pdf
+      \endverb
+    \endentry
+    \entry{Clopper.Smiljanic2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc5c66f764f05a1a846598e42cfc2d20}{%
+           family={Clopper},
+           familyi={C\bibinitperiod},
+           given={Cynthia\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a83d72841b7f6b8565688492efa47689}{%
+           family={Smiljanic},
+           familyi={S\bibinitperiod},
+           given={Rajka},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6908cd1faf133b22dbd42a05d34305df}
+      \strng{fullhash}{6908cd1faf133b22dbd42a05d34305df}
+      \strng{bibnamehash}{6908cd1faf133b22dbd42a05d34305df}
+      \strng{authorbibnamehash}{6908cd1faf133b22dbd42a05d34305df}
+      \strng{authornamehash}{6908cd1faf133b22dbd42a05d34305df}
+      \strng{authorfullhash}{6908cd1faf133b22dbd42a05d34305df}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The goal of the current study was to explore the temporal organization of six regional dialects of American English to gain a better understanding of the perceptual impressions of speaking rate variation. The study further examines whether regional dialects form different groupings based on their segmental vs. global temporal characteristics. Acoustic measures included articulation rate, pause frequency and duration, and vowel and consonant duration variability. The results revealed that Southern American English is characterized by a slow overall articulation rate, long pauses, and highly variable syllable-to-syllable vowel durations, whereas the New England dialect is characterized by a fast overall articulation rate, short pauses, and highly variable syllable-to-syllable consonant durations. The patterns for the other dialects are more mixed: the Northern and Western dialects are characterized by low variability vowel durations, the Midland dialect shares a slow articulation rate with the Southern dialect, and the Mid-Atlantic dialect exhibits no unique temporal properties among those examined. Thus, temporal variation in regional dialects of American English is orthogonal to vowel variation, in which New England, Midland, and Western dialects are often characterized together as ``General American''. Taken together, the results are consistent with the stereotype that Southerners talk slowly and Northerners talk quickly and suggest that pausing and segmental duration variability may contribute to the perceived speaking rate differences.}
+      \field{day}{1}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{month}{3}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{Regional Variation in Temporal Organization in {{American English}}}
+      \field{volume}{49}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Clopper_Smiljanic_2015_Regional variation in temporal organization in American English.pdf
+      \endverb
+      \keyw{prosody,variation,tabelado}
+    \endentry
+    \entry{Cukor-Avila.Bailey2013}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=afa91c6a755639cc1d2b4ad33ed9ae1d}{%
+           family={Cukor-Avila},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4a349092a3808dc20f97fb117c80e911}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{76da2e89ebe20076e6fece2d04b8b110}
+      \strng{fullhash}{76da2e89ebe20076e6fece2d04b8b110}
+      \strng{bibnamehash}{76da2e89ebe20076e6fece2d04b8b110}
+      \strng{authorbibnamehash}{76da2e89ebe20076e6fece2d04b8b110}
+      \strng{authornamehash}{76da2e89ebe20076e6fece2d04b8b110}
+      \strng{authorfullhash}{76da2e89ebe20076e6fece2d04b8b110}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In work on Martha's Vineyard, William Labov developed methodological innovations that allowed linguists to track the progress of linguistic changes and established the basis for a synchronic approach to language change. Perhaps the most important innovation was the apparent-time construct, a surrogate for the real-time examination of data at different points in history. Over the last 30 years linguists have used the apparent-time construct in many situations to make inferences about ongoing changes. Researchers desiring to use real-time evidence for studying language change have two options: (i) comparison of evidence from a new study to some pre-existing data, or (ii) re-survey of a community or a group of informants after a time-lapse. Researchers should be careful when making assumptions based on apparent-time data from adolescents and teenagers, and they must be alert both to the possible effects of sociolectal adjustments and to age-grading with adult cohorts.}
+      \field{booktitle}{The {{Handbook}} of {{Language Variation}} and {{Change}}}
+      \field{langid}{english}
+      \field{title}{Real {{Time}} and {{Apparent Time}}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{237\bibrangedash 262}
+      \range{pages}{26}
+      \verb{file}
+      \verb /home/gustavo/Zotero/storage/9GF8732Q/9781118335598.html
+      \endverb
+      \keyw{apparent-time,Labov,language change,Martha's Vineyard,real-time}
+    \endentry
+    \entry{Dellwo2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7179b8c5ce001278ddb969c57e662939}{%
+           family={Dellwo},
+           familyi={D\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7179b8c5ce001278ddb969c57e662939}
+      \strng{fullhash}{7179b8c5ce001278ddb969c57e662939}
+      \strng{bibnamehash}{7179b8c5ce001278ddb969c57e662939}
+      \strng{authorbibnamehash}{7179b8c5ce001278ddb969c57e662939}
+      \strng{authornamehash}{7179b8c5ce001278ddb969c57e662939}
+      \strng{authorfullhash}{7179b8c5ce001278ddb969c57e662939}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The percentage of vocalic intervals (\%V) and the standard deviation of consonantal intervals (deltaC) in a speech signal are two dimensions according to which languages of different rhythm classes (e.g. stress-timed, syllable-timed) seem to be differentiable on an acoustic level (Ramus et al., 1999). In this context it has been found that especially deltaC varies considerably as a function of speech rate (Barry et al., 2003 and Dellwo \& Wagner, 2003). The present paper argues that if deltaC was determined by speech rate it would describe speech rate rather than rhythm. For this reason a variation coefficient (varcoDeltaC) will be calculated in order to monitor relative deltaC variation across speech rates. Results for varcoDeltaC support the views that a) according to varcoDeltaC rhythm classes seem to be better differentiable and b) some languages tend to vary in rhythm as a function of speech rate (German, English), while the rhythm of other languages seems to be unaffected by changes in speech rate (French).}
+      \field{booktitle}{Dellwo, {{V}}. (2006) {{Rhythm}} and Speech Rate: A Variation Coefficient for {{deltaC}}. {{In}}: {{Karnowski}}, {{P}}. and {{Szigeti}}, {{I}}., (Eds.) {{Sprache}} Und {{Sprachverarbeitung}}: {{Akten}} Des 38. {{Linguistischen Kolloquiums}} in {{Piliscsaba}} 2003/ {{Language}} and Language-Processing: {{Proceedings}} of the 38th {{Linguistics Colloquium}}, {{Piliscsaba}} 2003. {{Linguistik International}} (15). {{Peter Lang Publishing Group}}, {{Frankfurt}} Am {{Main}}, {{Germany}}, Pp. 231-241. {{ISBN}} 9783631554777}
+      \field{day}{1}
+      \field{month}{1}
+      \field{shorttitle}{Rhythm and {{Speech Rate}}}
+      \field{title}{Rhythm and {{Speech Rate}}: {{A Variation Coefficient}} for {{deltaC}}}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{231\bibrangedash 241}
+      \range{pages}{11}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Dellwo_2006_Rhythm and Speech Rate.pdf
+      \endverb
+    \endentry
+    \entry{Fletcher2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e0c9495c23382dd1b0f8b79693d1b5d6}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=327bc91c5d37adc85eb5a9d1c3a3913f}{%
+           family={Hardcastle},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c51d8e39d0bda5257dc07b55d8fb4eb}{%
+           family={Laver},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc7ca4ae7705c7df0102398dfba708aa}{%
+           family={Gibbon},
+           familyi={G\bibinitperiod},
+           given={Fiona\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Malden, MA}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing Ltd.}%
+      }
+      \strng{namehash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{fullhash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{bibnamehash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{authorbibnamehash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{authornamehash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{authorfullhash}{e0c9495c23382dd1b0f8b79693d1b5d6}
+      \strng{editorbibnamehash}{25b10499702eb0d1fe727b868b51d018}
+      \strng{editornamehash}{25b10499702eb0d1fe727b868b51d018}
+      \strng{editorfullhash}{25b10499702eb0d1fe727b868b51d018}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Handbook of Phonetic Sciences}
+      \field{edition}{2}
+      \field{title}{The Prosody of Speech: Timing and Rhythm}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Fletcher_2010_The_prosody_of_speech.pdf;/home/gustavo/Documentos/biblioteca/Fletcher_2010_The_prosody_of_speech2.pdf
+      \endverb
+      \keyw{leitura em andamento,prosody,rhythm}
+    \endentry
+    \entry{Fuchs2016}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=83dbc95cc0f251c322b77a20d164d9a4}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \strng{fullhash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \strng{bibnamehash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \strng{authorbibnamehash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \strng{authornamehash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \strng{authorfullhash}{83dbc95cc0f251c322b77a20d164d9a4}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech {{Rhythm}} in {{Varieties}} of {{English}}: {{Evidence}} from {{Educated Indian English}} and {{British English}}}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Fuchs_2015_Speech Rhythm in Varieties of English.pdf
+      \endverb
+      \keyw{prosody,rhythm,tabelado}
+    \endentry
+    \entry{Grabe.Low2002}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8963ac0e9b2e874d1596170d13e4412c}{%
+           family={Grabe},
+           familyi={G\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dfb4c7a7c09f6ebd9cb3a699cd23fca1}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={Ee\bibnamedelima Ling},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9764bbb78ebf4a22342f2aea0e74c06f}{%
+           family={Gussenhoven},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=112f1d1f994db43961caf0f16b65d466}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Natasha},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Mouton de Gruyter}%
+      }
+      \strng{namehash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{fullhash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{bibnamehash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{authorbibnamehash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{authornamehash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{authorfullhash}{b0143550fa69599dcfbbafcd8861d7f8}
+      \strng{editorbibnamehash}{ccbacde1fc13994c471df02c7ab3089e}
+      \strng{editornamehash}{ccbacde1fc13994c471df02c7ab3089e}
+      \strng{editorfullhash}{ccbacde1fc13994c471df02c7ab3089e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Laboratory {{Phonology}}}
+      \field{title}{Durational Variability in Speech and the Rhythm Class Hypothesis}
+      \field{volume}{7}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{515\bibrangedash 546}
+      \range{pages}{32}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Grabe_Low_2002_Durational variability in speech and the rhythm class hypothesis.pdf
+      \endverb
+    \endentry
+    \entry{Grabe.etal2000}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=8963ac0e9b2e874d1596170d13e4412c}{%
+           family={Grabe},
+           familyi={G\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f27426a47122fea772756e3e25458db}{%
+           family={Post},
+           familyi={P\bibinitperiod},
+           given={Brechtje},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3486f60032a30ec71fd6a3cccfdab26d}{%
+           family={Nolan},
+           familyi={N\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7790a31a97099a7bff7ae52c8336c394}{%
+           family={Farrar},
+           familyi={F\bibinitperiod},
+           given={Kimberley},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{824d0257a5643865fcbcd29292e55c99}
+      \strng{fullhash}{bbeb66b883989d7d1e62b46fdce7239d}
+      \strng{bibnamehash}{824d0257a5643865fcbcd29292e55c99}
+      \strng{authorbibnamehash}{824d0257a5643865fcbcd29292e55c99}
+      \strng{authornamehash}{824d0257a5643865fcbcd29292e55c99}
+      \strng{authorfullhash}{bbeb66b883989d7d1e62b46fdce7239d}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{Pitch Accent Realization in Four Varieties of {{British English}}}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{161\bibrangedash 185}
+      \range{pages}{25}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Grabe et al_2000_Pitch accent realization in four varieties of British English.pdf
+      \endverb
+      \keyw{variação prosódica}
+    \endentry
+    \entry{Hay.Drager2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c1d5c57f41f235c697405c08cea60e46}{%
+           family={Hay},
+           familyi={H\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0e22ee1ba80df87dc5be9410ce82d70}{%
+           family={Drager},
+           familyi={D\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bad0e46931d0f94893322ec3685cbf4e}
+      \strng{fullhash}{bad0e46931d0f94893322ec3685cbf4e}
+      \strng{bibnamehash}{bad0e46931d0f94893322ec3685cbf4e}
+      \strng{authorbibnamehash}{bad0e46931d0f94893322ec3685cbf4e}
+      \strng{authornamehash}{bad0e46931d0f94893322ec3685cbf4e}
+      \strng{authorfullhash}{bad0e46931d0f94893322ec3685cbf4e}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Anthropology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{Sociophonetics}
+      \field{volume}{36}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{89\bibrangedash 103}
+      \range{pages}{15}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Hay_Drager_2007_Sociophonetics.pdf
+      \endverb
+      \keyw{sociophonetics}
+    \endentry
+    \entry{Junior.Barbosa2019}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b74f99bd58ca81b2da63d5edf29d8c51}{%
+           family={Junior},
+           familyi={J\bibinitperiod},
+           given={Leônidas\bibnamedelimb José\bibnamedelimb da\bibnamedelima Silva},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c79ab928d0d8fa07ba57290ff656ae18}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Plínio\bibnamedelima Almeida},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \strng{fullhash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \strng{bibnamehash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \strng{authorbibnamehash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \strng{authornamehash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \strng{authorfullhash}{60fce28a54735e3a21c4ecca3af9cdd7}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Version 1.7.7}
+      \field{series}{[{{Praat}} Script]}
+      \field{title}{Metrics \& {{Acoustics Extractor}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kerswill1993}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=92c5773601beeec2da9dd1ab0f329531}{%
+           family={Kerswill},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92c5773601beeec2da9dd1ab0f329531}
+      \strng{fullhash}{92c5773601beeec2da9dd1ab0f329531}
+      \strng{bibnamehash}{92c5773601beeec2da9dd1ab0f329531}
+      \strng{authorbibnamehash}{92c5773601beeec2da9dd1ab0f329531}
+      \strng{authornamehash}{92c5773601beeec2da9dd1ab0f329531}
+      \strng{authorfullhash}{92c5773601beeec2da9dd1ab0f329531}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{International Journal of Applied Linguistics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shortjournal}{Int J Applied Linguistics}
+      \field{shorttitle}{Rural Dialect Speakers in an Urban Speech Community}
+      \field{title}{Rural Dialect Speakers in an Urban Speech Community: The Role of Dialect Contact in Defining a Sociolinguistic Concept}
+      \field{volume}{3}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{33\bibrangedash 56}
+      \range{pages}{24}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Kerswill_1993_Rural dialect speakers in an urban speech community.pdf
+      \endverb
+    \endentry
+    \entry{Labov1966}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5af22306b3a9a09d07b03f4b6c265c99}{%
+           family={Labov},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge [UK] ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{fullhash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{bibnamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authorbibnamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authornamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authorfullhash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed}
+      \field{pagetotal}{485}
+      \field{title}{The Social Stratification of {{English}} in {{New York City}}}
+      \field{year}{1966}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/LabovW_1966_The_social_stratification_of_English_in.pdf
+      \endverb
+    \endentry
+    \entry{Labov2001}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5af22306b3a9a09d07b03f4b6c265c99}{%
+           family={Labov},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Malden, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell}%
+      }
+      \strng{namehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{fullhash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{bibnamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authorbibnamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authornamehash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \strng{authorfullhash}{5af22306b3a9a09d07b03f4b6c265c99}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Digital print}
+      \field{langid}{english}
+      \field{number}{29}
+      \field{pagetotal}{572}
+      \field{series}{Language in Society}
+      \field{shorttitle}{Principles of Linguistic Change. {{Vol}}. 2}
+      \field{title}{Principles of Linguistic Change. {{Volume}} 2: {{Social}} Factors}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/LabovW_2001_Principles_of_linguistic_change.pdf
+      \endverb
+    \endentry
+    \entry{Lenneberg1967}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c8181428dcb6184c5cf4fc82739e4d10}{%
+           family={Lenneberg},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \strng{fullhash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \strng{bibnamehash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \strng{authorbibnamehash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \strng{authornamehash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \strng{authorfullhash}{c8181428dcb6184c5cf4fc82739e4d10}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"The study of language is pertinent to many fields of inquiry. It is relevant to psychology, anthropology, philosophy, and medicine. It encroaches upon the humanities, as well as upon the social and natural sciences. We may pursue investigations that concentrate on what man has done with or to specific languages; or we may regard language as a natural phenomenon- an aspect of his biological nature, to be studied in the same manner as, for instance, his anatomy. Which of these approaches is to be chosen is entirely a matter of personal curiosity. This book is concerned with the biological aspects of language."--Preface.}
+      \field{langid}{english}
+      \field{title}{Biological Foundations of Language}
+      \field{year}{1967}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Lowry2011}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8b2271fca1724cb930cb4423d63ddd0}{%
+           family={Lowry},
+           familyi={L\bibinitperiod},
+           given={Orla},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \strng{fullhash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \strng{bibnamehash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \strng{authorbibnamehash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \strng{authornamehash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \strng{authorfullhash}{d8b2271fca1724cb930cb4423d63ddd0}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Literature on the Belfast dialect of English typically describes it as one that is characterized by a rise-plateau nuclear pattern in declaratives. Informal listening suggests, however, that a falling nuclear pattern is employed in several instances, and its use appears to be gender related, in that it is found more frequently in female speech. A production study is carried out to discover the frequency of production of falling nuclear patterns in male and female speakers, and a perception test on Belfast speakers provides evidence that the use of falling nuclear pattern creates impressions of expressivity, emotional engagement, enthusiasm, and commitment to establishing effective interaction with the participant in the speech event.}
+      \field{journaltitle}{Journal of English Linguistics}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{Journal of English Linguistics}
+      \field{title}{Belfast Intonation and Speaker Gender}
+      \field{volume}{39}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{209\bibrangedash 232}
+      \range{pages}{24}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Lowry_2011_Belfast intonation and speaker gender.pdf
+      \endverb
+      \keyw{prosody,intonation}
+    \endentry
+    \entry{Milroy2002}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1d94e4684982d0bfcd7797b11b2ccdc7}{%
+           family={Milroy},
+           familyi={M\bibinitperiod},
+           given={Lesley},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \strng{fullhash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \strng{bibnamehash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \strng{authorbibnamehash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \strng{authornamehash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \strng{authorfullhash}{1d94e4684982d0bfcd7797b11b2ccdc7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Sociolinguistics}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shorttitle}{Introduction}
+      \field{title}{Introduction: {{Mobility}}, Contact and Language Change - {{Working}} with Contemporary Speech Communities}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{3\bibrangedash 15}
+      \range{pages}{13}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Milroy_2002_Introduction.pdf
+      \endverb
+    \endentry
+    \entry{Nycz2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f1e19f53c69fb95c060776670bca72f}{%
+           family={Nycz},
+           familyi={N\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f1e19f53c69fb95c060776670bca72f}
+      \strng{fullhash}{2f1e19f53c69fb95c060776670bca72f}
+      \strng{bibnamehash}{2f1e19f53c69fb95c060776670bca72f}
+      \strng{authorbibnamehash}{2f1e19f53c69fb95c060776670bca72f}
+      \strng{authornamehash}{2f1e19f53c69fb95c060776670bca72f}
+      \strng{authorfullhash}{2f1e19f53c69fb95c060776670bca72f}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Language and Linguistics Compass}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shorttitle}{Second {{Dialect Acquisition}}}
+      \field{title}{Second Dialect Acquisition: A Sociophonetic Perspective}
+      \field{volume}{9}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{469\bibrangedash 482}
+      \range{pages}{14}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Nycz_2015_Second dialect acquisition.pdf
+      \endverb
+      \keyw{sociophonetics}
+    \endentry
+    \entry{Oliveira2019}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3652b9982cc9af10a93a1476f5feedf8}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Marcelo\bibnamedelimb Augusto\bibnamedelima Junqueira},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Estadual Paulista}%
+      }
+      \list{location}{1}{%
+        {Araraquara}%
+      }
+      \strng{namehash}{3652b9982cc9af10a93a1476f5feedf8}
+      \strng{fullhash}{3652b9982cc9af10a93a1476f5feedf8}
+      \strng{bibnamehash}{3652b9982cc9af10a93a1476f5feedf8}
+      \strng{authorbibnamehash}{3652b9982cc9af10a93a1476f5feedf8}
+      \strng{authornamehash}{3652b9982cc9af10a93a1476f5feedf8}
+      \strng{authorfullhash}{3652b9982cc9af10a93a1476f5feedf8}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dialetos Em Contato: Acomoda{ç}ão Dialetal Por Migrantes Baianos Habitantes Da Cidade de {{Bauru}}, {{São Paulo}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Oliveira_2019_Dialetos em contato.pdf
+      \endverb
+    \endentry
+    \entry{Oushiro2016}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=00c6c7f422fcb79a261187fb060bf011}{%
+           family={Oushiro},
+           familyi={O\bibinitperiod},
+           given={Livia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{fullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{bibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorbibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authornamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorfullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Projeto {{Fapesp}} "{{Processos}} de Acomoda{ç}ão Dialetal Na Fala de Nordestinos Residentes No Estado de {{São Paulo}}"}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Oushiro_2016_Projeto Fapesp Processos de acomodação dialetal na fala de nordestinos.pdf
+      \endverb
+    \endentry
+    \entry{Oushiro2018}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=00c6c7f422fcb79a261187fb060bf011}{%
+           family={Oushiro},
+           familyi={O\bibinitperiod},
+           given={Livia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Estadual de Campinas}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \strng{namehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{fullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{bibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorbibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authornamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorfullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Relatório Final Do {{Projeto}} "{{Processos}} de Acomoda{ç}ão Dialetal Na Fala de Nordestinos Residentes Em {{São Paulo}}"}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Oushiro_Relatório Final do Projeto Processos de acomodação dialetal na fala de.pdf
+      \endverb
+    \endentry
+    \entry{Oushiro2019a}{unpublished}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=00c6c7f422fcb79a261187fb060bf011}{%
+           family={Oushiro},
+           familyi={O\bibinitperiod},
+           given={Livia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{fullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{bibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorbibnamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authornamehash}{00c6c7f422fcb79a261187fb060bf011}
+      \strng{authorfullhash}{00c6c7f422fcb79a261187fb060bf011}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linguistic Uniformity in the Speech of Brazilian Internal Migrants in a Dialect Contact Situation}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Oushiro_2019_Linguistic uniformity in the speech of brazilian internal migrants in a dialect3.pdf
+      \endverb
+    \endentry
+    \entry{Podesva2011}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c5936756905515b34e934ac715ab37e3}{%
+           family={Podesva},
+           familyi={P\bibinitperiod},
+           given={Podesva},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5936756905515b34e934ac715ab37e3}
+      \strng{fullhash}{c5936756905515b34e934ac715ab37e3}
+      \strng{bibnamehash}{c5936756905515b34e934ac715ab37e3}
+      \strng{authorbibnamehash}{c5936756905515b34e934ac715ab37e3}
+      \strng{authornamehash}{c5936756905515b34e934ac715ab37e3}
+      \strng{authorfullhash}{c5936756905515b34e934ac715ab37e3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of English Linguistics}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{Journal of English Linguistics}
+      \field{shorttitle}{Salience and the {{Social Meaning}} of {{Declarative Contours}}}
+      \field{title}{Salience and the Social Meaning of Declarative Contours: Three Case Studies of Gay Professionals}
+      \field{volume}{39}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{233\bibrangedash 264}
+      \range{pages}{32}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Podesva_2011_Salience and the social meaning of declarative contours.pdf;/home/gsilveira/cloud/biblioteca/Podesva_2011_Salience and the Social Meaning of Declarative Contours.pdf
+      \endverb
+    \endentry
+    \entry{Ramus.etal1999}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=065b98ee16bb0b8163285e78f690eb03}{%
+           family={Ramus},
+           familyi={R\bibinitperiod},
+           given={Franck},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9f6b4b6dd4fb670bbdd67eeae63b2eec}{%
+           family={Nespor},
+           familyi={N\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2db544a969f488fa2ccd883d9724cb88}{%
+           family={Mehler},
+           familyi={M\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \strng{fullhash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \strng{bibnamehash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \strng{authorbibnamehash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \strng{authornamehash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \strng{authorfullhash}{672ae4a308ea3945c5b38a88696f7cc2}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spoken languages have been classified by linguists according to their rhythmic properties, and psycholinguists have relied on this classification to account for infants' capacity to discriminate languages. Although researchers have measured many speech signal properties, they have failed to identify reliable acoustic characteristics for language classes. This paper presents instrumental measurements based on a consonant/vowel segmentation for eight languages. The measurements suggest that intuitive rhythm types reflect specific phonological properties, which in turn are signaled by the acoustic/phonetic properties of speech. The data support the notion of rhythm classes and also allow the simulation of infant language discrimination, consistent with the hypothesis that newborns rely on a coarse segmentation of speech. A hypothesis is proposed regarding the role of rhythm perception in language acquisition.}
+      \field{langid}{english}
+      \field{title}{Correlates of Linguistic Rhythm in the Speech Signal}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{36}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Ramus et al_1999_Correlates of linguistic rhythm in the speech signal.pdf
+      \endverb
+      \keyw{leitura em andamento,prosody,rhythm,tabelado}
+    \endentry
+    \entry{Sandalo2012}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4588f834c0045b39428359495952a120}{%
+           family={Sandalo},
+           familyi={S\bibinitperiod},
+           given={Filomena},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4588f834c0045b39428359495952a120}
+      \strng{fullhash}{4588f834c0045b39428359495952a120}
+      \strng{bibnamehash}{4588f834c0045b39428359495952a120}
+      \strng{authorbibnamehash}{4588f834c0045b39428359495952a120}
+      \strng{authornamehash}{4588f834c0045b39428359495952a120}
+      \strng{authorfullhash}{4588f834c0045b39428359495952a120}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper argues for a unifying view of vowel harmony and vowel reduction in Brazilian Portuguese on the basis of Dispersion Theory (FLEMMING, 2004).}
+      \field{journaltitle}{Letras de Hoje}
+      \field{langid}{portuguese}
+      \field{number}{3}
+      \field{title}{Harmonia e redu{ç}ão vocálica no português do Brasil}
+      \field{volume}{47}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Sandalo_2012_Harmonia e redução vocálica no português do Brasil.pdf
+      \endverb
+    \endentry
+    \entry{Santana2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b61dbc4705a1265f651c1aa39fec15cb}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Amanda\bibnamedelimb de\bibnamedelima Lima},
+           giveni={A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \strng{fullhash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \strng{bibnamehash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \strng{authorbibnamehash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \strng{authornamehash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \strng{authorfullhash}{b61dbc4705a1265f651c1aa39fec15cb}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{As Vogais Médias Pretônicas Na Fala de Sergipanos Em {{São Paulo}}}
+      \field{type}{Disserta{ç}ão}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Santana_2019_As vogais médias pretônicas na fala de sergipanos em São Paulo.pdf
+      \endverb
+    \endentry
+    \entry{Souza2017}{unpublished}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=de010890369f2fabb1054c7b1afdf77b}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Emerson\bibnamedelima Santos},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{de010890369f2fabb1054c7b1afdf77b}
+      \strng{fullhash}{de010890369f2fabb1054c7b1afdf77b}
+      \strng{bibnamehash}{de010890369f2fabb1054c7b1afdf77b}
+      \strng{authorbibnamehash}{de010890369f2fabb1054c7b1afdf77b}
+      \strng{authornamehash}{de010890369f2fabb1054c7b1afdf77b}
+      \strng{authorfullhash}{de010890369f2fabb1054c7b1afdf77b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Encontro {{Intermediário}} Do {{GT}} de {{Sociolinguística}} Da {{ANPOLL}}}
+      \field{title}{A Plasticidade Dialetal Na Fala de Migrantes Baianos Em {{São Paulo}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Szakay2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5fc70d2d5729475b2448c3ef40a7a8ca}{%
+           family={Szakay},
+           familyi={S\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=3483acc53d98318717a517e200c4ecc8}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ea320b12bf0b3efc049b6389280967d2}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{fullhash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{bibnamehash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{authorbibnamehash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{authornamehash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{authorfullhash}{5fc70d2d5729475b2448c3ef40a7a8ca}
+      \strng{editorbibnamehash}{bf39bcc22a7b39bf82eb6a76862dd2bf}
+      \strng{editornamehash}{bf39bcc22a7b39bf82eb6a76862dd2bf}
+      \strng{editorfullhash}{bf39bcc22a7b39bf82eb6a76862dd2bf}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the differing rhythmic properties of Maori English and Pakeha English in New Zealand and also examines possible differences in the use of pitch. The results show that Maori English is significantly more syllable timed than Pakeha English. There seems to be a change toward increased syllable-timing in the dialect as a whole, with young New Zealanders producing more syllable-timed speech. The results relating to pitch show that Maori participants had a significantly higher mean pitch than Pakeha speakers, which demonstrates that rhythm is not the only prosodic factor which serves as a marker of ethnicity in New Zealand.}
+      \field{booktitle}{Proceedings of the 11th {{Australian International Conference}} on {{Speech Science}} \& {{Technology}}}
+      \field{title}{Rhythm and Pitch as Markers of Ethnicity in {{New Zealand English}}}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{412\bibrangedash 426}
+      \range{pages}{15}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Szakay_2006_Rhythm and pitch as markers of ethnicity in New Zealand English.pdf
+      \endverb
+      \keyw{prosody,rhythm,tabelado}
+    \endentry
+    \entry{Thomas2013}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=470e9ddfee804eb868111e06f308e371}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7de459bd4800d8eb95715905cc6434b0}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={J.K.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8af5c9827fe081a75dd525961f44b8c}{%
+           family={Schilling},
+           familyi={S\bibinitperiod},
+           given={Natalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Inc}%
+      }
+      \strng{namehash}{470e9ddfee804eb868111e06f308e371}
+      \strng{fullhash}{470e9ddfee804eb868111e06f308e371}
+      \strng{bibnamehash}{470e9ddfee804eb868111e06f308e371}
+      \strng{authorbibnamehash}{470e9ddfee804eb868111e06f308e371}
+      \strng{authornamehash}{470e9ddfee804eb868111e06f308e371}
+      \strng{authorfullhash}{470e9ddfee804eb868111e06f308e371}
+      \strng{editorbibnamehash}{ed466887c31547de2da693f34431b2a3}
+      \strng{editornamehash}{ed466887c31547de2da693f34431b2a3}
+      \strng{editorfullhash}{ed466887c31547de2da693f34431b2a3}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {{Handbook}} of {{Language Variation}} and {{Change}}}
+      \field{langid}{english}
+      \field{title}{Sociophonetics}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{108\bibrangedash 127}
+      \range{pages}{20}
+      \verb{file}
+      \verb /home/gsilveira/cloud/biblioteca/Thomas_2013_Sociophonetics.pdf
+      \endverb
+      \keyw{sociophonetics}
+    \endentry
+    \entry{Trudgill1986}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=17b4ad73f12e03a5091f0262b44d3da6}{%
+           family={Trudgill},
+           familyi={T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
+      \list{publisher}{1}{%
+        {Basil Blackwell}%
+      }
+      \strng{namehash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \strng{fullhash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \strng{bibnamehash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \strng{authorbibnamehash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \strng{authornamehash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \strng{authorfullhash}{17b4ad73f12e03a5091f0262b44d3da6}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dialects in Contact}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/gustavo/Documentos/Biblioteca/Trudgill_1986_Dialects in contact.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

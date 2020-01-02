@@ -1,0 +1,193 @@
+\documentclass[a4paper, 12pt, article, oneside, brazil,leqno]{memoir}
+
+% PACOTES BÁSICOS
+\usepackage[utf8]{inputenc} % Codificação de caracter
+\usepackage[T1]{fontenc} % Codificação de fonte
+\usepackage[brazil]{babel} % Tradução para português
+\usepackage{times} % Times New Roman
+% \usepackage{indentfirst} % Recuo na primeira linha
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{amsmath} % Pacote para escrita matemática
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage{units}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl} % Cores em tabelas
+%\renewcommand{\arraystretch}{1.25} % Espaçamento entre linhas da tabela
+
+% FORMATAÇÃO
+\setlrmarginsandblock{3cm}{3cm}{*} % Margens esquerda e direita
+\setulmarginsandblock{2.5cm}{2.5cm}{*} % Margens superior e inferior
+\checkandfixthelayout %
+\setlength{\parindent}{0.5in} % Ajuste de recuo de primeira linha
+\setlength{\parskip}{0em} % Espaço entre parágrafos
+\renewcommand{\baselinestretch}{1.5} % Espaço entre linhas
+
+% CITAÇÃO E BIBLIOGRAFIA
+\usepackage[backend=biber,style=abnt,ittitles,sccite,noslsn]{biblatex} % Pacote do BibLatex
+\addbibresource{zotero.bib} % Arquivo .bib
+\renewcommand*{\bibfont}{\footnotesize} % Reduzir fonte da bibliografia
+
+% CORES
+\usepackage{xcolor}
+\definecolor{azul}{HTML}{0b365a}
+\definecolor{vermelho}{HTML}{B20000}
+\definecolor{verde}{HTML}{004d00}
+\definecolor{cinza1}{HTML}{DCDCDC}
+\definecolor{cinza2}{HTML}{A9A9A9}
+
+% HYPERLINK
+\usepackage[colorlinks=true, citecolor=azul, linkcolor=vermelho, urlcolor=verde]{hyperref}
+
+% MACRO
+\newcommand*\folhaderosto{
+\begin{center}
+      \thispagestyle{empty}
+      \setcounter{page}{0}
+      {\large Universidade Estadual de Campinas}
+      \par
+      {\large Instituto de Estudos da Linguagem}
+      \par
+      {\large Programa de Pós-Graduação em Linguística}
+
+      \vspace*{\fill}\vspace*{\fill}
+      \begin{center}
+      {\Large\bfseries Efeitos do contato dialetal no ritmo da fala de migrantes paraibanos e alagoanos em São Paulo}
+\end{center}
+
+      {\large Gustavo de Campos Pinheiro da Silveira}
+
+      \vspace*{\fill}
+
+      {\hspace{.45\textwidth}
+      \begin{minipage}{.5\textwidth}
+            \SingleSpacing
+            Projeto de pesquisa apresentado ao Programa de Pós-Graduação em Linguística do Instituto de Estudos da Linguagem da Universidade Estadual de Campinas como requisito parcial do processo seletivo para o Mestrado na área “Forma e funcionamento das línguas naturais” e na subárea “Sociolinguística”
+      \end{minipage}
+      \vspace*{\fill}}
+
+
+      {\large Campinas -- SP} \\
+      {\large 2019}
+      \vspace*{.5cm}
+\end{center}
+
+}
+
+\begin{document}
+
+\folhaderosto
+
+\chapter{Introdução}
+
+Em sua maioria, as pesquisas sociolinguísticas restringem a comunidade de fala aos falantes considerados nativos da região estudada, excluindo de suas análises os residentes que não nasceram e nem cresceram nela. Entretanto, nos últimos anos, uma série de estudos sobre contato dialetal tem mostrado a importância da fala dos migrantes para a compreensão dos efeitos da mobilidade geográfica nos processos de variação e de mudança linguística \cite{milroy2002}, sobretudo num mundo em que os deslocamentos e os fluxos migratórios são fenômenos cada vez mais pervasivos \cite{internationalorganizationformigration2018}.
+
+Recentemente, foi realizado um dos primeiros estudos sistemáticos sobre a fala de migrantes internos no Brasil. O Projeto \enquote{Processos de acomodação dialetal na fala de nordestinos em São Paulo}, coordenado por Oushiro \citeyear{oushiro2018}, analisou a fala de paraibanos e alagoanos residentes no estado de São Paulo e investigou em que medida ela sofreu alterações em função do contato com a variedade paulista. Mais especificamente, a análise se concentrou nos efeitos da idade de migração e do tempo de residência em São Paulo sobre seis variáveis linguísticas: (i) a realização de /r/ em coda silábica; (ii) a realização de /t/ e /d/ antes de [i]; (iii) a altura da vogal média pretônica /e/; (iv) a altura da vogal média pretônica /o/; (v) a concordância nominal de número; e (vi) a negação sentencial. Os resultados obtidos indicam que a idade com que os falantes migraram para São Paulo teve um papel importante para a aquisição das variantes fonéticas da fala paulista, mas não das morfossintáticas. Por outro lado, o tempo de residência na comunidade anfitriã apresentou correlação apenas com a variável /r/ em coda.
+
+Embora já tenha obtido resultados relevantes, esse trabalho foi apenas uma etapa de uma agenda mais longa e ainda em andamento de pesquisas sobre a aquisição de novos traços dialetais por migrantes internos em São Paulo \cite{oushiro2018}. Dentre as questões delineadas por Oushiro \citeyear{oushiro2018}, uma que ainda não foi investigada diz respeito aos aspectos prosódicos da fala dos migrantes e aos efeitos que o contato dialetal tem sobre eles. Na verdade, não apenas no contexto dos estudos sobre a fala dos migrantes, mas na pesquisa sociolinguística de modo mais geral, são poucos os trabalhos acerca da variação prosódica se comparados àqueles que se dedicam à variação de segmentos vocálicos e consonantais \cite{thomas2013}.
+
+Apesar de haver poucos trabalhos sociolinguísticos sobre a prosódia da fala,  esse cenário está começando a se alterar e a utilização cada vez mais frequente de técnicas acústicas e de diferentes modelos estatísticos tem motivado os sociolinguistas a investigar os condicionamentos sociais da variação na entoação e no ritmo da fala \cite{thomas2013}.  As pesquisas realizadas até agora já indicam que os traços prosódicos não só variam regionalmente \cite{grabe2000}, como também variam em função do gênero \cite{lowry2011} e da etnia \cite{szakay2006}. Os resultados a que Podesva \cite{podesva2011} chegou mostram que as variáveis prosódicas podem inclusive ter função estilística, sendo usadas pelos falantes como uma forma de modelar significados identitários.
+
+Os estudos da variação rítmica em contexto social foram incentivados pelo surgimento das métricas de ritmo. De modo geral, essas métricas são equações matemáticas que servem para calcular, a partir de mensurações acústicas, o grau de variação nos padrões duracionais de línguas ou dialetos. Seus valores costumam ser interpretados como se dando numa escala contínua que vai do ritmo mais silábico, de um lado dos polos, ao mais acentual, do outro \cite{fuchs2016}.  Por exemplo, usando uma dessas métricas, o Índice de Variabilidade em Pares (IVP), Szakay \citeyear{szakay2006} mostrou que, no inglês neozelandês, as durações silábicas são mais isocrônicas entre maoris do que entre falantes com ascendência europeia, e essa diferença rítmica serve como uma marcador social de etnia.
+
+Embora algumas pesquisas já tenham investigado os efeitos do contato entre línguas no ritmo da fala de migrantes internacionais \cite{carter2005}, são raros os estudos que discutem as consequências rítmicas do contato entre variedades de uma mesma língua. Um desses estudos é o de Torgeresen e Szakay \citeyear{torgersen2012}, uma investigação sobre a variação rítmica na fala de nativos de Londres. Um outro, conduzido por Fagyal \citeyear{fagyal2010}, trata do ritmo da fala de jovens pertencentes à classe trabalhadora de Paris. Ambos discutem o contexto multiétnico de suas comunidades e consideram o contato dialetal um fator importante para explicar os resultados a que chegaram, mas nenhum trabalha diretamente com dados da fala de migrantes internos, nem trata diretamente dos processos linguísticos decorrentes do contato e da acomodação dialetal.
+
+Dentro desse cenário, a agenda de pesquisas sobre a fala de migrantes internos em São Paulo, iniciada por Oushiro \citeyear{oushiro2018}, oferece uma oportunidade para começar a se preencher essa lacuna nos estudos sociolinguísticos. Com essa motivação, este projeto de pesquisa tem como objetivo investigar em que medida os padrões rítmicos da fala de paraibanos e alagoanos residentes no estado de São Paulo sofreram alterações em função do contato com a fala paulista e de que modo certas variáveis sociais se correlacionam com essas alterações. Para atingir esse objetivo, será feita uma análise sociofonética de enunciados extraídos de quatro amostras de fala semiespontânea já coletadas em pesquisas sociolinguísticas anteriores. Uma delas é a amostra de 40 entrevistas sociolinguísticas com migrantes paraibanos e alagoanos coletadas no âmbito do já mencionado Projeto coordenado por Oushiro \citeyear{oushiro2018}. Na medida em que a fala dos migrantes é o foco deste presente projeto, essa pode ser chamada de \emph{amostra de interesse}. Já as outras três, como serão usadas apenas como um parâmetro de comparação, serão chamadas de \emph{amostras de controle}: (i) uma amostra composta por entrevistas com paulistas não migrantes, coletada pelo Projeto SP2010 \cite{mendes2012}; (ii) uma outra apenas com paraibanos não migrantes, coletada pelo Projeto VALPB \cite{hora1993}; e, por fim, (iii) uma apenas com alagoanos não migrantes, coletada pelo Projeto PORTAL \cite{oliveira2017}.
+
+Com o uso do software Praat \cite{boersma2019}, será feita uma análise acústica dos enunciados selecionados com o intuito de determinar, para cada falante, os valores das seguintes variáveis rítmicas: as métricas \%V \cite{ramus1999}, Varco$\Delta$V \cite{white2007a} e nIVP-V \cite{grabe2002}, e a redução das vogais pretônicas e postônicas (finais e não finais). Embora esta última não seja uma variável estritamente prosódica, seus valores estão diretamente relacionados ao ritmo, tendo em vista que o ritmo acentual tende a ter mais redução vocálica do que o ritmo silábico \cite{fuchs2016}. Por fim, utilizando o modelo estatístico de regressão linear na plataforma R \cite{rcoreteam2019}, será feita uma análise sociolinguística com o intuito de examinar possíveis correlações entre essas variáveis rítmicas e os seguintes fatores sociais: (i) idade de migração; (ii) tempo de residência em São Paulo; e (iii) rede social.
+
+Espera-se que, ao fim dessa pesquisa, as seguintes perguntas sejam respondidas:
+      \begin{enumerate}
+            \item O ritmo da fala de migrantes paraibanos e alagoanos em São Paulo sofre alterações em função do contato com a fala paulista?
+            \item Se sim, essas alterações podem ser compreendidas como o resultado de um processo de acomodação dialetal?
+      \end{enumerate}
+
+\chapter{Referencial teórico}
+
+As referências teóricas deste projeto provêm de duas áreas diferentes: os estudos variacionistas acerca da aquisição dialetal e os estudos fonéticos sobre o ritmo da fala. Nesta seção, estas referências serão apresentadas em linhas gerais.
+
+\subsection{A aquisição dialetal}
+
+Os estudos variacionistas sobre contato dialetal investigam as mudanças linguísticas desencadeadas pela interação regular entre falantes de variedades diferentes de uma mesma língua. Um dos fenômenos estudados nessa área é a aquisição de novos traços dialetais por falantes que se deslocaram para uma localidade em que se fala um dialeto diferente do falado na região de onde são originários. Esse fenômeno começou a receber mais atenção a partir da publicação de \emph{Dialects in Contact} de Peter Trudgill \citeyear{trudgill1986}, uma obra que até hoje continua sendo uma das principais referências teóricas na área \cite{milroy2002}. 
+
+Uma das contribuições de Trudgill \citeyear{trudgill1986} foi a utilização da teoria da acomodação \cite{giles1973} para explicar a aquisição dialetal. De acordo com essa teoria, as pessoas monitoram e modificam o seu modo de falar em função dos seus interlocutores. As modificações podem ser feitas tanto para tornar a fala mais similar à do interlocutor, o que caracteriza uma convergência, quanto para torná-la mais diferente, no caso de uma divergência. A proposta de Trudgill \citeyear{trudgill1986} é descrever a aquisição dialetal como o resultado de um processo em que a acomodação se torna rotineira e de longo prazo. Isso acontece quando falantes se mudam para uma região em que se fala um outro dialeto e passam a se acomodar diariamente à fala local. Quando são suficientemente frequentes e prolongadas, essas acomodações podem levar a alterações permanentes no repertório linguístico do falante.
+
+Chambers \citeyear{chambers1992} defende que essas alterações sejam chamadas de aquisição, ao invés de acomodação dialetal. Isto porque essas alterações, que antes eram apenas um efeito da adaptação momentânea a uma interação comunicativa pontual, se tornam traços incorporados pela competência linguística do falante e passam a ocorrer com mais constância, inclusive em contextos não relacionados ao processo de acomodação. Atualmente, alguns pesquisadores utilizam a expressão \enquote{aquisição de segundo dialeto}, em analogia aos estudos de aquisição de segunda língua, e adotam a dicotomia terminológica de primeiro (D1) e segundo dialeto (D2) \cite{siegel2010}. 
+
+O processo de acomodação a um novo dialeto não é regular, nem idêntico para todos os falantes. Algumas variantes são adquiridas rapidamente, enquanto a aquisição de outras pode levar anos ou nunca acontecer. Além disso, dois falantes com histórico de vida semelhante, nas mesmas situações de contato dialetal, não necessariamente se acomodam da mesma forma \cite{trudgill1986}. Vários estudos sociolinguísticos têm sido conduzidos com o objetivo de identificar os fatores linguísticos e sociais que inibem ou aceleram esse processo de aquisição de traços dialetais. Muitos desses estudos identificam a idade de migração, o tempo de residência na comunidade anfitriã e o tipo de rede social (aberta ou fechada) do falante como os fatores sociais mais relevantes \cite{siegel2010}. Por essa razão, serão esses os fatores sociais a serem investigados neste projeto de pesquisa como possíveis preditores da variação rítmica na fala dos migrantes paraibanos e alagoanos em São Paulo.
+
+Além dos sociais, também foram identificados alguns fatores de natureza linguística que determinam o sucesso da aquisição dialetal. Por exemplo, Chambers \citeyear{chambers1992} propôs que a complexidade das regras fonológicas é um fator importante para a aquisição de traços sonoros -- quanto mais complexa a regra, mais difícil é a aquisição do traço a que ela se aplica. No entanto, a grande maioria desses fatores, tanto os sociais quanto os linguísticos, foram estudados apenas em relação aos aspectos segmentais da fala, e pouco se sabe acerca dos condicionamentos da aquisição envolvendo traços prosódicos.
+
+\subsection{O ritmo da fala}
+
+A partir de meados do século passado, as línguas começaram a ser classificadas em duas categorias rítmicas: a de \emph{ritmo silábico} e a de \emph{ritmo acentual} -- um pouco depois, também foi acrescentada a classe das línguas de ritmo moraico, como o japonês. Essa classificação se apoia na \emph{hipótese da isocronia} segundo a qual o ritmo das línguas é o resultado da duração aproximadamente igual de certos elementos do enunciado. O que varia entre uma língua e outra, de acordo com essa hipótese, é qual elemento apresentará isocronia. Enquanto nas línguas de ritmo silábico são as sílabas que têm aproximadamente a mesma duração, naquelas de ritmo acentual o que é isocrônico é o intervalo entre um acento e o seguinte, comumente chamado de \emph{pé metrico} \cite{fuchs2016}.
+
+Os foneticistas começaram a perceber, no entanto, que nenhuma língua se encaixa perfeitamente nessa classificação e que, na verdade, a completa isocronia é uma abstração que não se confirma pela observação de dados empíricos. O surgimento das métricas rítmicas no fim do século passado permitiu a eles mostrar que o ritmo das línguas é mais adequadamente descrito em termos de um contínuo em que algumas se encontram mais próximas do polo silábico e outras, do polo acentual \cite{torgersen2012}.
+
+Desde então, várias métricas de ritmo têm sido elaboradas com o objetivo de calcular exatamente em qual ponto desse contínuo cada língua ou dialeto se encontra. A maioria delas utiliza alguma medida estatística de dispersão para computar o grau de variação na duração de algum tipo de elemento linguístico previamente identificado no espectro da fala, como vogais, consoantes ou sílabas. Essas métricas também se baseiam na premissa de que o ritmo acentual tende a favorecer a redução vocálica e os encontros consonantais, enquanto o ritmo silábico, a desfavorecer. Presumem, a partir dessa premissa, que as reduções das vogais e os encontros de consoantes tornam as durações vocálicas e consonantais das línguas de ritmo acentual mais variáveis em comparação com as das línguas de ritmo silábico. Além disso, a combinação de vogais reduzidas com encontros consonantais mais complexos fazem com que, nas línguas de ritmo acentual, os intervalos vocálicos ocupem uma proporção menor do enunciado \cite{fuchs2016}.
+
+Neste projeto, serão usadas três métricas rítmicas diferentes: \%V \cite{ramus1999}, Varco$\Delta$V \cite{white2007a} e nIVP-V \cite{grabe2002}. A métrica \%V \cite{ramus1999} não é uma medida de dispersão, mas apenas um cálculo da porcentagem da duração total do enunciado que é ocupada por intervalos vocálicos. Com base nas premissas apresentadas acima, valores mais altos de \%V podem ser interpretados como indícios de um ritmo mais silábico. Já a métrica Varco$\Delta$V \cite{white2007a} é propriamente uma medida de dispersão. Conforme mostra a equação \ref{eq:1}, ela consiste no desvio padrão das durações vocálicas do enunciado sob análise, sendo que a divisão pela média aritmética dessas mesmas durações é apenas uma forma de normalizar possíveis efeitos indesejados da taxa de elocução. Assume-se que maior dispersão nas durações vocálicas em relação à média geral é um indicativo de ritmo acentual.
+
+O Índice de Variabilidade em Pares (IVP), por sua vez, adota uma estratégia diferente. Essa métrica se concentra nas diferenças de duração em pares de intervalos consecutivos \cite{grabe2002}. Quando aplicado às vogais (IVP-V), esse índice consiste na soma das diferenças absolutas de duração de cada par de vogais em sílabas adjacentes. O resultado da somatória é, então, dividido pelo número de pares no enunciado. Já em sua versão normalizada (nIVP-V), tal como representada pela equação \ref{eq:2}, cada uma das diferenças absolutas é dividida pela duração média de seu respectivo par. Quanto mais altos forem os resultados desse índice, mais variáveis serão as durações vocálicas, indicando um ritmo mais acentual.
+
+	\noindent\begin{minipage}{.5\linewidth}\vskip 1.75em
+	      \begin{equation}
+	            \label{eq:1}
+	            \text{Varco$\Delta$V}=100\times\frac{\sigma(d_{v})}{\text{média}(d_{v})},
+	      \end{equation}
+	\end{minipage}
+	\begin{minipage}{.5\linewidth}
+	      \begin{equation}
+	            \label{eq:2}
+	            \text{nIVP-V}=100\times\frac{\displaystyle\sum_{i=1}^{m-1} \biggr\rvert \frac{d_{i}- d_{i+1}}{(d_{i}+ d_{i+1})/2}\biggr\rvert}{m-1}
+	      \end{equation}
+	\end{minipage} \vspace{1em}
+
+Essas três métricas serão adotadas neste projeto, pois se mostraram as mais consistentes em estudos comparados, sendo as que menos sofreram interferência da variação na taxa de elocução, no tipo de sentença, no falante e no transcritor \cite{fuchs2016}. Além disso, a métrica nIVP-V é a mais utilizada nos estudos sociolinguísticos sobre o ritmo da fala e sua inclusão neste projeto de pesquisa permitirá comparar os resultados com outros estudos já realizados.
+
+\chapter{Materiais e métodos}
+
+Neste projeto, usando o software Praat \cite{boersma2019}, serão feitas análises acústicas de enunciados selecionados de quatro amostras de fala semiespontânea. A amostra de interesse é composta por gravações de entrevistas sociolinguísticas com dezessete paraibanos e vinte e três alagoanos que residem na Região Metropolitana de Campinas (RMC). Essa amostra foi coletada entre 2017 e 2018 no âmbito do Projeto \enquote{Processos de acomodação dialetal na fala de nordestinos em São Paulo} \cite{oushiro2018} e está estratificada em gênero (masculino e feminino), idade de migração (até 19 anos e 20 anos ou mais) e tempo de residência em São Paulo (até 9 anos e 10 anos ou mais). De acordo com Oushiro \citeyear{oushiro2018}, as entrevistas tiveram uma duração média de sessenta minutos e seguiram um roteiro elaborado de modo a levantar informações relevantes para o estudo do contato dialetal.
+
+Além da amostra de interesse, também será analisada uma seleção de enunciados extraídos de três amostras de controle: (i) a amostra de sessenta informantes paulistas não migrantes coletada pelo Projeto SP2010 entre 2011 e 2012 \cite{mendes2012}; (ii) a amostra de sessenta informantes paraibanos não migrantes coletada pelo Projeto VALPB em 1993 \cite{hora1993}; e (iii) a amostra de 240 informantes alagoanos não migrantes coletada em 2017 pelo Projeto PORTAL \cite{oliveira2017}. As três são compostas por gravações de entrevistas sociolinguísticas e estão estratificadas em gênero, faixa etária e escolaridade.
+
+A seleção dos enunciados para análise acústica será a primeira etapa do projeto. Na medida em que as amostras são de fala semiespontânea e não foram coletadas em condições controladas de laboratório, serão adotados alguns critérios de seleção como uma forma de garantir que o material tenha uma qualidade sonora suficiente para análise acústica e também para minimizar os efeitos de algumas variáveis que não são de interesse. Ao menos três critérios devem ser respeitados: (i) serão priorizados os enunciados com pouco ruído; (ii) os enunciados selecionados devem ter a mínima variação possível na taxa de elocução para o mesmo falante, pois essa é uma variável que interfere nos valores das métricas rítmicas; (iii) e todos serão de sentenças declarativas, uma vez que o tipo de frase tem efeitos significativos sobre os traços suprassegmentais \cite{fuchs2016}
+
+Na etapa seguinte, os enunciados selecionados serão segmentados acusticamente em vogais e consoantes. Essa segmentação será feita de modo automático através do algoritmo \emph{EasyAlign} no Praat e, depois, revisada manualmente para garantir que todos os segmentos foram corretamente identificados e delimitados. Quando todos os enunciados estiverem adequadamente segmentados, os valores das variáveis rítmicas já poderão ser computados. No caso das três métricas de ritmo, os valores serão obtidos aplicando as suas equações às durações dos intervalos vocálicos do enunciado, também por meio de algoritmos no Praat. Já no caso da redução das vogais átonas, seguindo o trabalho de Sandalo \citeyear{sandalo2012}, o cálculo será feito com base na duração e nas frequências do primeiro (F1) e do segundo formante (F2). Vogais mais altas e centrais e com durações mais curtas serão consideradas mais reduzidas do que as mais baixas e periféricas e com durações mais longas. 
+
+Na plataforma R \cite{rcoreteam2019}, serão feitas análises de efeitos mistos em regressão linear com o objetivo de determinar se os valores das variáveis rítmicas da amostra da fala de paraibanos e alagoanos residentes em São Paulo apresentam correlação com os fatores sociais Idade de Migração, Tempo de Residência e Rede Social. Correlações significativas indicarão que a exposição à fala paulista é um fator importante para explicar a variação rítmica na fala dos migrantes. Por fim, os padrões rítmicos da fala dos migrantes serão comparados aos das amostras de controle para que seja possível determinar em que medida eles se distanciam dos padrões de seus conterrâneos e se aproximam da variedade paulista, o que permitirá interpretar as correlações estatísticas em termos de um processo de acomodação dialetal.
+
+Espera-se que o ritmo da fala dos migrantes paraibanos e alagoanos em São Paulo seja cada vez menos silábico e mais acentual quanto menor for a idade de migração, maior o tempo de residência e mais aberta a rede social -- ou seja, quanto maior for a exposição à fala paulista. Essa expectativa se baseia em evidências de que as variedades nordestinas são mais silábicas em função do maior abaixamento das vogais pretônicas, enquanto as do Sudeste, mais acentuais, devido à maior redução vocálica \cites{abaurre-gnerre1981}{sandalo2012}. O cronograma das etapas da pesquisa pode ser visualizado na Tab. \ref{t1} a seguir:
+
+\begin{center}
+      \begin{table}[h]
+            \caption{Cronograma do projeto de pesquisa}
+            \label{t1}
+                  \begin{tabular}{m{160.42885pt}cccccccccc}
+                        \toprule
+                        \centering\multirow{2}{*}{Atividades} & & \multicolumn{4}{c}{1º Ano} & & \multicolumn{4}{c}{2º Ano} \\
+                        & Trimestre: & 1º & 2º & 3º & 4º & & 1º  & 2º  & 3º  & 4º \\
+                        \midrule
+                        Revisão bibliográfica & & $\times$ & $\times$ & $\times$ & $\times$ & & & & & \\
+                        \rowcolor{cinza1}Análise preliminar das amostras &  & $\times$ & &  &  &  &   & &  &  \\
+                        Seleção dos enunciados & & & $\times$ & & & & & & & \\
+                        \rowcolor{cinza1}Segmentação acústica &  & & $\times$& & & & & & & \\
+                        Cálculo de \%V & & & & $\times$ & & & & & & \\
+                        \rowcolor{cinza1}Cálculo de Varco$\Delta$V & & & & $\times$ & & & & & & \\
+                        Cálculo de nIVP-V & & & & $\times$ & & &  & & & \\
+                        \rowcolor{cinza1}Cálculo da redução vocálica & & & & & $\times$ & & & & & \\
+                        Análise estatística & & & & & & & $\times$  & & & \\
+                        \rowcolor{cinza1}Análise e discussão dos resultados & & & & & & & & $\times$  &  $\times$ & \\
+                        Elaboração da redação & & & & & & & & $\times$& $\times$  & $\times$ \\
+                        \bottomrule
+                  \end{tabular}
+      \end{table}
+\end{center}\vskip -4em
+
+\printbibliography
+
+\end{document}

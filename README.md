@@ -15,7 +15,7 @@ You're free to take, copy, modify and share all these data. There's only one req
 
 In terms of licenses, my request puts this repository under [3.0 Creative Commons Attribution (BY)](https://creativecommons.org/licenses/by/3.0/br/deed.en) license.
 
-Most of the data is written in Brazilian Portuguese, but I'll translate into English the materials that have reached a more stable and conclusive state. In the future, when this research is completed, I will translate into English all the remaining data.
+Most of the data is written in Brazilian Portuguese, but I'll translate into English the materials that have reached a more stable and conclusive state.
 
 Last, but not least, feel free to write me questions, suggestions, criticisms, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" section of this repository or you can send a message to my email (silveira.gustavocampos@gmail.com). It will be a pleasure to reply.
 

@@ -11,7 +11,7 @@ Data produced by other researchers was included here only if it's available unde
 
 All files were created or manipulated using free softwares (like [LibreOffice](https://pt-br.libreoffice.org/), [R](https://www.r-project.org/), [Praat](http://www.fon.hum.uva.nl/praat/), [ELAN](https://tla.mpi.nl/tools/tla-tools/elan/) and [LaTeX](https://www.latex-project.org/)), so you're not supposed to have problems to read them in your computer due to commercial licenses.
 
-You're free to take, copy, modify and share all these data. There's only one request I make is the following: if you are going to share some data from here (in its original version or modified by you), I ask you to always give, by citation, the source of the information. More than for personal credits, correct referencing is important for us to be able to track the relation of our scientific work to previous ones and to find out other interesting materials.
+You're free to take, copy, modify and share all these data. There's only one request I make: if you are going to share some data from here (in its original version or modified by you), I ask you to always give, by citation, the source of the information. More than for personal credits, correct referencing is important for us to be able to track the relation of our scientific work to previous ones and to find out other interesting materials.
 
 In terms of licenses, my request puts this repository under [3.0 Creative Commons Attribution (BY)](https://creativecommons.org/licenses/by/3.0/br/deed.en) license.
 

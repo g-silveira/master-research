@@ -1,6 +1,6 @@
 # g-silveira/master-research
 
-### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics in the [State University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my in progress academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
+### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics in the [University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my on going academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
 
 #### Until now, the title of the research is this:
 #### *Rhythmic variation in dialect contact situation: a sociolinguistic study of Northeastern migrants in São Paulo*

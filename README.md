@@ -1,9 +1,9 @@
 # g-silveira/master-research
 
-### Hello! My name is Gustavo Silveira and I'm a brazilian graduate student of Linguistics in the [State University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my in progress academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
+### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics in the [State University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my in progress academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
 
 #### Until now, the title of the research is this:
-#### *The regional variation in the durational organization of Brazilian Portuguese: a comparative sociophonetic study of São Paulo and Alagoas*
+#### *Rhythmic variation in dialect contact situation: a sociolinguistic study of Northeastern migrants in São Paulo*
 
 I advocate [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) (scientific knowledge accessible for everybody in everywhere) and I'm trying to make available for you all files, data, versions of writings, scripts (e.g., R and Praat scripts), notes, meeting agendas, bibliografies, figures, etc., of my research. With Git, you can also see all the change history of these files and have a better understanding of the real research process (with many corrections, revisions, modifications...) that was took to reach their actual state. 
 

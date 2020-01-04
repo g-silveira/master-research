@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.7)  31 DEC 2019 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.7)  4 JAN 2020 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Projeto_Fapesp_v03.tex
-(./Projeto_Fapesp_v03.tex
+**scholarship_project_fapesp_v03.tex
+(./scholarship_project_fapesp_v03.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -1453,8 +1453,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 
-(./Projeto_Fapesp_v03.aux)
-\openout1 = `Projeto_Fapesp_v03.aux'.
+(./scholarship_project_fapesp_v03.aux)
+\openout1 = `scholarship_project_fapesp_v03.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 93.
 LaTeX Font Info:    Try loading font information for OML+jkp on input line 93.
@@ -1604,52 +1604,54 @@ LaTeX Info: Redefining \ref on input line 93.
 LaTeX Info: Redefining \pageref on input line 93.
 LaTeX Info: Redefining \nameref on input line 93.
 
-(./Projeto_Fapesp_v03.out) (./Projeto_Fapesp_v03.out)
+(./scholarship_project_fapesp_v03.out) (./scholarship_project_fapesp_v03.out)
 \@outlinefile=\write5
-\openout5 = `Projeto_Fapesp_v03.out'.
+\openout5 = `scholarship_project_fapesp_v03.out'.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Projeto_Fapesp_v03.bcf'.
+\openout4 = `scholarship_project_fapesp_v03.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Projeto_Fapesp_v03.bbl' found.
- (./Projeto_Fapesp_v03.bbl)
+Package biblatex Info: ... file 'scholarship_project_fapesp_v03.bbl' found.
+
+(./scholarship_project_fapesp_v03.bbl)
 Package biblatex Info: Reference section=0 on input line 93.
 Package biblatex Info: Reference segment=0 on input line 93.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkpss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 111.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 110.
 
- (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 111
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 110
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 111
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 110
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 111
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 110
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 111
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 110
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
@@ -1657,48 +1659,49 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 )
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 118.
+(blindtext)                 on input line 117.
+
+
+LaTeX Warning: Empty bibliography on input line 150.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 
-Package biblatex Warning: Name format 'last-first' deprecated.
-(biblatex)                Please use 'family-given' instead.
-(biblatex)                Using 'family-given' now.
+(./scholarship_project_fapesp_v03.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package rerunfilecheck Info: File `scholarship_project_fapesp_v03.out' has not 
+changed.
+(rerunfilecheck)             Checksum: ED503A5A60904506164948B4351F5733;902.
 
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
- (./Projeto_Fapesp_v03.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
-Package rerunfilecheck Info: File `Projeto_Fapesp_v03.out' has not changed.
-(rerunfilecheck)             Checksum: 0B9D516503D2604DFC12D6AFB3B783F0;959.
-Package logreq Info: Writing requests to 'Projeto_Fapesp_v03.run.xml'.
-\openout1 = `Projeto_Fapesp_v03.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'scholarship_project_fapesp_v03.run.xm
+l'.
+\openout1 = `scholarship_project_fapesp_v03.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 29290 strings out of 494468
- 522646 string characters out of 6175091
- 989109 words of memory out of 5000000
- 32358 multiletter control sequences out of 15000+600000
- 89611 words of font info for 135 fonts, out of 8000000 for 9000
+ 29006 strings out of 494468
+ 517347 string characters out of 6175091
+ 990734 words of memory out of 5000000
+ 32145 multiletter control sequences out of 15000+600000
+ 78309 words of font info for 91 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 55i,5n,48p,1689b,1649s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/u
-sr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/tex
-mf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/kpfonts/jkpmite.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/j
-kpssbn8a.pfb>
-Output written on Projeto_Fapesp_v03.pdf (3 pages, 55626 bytes).
+ 55i,5n,48p,936b,1649s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/kpfonts/jkpssbn8a.pfb>
+Output written on scholarship_project_fapesp_v03.pdf (2 pages, 24943 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 21629 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 15477 words of extra memory for PDF output out of 17280 (max. 10000000)
 

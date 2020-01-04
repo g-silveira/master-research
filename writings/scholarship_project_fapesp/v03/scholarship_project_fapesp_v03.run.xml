@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Projeto_Fapesp_v03.bcf</file>
+      <file>scholarship_project_fapesp_v03.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Projeto_Fapesp_v03.bbl</file>
+      <file>scholarship_project_fapesp_v03.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,19 +66,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Projeto_Fapesp_v03</infile>
+      <infile>scholarship_project_fapesp_v03</infile>
     </cmdline>
     <input>
-      <file>Projeto_Fapesp_v03.bcf</file>
+      <file>scholarship_project_fapesp_v03.bcf</file>
     </input>
     <output>
-      <file>Projeto_Fapesp_v03.bbl</file>
+      <file>scholarship_project_fapesp_v03.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Projeto_Fapesp_v03.bbl</file>
+      <file>scholarship_project_fapesp_v03.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Projeto_Fapesp_v03.bcf</file>
+      <file>scholarship_project_fapesp_v03.bcf</file>
     </requires>
     <requires type="editable">
       <file>/home/gustavo/Zotero/zotero.bib</file>

@@ -1,53 +1,53 @@
 \documentclass[
-			a4paper,		% Dimensão do documento
-			12pt,			% Tamanho default de fonte
-			]{article}		% Classe do documento
+    a4paper,	% Dimensão do documento
+    12pt,	% Tamanho default de fonte
+    ]{article}	% Classe do documento
 
 % CODIFICAÇÕES E FONTES
-\usepackage[utf8]{inputenc}	% Codificação de caracteres
-\usepackage[T1]{fontenc}	% Codificação de fontes
-\usepackage{kpfonts}		% Fonte KP (Kepler)
-\usepackage[brazil]{babel}	% Português brasileiro como idioma padrão
+\usepackage[utf8]{inputenc} % Codificação de caracteres
+\usepackage[T1]{fontenc}    % Codificação de fontes
+\usepackage{kpfonts}	    % Fonte Kepler
+\usepackage[brazil]{babel}  % Português brasileiro como idioma padrão
 
 % FORMATAÇÃO
-\usepackage{geometry}	% Modificar margens
+\usepackage{geometry}	    % Modificar margens
 	\geometry{
-		left	= 20mm,		% Margem esquerda
-		right	= 20mm,		% Margem direita
-		top		= 25mm, 	% Margem superior
-		bottom	= 25mm, 	% Margem inferior
-		}
-\usepackage{microtype}	% Melhora tipografia
-\usepackage{setspace}	% Permite definir espaçamento entre linhas
-\renewcommand{\baselinestretch}{2.0}	% Espaçamento duplo como default
+	    left=20mm,	    % Margem esquerda
+	    right=20mm,	    % Margem direita
+	    top=25mm,	    % Margem superior
+	    bottom=25mm,    % Margem inferior
+	}
+\usepackage{microtype}			    % Melhora tipografia
+\usepackage{setspace}			    % Permite definir espaçamento entre linhas
+    \renewcommand{\baselinestretch}{2.0}    % Espaçamento duplo como default
 
 % GRÁFICOS E FIGURAS
 \usepackage{graphicx}	% Para inserir imagens
-\usepackage{tikz}		% Para criar ilustrações
+\usepackage{tikz}	% Para criar ilustrações
 
 % CORES
-\usepackage{xcolor}							% Permite usar cores
-	\definecolor{azul}{HTML}{0b365a}		% Azul
+\usepackage{xcolor}	% Permite usar cores
+	\definecolor{azul}{HTML}{0b365a}	% Azul
+	\definecolor{verde}{HTML}{004d00}	% Verde
 	\definecolor{vermelho}{HTML}{B20000}	% Vermelho
-	\definecolor{verde}{HTML}{004d00}		% Verde
-	\definecolor{cinzaclaro}{HTML}{DCDCDC}	% Cinza claro
-	\definecolor{cinzaescuro}{HTML}{A9A9A9}	% Cinza escuro
+	\definecolor{cinza1}{HTML}{DCDCDC}	% Cinza 1
+	\definecolor{cinza2}{HTML}{A9A9A9}	% Cinza 2
 
 % HYPERREF
 \usepackage[
-		colorlinks=true,	% Texto colorido ao invés de frame
-		linkcolor=blue,		% Cor de referências internas
-		citecolor=azul,		% Cor de citações
-		filecolor=magenta,  % Definir cor de links que abrem arquivos locais (?)
-		urlcolor=cyan,		% Cor de links externos (urls, emails)
-		pdftitle={ 			% Título que aparece na janela do visualizador
-			Variação rítmica em situação de contato dialetal
-			},
-		bookmarks=true,		% Mostrar bookmarks ao abrir o documento
-		]{hyperref} 
+    colorlinks=true,	% Texto colorido ao invés de frame
+    linkcolor=vermelho,	% Cor de referências internas
+    citecolor=azul,	% Cor de citações
+    filecolor=magenta,	% Definir cor de links que abrem arquivos locais (?)
+    urlcolor=verde,	% Cor de links externos (urls, emails)
+    pdftitle={		% Título que aparece na janela do visualizador
+	Acomodação dialetal na dimensão rítmica da fala
+	},
+    bookmarks=true,	% Mostrar bookmarks ao abrir o documento
+    ]{hyperref} 
 
 % TABELAS E LISTAS
-\usepackage{array}		% Mais recursos nos ambientes array e tabular
+\usepackage{array}	% Mais recursos nos ambientes array e tabular
 \usepackage{booktabs}	% Mais recursos para criação de tabelas
 \usepackage{multicol}	% Permite aglutinar cédulas na dimensão da coluna
 \usepackage{multirow}	% Permite aglutinar cédulas na dimensão da linha
@@ -55,22 +55,22 @@
 \usepackage{dcolumn}	% Esqueci a função deste pacote
 \renewcommand{\arraystretch}{1.3} % Espaçamento de linhas em tabelas
 \usepackage[
-	ampersand,			% Define como caractere '&' como operador
-	]{easylist}			% Facilita a criação de listas mais complexas
+	ampersand,	% Define como caractere '&' como operador
+	]{easylist}	% Facilita a criação de listas mais complexas
 
 % MATEMÁTICA
 \usepackage{amsmath}	% Pacote para expressões matemáticas
 
 % BIBLIOGRAFIA E CITAÇÃO
 \usepackage[ 
-		backend=biber, 				% Compilador de bibliografia
-		style=authoryear,			% Estilo de bibliografia
-		citestyle=authoryear-comp, 	% Estilo de citação
-		natbib=true, 				% Ativar compatibilidade com comandos do Natbib
+		backend=biber,			    % Compilador de bibliografia
+		style=authoryear,		    % Estilo de bibliografia
+		citestyle=authoryear-comp,	    % Estilo de citação
+		natbib=true,			    % Ativar compatibilidade com comandos do Natbib
 		]{biblatex}	
 	
-\addbibresource{/home/gustavo/Zotero/zotero.bib}	% Caminho do arquivo .bib
-\DeclareNameAlias{sortname}{last-first}		% Último nome antes dos demais
+\addbibresource{/home/gustavo/Zotero/zotero.bib}    % Caminho do arquivo .bib
+\DeclareNameAlias{sortname}{last-first}		    % Último nome antes dos demais
 
 % SEÇÕES
 \usepackage{titlesec}				% Modificar parâmetros dos títulos de seções
@@ -85,24 +85,27 @@
 		}	
 
 % Outros
-\usepackage{tipa} 			% Permite inserir caracteres fonéticos do IPA
+\usepackage{tipa} 		% Permite inserir caracteres fonéticos do IPA
 \usepackage{csquotes}		% Melhora as marcas de citação direta (e.g, aspas)
 \usepackage[page]{appendix}	% Permite criar apêndices
-\usepackage{blindtext}		% Permite gerar textos lorem ipsum
 
 \begin{document}
 	
 {\setstretch{1.5} % Espaçamento simples
+
 	% TÍTULO
 	\begin{center}
 		{\bfseries\Large\sffamily
-			Variação rítmica em situação de contato dialetal: um estudo sociolinguístico sobre a fala de migrantes alagoanos e paraibanos em São Paulo
+		    Acomodação dialetal na dimensão rítmica da fala: um estudo sociolinguístico
+		    sobre a fala de migrantes alagoanos em São Paulo
 		}
 	\end{center}
 }
 	
-	\vspace{0.35em}
+\vspace{0.35em}
+
 {\setstretch{1.0} % Espaçamento simples	
+
 	% AUTORES
 	\begin{flushright} 
 		Gustavo de Campos Pinheiro da Silveira \\ 
@@ -114,39 +117,110 @@
 	\begin{center} 
 	    {\bfseries\sffamily Resumo} \\ 
 	\end{center}
-	\blindtext \par
+	\par
 	\vspace{0.35em}
 	\noindent{\bfseries\sffamily Palavras-chave:} 
 		
 }
 
-\section{Introdução e justificativa} \label{intro}
+\section{Introdução} 
+\label{intro}
 
-\section{Pressupostos teóricos e metodológicos} \label{pressup}
+	\subsection{O estudo da fala dos migrantes}
 
-\section{Objetivos} \label{objetivos}
+Tradicionalmente, a pesquisa sociolinguística privilegiou a análise da fala dos
+membros considerados mais "prototípicos" de suas respectivas comunidades, isto
+é, dos residentes que nasceram e cresceram na região estudada, sobretudo
+daqueles cujos pais também são nativos \citep{Britain1992, Kerswill1993,
+Milroy2002, Oushiro2016}. A restrição da comunidade de fala aos falantes nativos
+é um procedimento metodológico que busca circunscrever a investigação
+sociolinguística apenas aos processos de variação e de mudança linguística
+desencadeados por fatores internos a uma variedade da língua \citep[][p.
+20]{Milroy2002, Labov2001}. Em outras palavras, os residentes migrantes são
+excluídos da amostra para evitar que fatores relacionados ao contato com outros
+dialetos ou línguas interfiram nos resultados da análise.
 
-\section{Plano de trabalho e cronograma} \label{plano}
+Ao lado dessa justificativa metodológica, a exclusão dos migrantes também se
+apoia na hipótese de \citet{Lenneberg1967} acerca do período crítico para a
+aquisição da linguagem. De acordo com essa hipótese, em torno dos primeiros anos
+da puberdade, o sistema linguístico do indivíduo se estabiliza e, daí em diante,
+deixa de sofrer alterações significativas, interrompendo-se o processo de
+aquisição natural. Se, de fato, esse for o caso, então o estudo da fala de uma
+comunidade deve se concentrar nos membros nativos, uma vez que os padrões
+linguísticos dos migrantes adultos refletirão os padrões das variedades de suas
+respectivas regiões de origem, adquiridos no decorrer da infância. É com base
+nesse raciocínio que muitas pesquisas sociolinguísticas decidem excluir de suas
+amostras os residentes migrantes que chegaram na comunidade depois da puberdade
+\citep[p. ex.][p. 111]{Labov1966}.
+
+Ainda que a restrição da análise sociolinguística à fala dos nativos seja
+compreensível, diversos estudos têm mostrado a importância de se considerar o
+papel dos migrantes na dinâmica da comunidade de fala \citep{Britain2018,
+Bortoni.Ricardo2011, Trudgill1986}. De acordo com \citet{Milroy2002}, não há
+sociedade urbana contemporânea que se aproxime do ideal de comunidade isolada do
+contato linguístico e dialetal decorrente da mobilidade geográfica e dos fluxos
+migratórios. E muitas pesquisas mostraram que o contato entre nativos e
+migrantes pode desencadear na comunidade anfitriã uma série de processos de
+mudança linguística, tal como nivelamentos, realocações, misturas dialetais,
+simplificações e formações de variantes interdialetais \citep{Trudgill1986}.
+
+A fala dos residentes migrantes é importante não apenas no nível da comunidade,
+mas também no nível do indivíduo. Isto porque a hipótese do período crítico
+\citep{Lenneberg1967} ainda não foi confirmada de modo definitivo e o debate
+sobre a estabilidade da fala adulta continua a ocupar as discussões
+sociolinguísticas. Algumas pesquisas recentes sugerem que são possíveis
+alterações na fala do indivíduo após o período crítico, ainda que tais não sejam
+tão frequentes, nem tão drásticas como as que acontecem na fala de crianças
+\citep{CukorAvila.Bailey2013}. E mesmo quando se consideram as crianças
+migrantes (portanto, em fase de aquisição da linguagem), uma série de perguntas
+ainda estão à espera de respostas \citep{Oushiro2016, Nycz2015, Chambers1992,
+Trudgill1986}: até que idade a criança deve chegar na comunidade anfitriã para
+adquirir total competência na variedade dessa comunidade? Quais fatores
+linguísticos e sociais podem acelerar ou inibir a aquisição de traços próprios
+da nova comunidade?
+
+\section{Pressupostos teóricos} 
+\label{pressup}
+
+\section{Objetivos} 
+\label{objetivos}
+
+O objetivo central deste projeto é investigar em que medida o ritmo da fala dos
+migrantes alagoanos que residem no Estado de São Paulo sofreu alterações em
+função do contato com a fala paulista.
+
+\section{Plano de trabalho e cronograma} 
+\label{plano}
 	
-\section{Materiais e métodos} \label{metodo}
+\section{Materiais e métodos} 
+\label{metodo}
 
-	\subsection{Variáveis} \label{variaveis}
+	\subsection{Variáveis} 
+	\label{variaveis}
 
-	\subsection{Amostras de fala} \label{amostra}
+	\subsection{Amostras de fala} 
+	\label{amostra}
 	
-		\subsubsection{Amostra de interesse} \label{amostra-int}
+		\subsubsection{Amostra de interesse} 
+		\label{amostra-int}
 		
-		\subsubsection{Amostras de controle} \label{amostra-ctrl}
+		\subsubsection{Amostras de controle} 
+		\label{amostra-con}
 
-	\subsection{Seleção dos enunciados} \label{selecao}
+	\subsection{Seleção dos enunciados} 
+	\label{selecao}
 
-	\subsection{Segmentação e etiquetagem} \label{segm}
+	\subsection{Segmentação e etiquetagem} 
+	\label{segm}
 
-	\subsection{Medições acústicas} \label{medicoes}
+	\subsection{Medições acústicas} 
+	\label{medicoes}
 	
-\section{Formas de análise dos resultados} \label{analise}
+\section{Formas de análise dos resultados} 
+\label{analise}
 
 {\setstretch{1.3} % Espaçamento entre linhas
 	\printbibliography
 }
+
 \end{document}

@@ -1,13 +1,13 @@
 # g-silveira/master-research
 
-### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics in the [State University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my in progress academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
+### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics at the [University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my on going academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
 
 #### Until now, the title of the research is this:
 #### *Rhythmic variation in dialect contact situation: a sociolinguistic study of Northeastern migrants in São Paulo*
 
 I advocate [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) (scientific knowledge accessible for everybody in everywhere) and I'm trying to make available for you all files, data, versions of writings, scripts (e.g., R and Praat scripts), notes, meeting agendas, bibliografies, figures, etc., of my research. With Git, you can also see all the change history of these files and have a better understanding of the real research process (with many corrections, revisions, modifications...) that was took to reach their actual state. 
 
-Data produced by other researchers will be included here only if it's available under some license that permits to share it or if its author(s) have authorized to share it. When included, the data have its source properly cited.
+Data produced by other researchers will be included here only if it's available under some license that permits to share it or if its author(s) have authorized to share it. When included, the data will have its source properly cited.
 
 All files were created or manipulated using free softwares (like [LibreOffice](https://pt-br.libreoffice.org/), [R](https://www.r-project.org/), [Praat](http://www.fon.hum.uva.nl/praat/), [ELAN](https://tla.mpi.nl/tools/tla-tools/elan/) and [LaTeX](https://www.latex-project.org/)), so you're not supposed to have problems to read them in your computer due to commercial licenses.
 

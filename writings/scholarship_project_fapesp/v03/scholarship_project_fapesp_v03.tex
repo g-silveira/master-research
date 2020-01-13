@@ -65,7 +65,8 @@
 \usepackage[ 
 		backend=biber,				% Compilador de bibliografia
 		style=authoryear,			% Estilo de bibliografia
-		citestyle=authoryear-comp,	% Estilo de citação
+		citestyle=authoryear,		% Estilo de citação
+		uniquename=false,
 		natbib=true,				% Ativar compatibilidade com comandos do Natbib
 		]{biblatex}	
 	
@@ -74,17 +75,17 @@
 
 % SEÇÕES
 \usepackage{titlesec}				% Modificar parâmetros dos títulos de seções
-	\titleformat*{\section}{		% Ajustes nos títulos das seções
+	\titleformat*{\section}{		% Ajustes nos títulos de seções
 		\Large\bfseries\sffamily
 		} 		
-	\titleformat*{\subsection}{ 	% Ajustes nos títulos das subseções
+	\titleformat*{\subsection}{ 	% Ajustes nos títulos de subseções
 		\large\bfseries\sffamily
 		}
-	\titleformat*{\subsubsection}{ 	% Ajustes nos títulos das subsubseções
+	\titleformat*{\subsubsection}{ 	% Ajustes nos títulos de subsubseções
 		}	
 
 % Outros
-\usepackage{tipa} 		% Permite inserir caracteres fonéticos do IPA
+\usepackage{tipa}			% Permite inserir caracteres fonéticos do IPA
 \usepackage{csquotes}		% Melhora as marcas de citação direta (e.g, aspas)
 \usepackage[page]{appendix}	% Permite criar apêndices
 
@@ -125,12 +126,24 @@
 \section{Introdução e justificativa} 
 \label{intro}
 
-	\subsection{O estudo da fala dos migrantes}
+	Este projeto de pesquisa propõe investigar um aparente processo de acomodação dialetal no ritmo
+	da fala de migrantes alagoanos que residem no Estado de São Paulo. A partir de análises
+	acústicas e estatísticas de uma amostra com gravações de entrevistas sociolinguísticas feitas
+	com dezessete alagoanos moradores da Região Metropolitana de Campinas \citep{Oushiro2018}, será
+	examinada a distribuição de um conjunto de métricas de ritmo, que permitirão determinar
+	quantitativamente as diferenças rítmicas na fala dos migrantes, em função de duas variáveis
+	sociais: a idade com que o migrante chegou na comunidade anfitriã e o tempo residindo nela.
+	Também serão incluídas nessa análise amostras da fala de alagoanos e paulistas não migrantes,
+	que servirão como um controle. Espera-se, com isso, alcançar o objetivo central desta pesquisa:
+	determinar em que medida a variação rítmica na fala dos alagoanos migrantes pode ser explicada
+	como o resultado do contato e de uma consequente acomodação ao ritmo da fala paulista.
+	
+	\subsection{O estudo da fala de migrantes}
 
 	Tradicionalmente, a pesquisa sociolinguística privilegiou a análise da fala dos membros
-	considerados mais "prototípicos" de suas respectivas comunidades, isto é, dos residentes que
+	considerados mais \enquote{prototípicos} de suas respectivas comunidades, isto é, dos residentes que
 	nasceram e cresceram na região estudada, sobretudo daqueles cujos pais também são nativos
-	\citep{Britain1992, Kerswill1993, Milroy2002, Oushiro2016}. A restrição da comunidade de fala
+	\citep{Britain2018, Oushiro2016, Milroy2002, Kerswill1993}. A restrição da comunidade de fala
 	aos falantes nativos é um procedimento metodológico que busca circunscrever a investigação
 	sociolinguística apenas aos processos de variação e de mudança linguística desencadeados por
 	fatores internos a uma variedade da língua \citep[][p.  20]{Milroy2002, Labov2001}. Em outras
@@ -138,7 +151,7 @@
 	ao contato com outros dialetos ou línguas interfiram nos resultados da análise.
 
 	Ao lado dessa justificativa metodológica, a hipótese de \citet{Lenneberg1967} acerca do período
-	crítico para a aquisição da linguagem também serve de apoio para a exclusão do migrantes da
+	crítico para a aquisição da linguagem também serve de apoio para a exclusão dos migrantes da
 	análise sociolinguística. De acordo com essa hipótese, em torno dos primeiros anos da puberdade,
 	o sistema linguístico do indivíduo se estabiliza e, daí em diante, deixa de sofrer alterações
 	significativas, interrompendo-se o processo de aquisição natural. Se, de fato, esse for o caso,
@@ -174,8 +187,8 @@
 	\subsection{A fala de migrantes nordestinos no Estado de São Paulo} \label{estudos-sp}
 
 	Recentemente, foi realizado um dos primeiros estudos sistemáticos sobre a fala de migrantes
-	internos no Brasil. O Projeto "Processos de acomodação dialetal na fala de nordestinos em São
-	Paulo" do Laboratório de Variação, Identidade, Estilo e Mudança (VARIEM) da Universidade
+	internos no Brasil. O Projeto \enquote{Processos de acomodação dialetal na fala de nordestinos
+	em São Paulo} do Laboratório de Variação, Identidade, Estilo e Mudança (VARIEM) da Universidade
 	Estadual de Campinas, coordenado por \citet{Oushiro2018} e financiado pela FAPESP (Processo
 	2016/04960-7), analisou a fala de paraibanos e alagoanos residentes no Estado de São Paulo e
 	investigou em que medida ela sofreu alterações em função do contato com a variedade paulista.
@@ -196,16 +209,16 @@
 	Seus resultados indicam que houve acomodação à pronúncia paulistana da vogal média /e/, mas não
 	da vogal média /o/, sugerindo que o processo de acomodação fonética não necessariamente segue o
 	princípio do paralelismo, um resultado que também foi observado por \citet{Oushiro2019}. Por sua
-	vez, \citet{Souza2017} e \citet{Oliveira2019} estão analisando, em suas pesquisas de doutorado e
-	de mestrado, respectivamente, a fala de migrantes baianos no estado paulista.  \citet{Souza2017}
-	está investigando os processos de acomodação dialetal na fala de residentes baianos na Região
-	Metropolitana de São Paulo com foco em quatro variáveis linguísticas: (i) a realização de /r/ em
-	coda silábica; (ii) a altura das vogais médias pretônicas /e/ e /o/; (iii) a negação sentencial;
-	(iv) e o uso do artigo definido diante de antropônimos. Já o estudo de \citet{Oliveira2019} se
-	concentra na acomodação da fala de baianos que moram em Bauru, município do interior paulista,
-	em relação à pronúncia do /r/ em coda silábica. Por fim, outras três pesquisadoras bolsistas em
-	nível de iniciação científica estão dando continuidade à análise sociolinguística do
-	\emph{corpus} coletado pelo já mencionado Projeto coordenado por \citet{Oushiro2018}.
+	vez, \citet{Souza2017} e \citet{Oliveira2019} estão analisando a fala de migrantes baianos no
+	estado paulista. \citet{Souza2017} está investigando, em sua pesquisa de doutorado, os processos
+	de acomodação dialetal na fala de residentes baianos na Região Metropolitana de São Paulo com
+	foco em quatro variáveis linguísticas: (i) a realização de /r/ em coda silábica; (ii) a altura
+	das vogais médias pretônicas /e/ e /o/; (iii) a negação sentencial; (iv) e o uso do artigo
+	definido diante de antropônimos. Já a pesquisa de mestrado de \citet{Oliveira2019} se concentra
+	na acomodação da fala de baianos que moram em Bauru, município do interior paulista, em relação
+	à pronúncia do /r/ em coda silábica. Por fim, outras três pesquisadoras bolsistas em nível de
+	iniciação científica estão dando continuidade à análise sociolinguística do \emph{corpus}
+	coletado pelo já mencionado Projeto coordenado por \citet{Oushiro2018}.
 
 	\subsection{A prosódia da fala nos estudos sociolinguísticos} \label{prosodia-socio}
 
@@ -224,30 +237,25 @@
 	inclusive ter função estilística, sendo usadas pelos falantes como uma forma de modelar
 	significados identitários.
 
-	Dentre essas pesquisas, ainda são poucas as que se dedicaram aos efeitos do contato linguístico
-	na prosódia da fala de migrantes internacionais, e mais raras ainda são as que discutem as
-	consequências prosódicas do contato entre variedades de uma mesma língua na fala de migrantes
-	internos. Uma dessas poucas iniciativas foi tomada por \citet{Carter2005} em seu estudo sobre a
-	variação rítmica no inglês falado por migrantes hispanófonos residentes nos Estados Unidos. Com
-	base em cálculos de métricas rítmicas extraídos de gravações sociolinguísticas feitas com oito
-	migrantes, os resultados a que \citet{Carter2005} chegou sugerem que a acomodação a traços
-	rítmicos em situação de contato linguístico depende de qual norma prosódica o migrante tem como
-	referência, podendo ser a norma da sua língua materna, a da sua região de difunde nos meios
-	escolares). \citet{Carter2005} também considera a possibilidade de um mesmo migrante alternar
-	entre diferentes normas prosódicas por motivos estilísticos.
+	No entanto, ainda continuam muito raras as pesquisas sociolinguísticas que se dedicam às
+	consequências prosódicas do contato linguístico e dialetal. E as que foram realizadas até o
+	momento se concentram, sobretudo, na fala de migrantes internacionais que se veem inseridos numa
+	situação de contato de línguas \citep{Carter2005}. Alguns estudos chegam a considerar os efeitos
+	do contato dialetal como fatores importantes para explicar os resultados a que chegaram
+	\citep{Torgersen.Szakay2012, Fagyal2010}, mas não trabalham diretamente com dados da fala de
+	migrantes internos, nem analisam sistematicamente variáveis relacionadas ao contato e à
+	acomodação dialetal. Pouco se sabe sobre quais fatores sociais e linguísticos se correlacionam
+	com o processo de acomodação prosódica em situação de contato dialetal, e uma série de perguntas
+	relevantes ainda estão à espera de análises sistemáticas para serem respondidas: qual é o papel
+	da idade de migração e do tempo de residência na comunidade anfitriã sobre a prosódia da fala? A
+	acomodação de variáveis prosódicas acompanha a de variáveis segmentais ou segue uma dinâmica
+	própria? Os migrantes tendem a se acomodar mais à prosódia da fala do que às realizações
+	segmentais? Ou o inverso? 
+	
+	Esta pesquisa não tem a pretensão de responder a todas essas perguntas, mas busca contribuir com
+	análises que permitam começar a esboçar algumas possíveis respostas no âmbito da fala de
+	migrantes internos no Brasil.
 
-	Até o momento, faltam análises sistemáticas das consequências prosódicas do contato entre
-	variedades de uma mesma língua. Alguns estudos, como o de \citet{Torgersen.Szakay2012} e o de
-	\citet{Fagyal2010}, chegam a discutir o contexto multiétnico de suas comunidades e consideram a
-	mobilidade geográfica e os consequentes contatos dialetais fatores importantes para explicar os
-	resultados a que chegaram, mas não trabalham diretamente com dados da fala de migrantes, nem
-	analisam sistematicamente variáveis relacionadas à migração.  Ainda não se sabe quais são os
-	efeitos da idade de migração e do tempo de residência na comunidade anfitrã sobre o ritmo da
-	fala dos migrantes, assim como se desconhecem as consequências rítmicas dos tipos de redes
-	sociais estabelecidas pelos migrantes na nova comunidade, nem o papel das atitudes deles em
-	relação à sua comunidade de origem e à comunidade para onde migrou.
-
-	\subsection{Impressões sobre o ritmo no português brasileiro}
 
 \section{Objetivos} \label{objetivos}
 
@@ -261,26 +269,56 @@ que residem no Estado de São Paulo sofreu alterações em função do contato c
 
 	\subsection{Variáveis} \label{variaveis}
 
-	Para atingir os objetivos propostos, esta pesquisa irá realizar uma análise quantitativa dos
-	efeitos que dois grupos de fatores sociais, a idade de migração e o tempo de residência na
-	comunidade anfitriã, têm sobre um conjunto de métricas rítmicas na fala de migrantes alagoanos
-	que residem em São Paulo. Portanto, os grupos de fatores serão assumidos como as variáveis
-	independentes desta pesquisa e as métricas rítmicas aplicadas à fala dos migrantes serão as
-	variáveis dependentes. Seguindo o trabalho de \citet{Oushiro2018}, as variáveis Idade de
-	Migração e Tempo de Residência contarão, cada uma, com dois fatores. A primeira englobará um
-	grupo de falantes que migraram com até 19 anos e outro com aqueles que chegaram em São Paulo com
-	20 anos ou mais. Já a segunda terá um grupo com migrantes que residem no estado paulista há 9
-	anos ou menos e outro com aqueles cuja residência na comunidade anfitriã já dura 10 anos ou
-	mais. As variáveis rítmicas serão apresentadas com mais detalhes adiante no item \ref{medicoes}.
+	Para atingir os objetivos propostos, será feita uma análise quantitativa dos efeitos que dois
+	grupos de fatores sociais, a idade de migração e o tempo de residência na comunidade anfitriã,
+	têm sobre um conjunto de métricas rítmicas na fala de migrantes alagoanos que residem em São
+	Paulo. Portanto, os grupos de fatores serão assumidos como as variáveis independentes desta
+	pesquisa e as métricas rítmicas aplicadas à fala dos migrantes serão as variáveis dependentes.
+	Seguindo o trabalho de \citet{Oushiro2018}, as variáveis Idade de Migração e Tempo de Residência
+	contarão, cada uma, com dois fatores. A primeira englobará um grupo de falantes que migraram com
+	até 19 anos de idade  e outro com aqueles que chegaram em São Paulo com 20 anos ou mais. Já a
+	segunda terá um grupo com migrantes que residem no estado paulista há 9 anos ou menos e outro
+	com aqueles cuja residência na comunidade anfitriã já dura 10 anos ou mais. As variáveis
+	rítmicas serão apresentadas com mais detalhes adiante no item \ref{medicoes}.
 
 	\subsection{Amostras de fala} 
 	\label{amostra}
 	
-	As amostras de fala com as quais esta pesquisa irá trabalhar consistirão em aproximadamente
-	1.160 enunciados retirados de três \emph{corpora} de entrevistas sociolinguísticas. 
+	As amostras de fala com as quais esta pesquisa irá trabalhar serão retiradas de três
+	\emph{corpora} de entrevistas sociolinguísticas elaborados em pesquisas anteriores. A amostra de
+	interesse consistirá em aproximadamente 680 enunciados (40 por falante) que serão extraídos de
+	entrevistas sociolinguísticas com dezessete alagoanos que residem na Região Metropolitana de
+	Campinas.  Essas entrevistas foram gravadas entre 2017 e 2018 no âmbito do Projeto
+	\enquote{Processos de acomodação dialetal na fala de nordestinos em São Paulo}
+	\citep{Oushiro2018}, já mencionado no item \ref{estudos-sp}, e estão estratificadas em gênero
+	(masculino e feminino), idade de migração (até 19 anos e 20 anos ou mais) e tempo de residência
+	em São Paulo (até 9 anos e 10 anos ou mais). De acordo com \citet{Oushiro2018}, as entrevistas
+	têm uma duração média de sessenta minutos e seguiram um roteiro elaborado de modo a levantar
+	informações relevantes para o estudo do contato dialetal.
+
+	Além da amostra de interesse, esta pesquisa também analisará duas amostras de controle que serão
+	extraídas de dois \emph{corpora} sociolinguísticos já coletados, o SP2010
+	\citep{Mendes.Oushiro2012}, com paulistas não migrantes, e o PORTAL \citep{Oliveira2017}, com
+	alagoanos não migrantes. Serão selecionados e extraídos aproximadamente 240 enunciados de
+	gravações com seis falantes (três mulheres e três homens) de cada um desses \emph{corpora} (40
+	enunciados por falante). Embora ambos estejam estratificados em gênero, faixa etária e
+	escolaridade, a subamostra de informantes que será selecionada para esta pesquisa não será
+	estratificada e, portanto, se buscará selecionar informantes de um perfil único que seja próximo
+	ao da amostra de interesse.
+
+	Estima-se que o conjunto total de dados a serem analisados nesta pesquisa contará com 1.160
+	enunciados da fala semiespontânea de 29 informantes (17 alagoanos migrantes, 6 alagoanos não
+	migrantes e 6 paulistas não migrantes), todos gravados em contexto de entrevista
+	sociolinguística.
 	
 	\subsection{Seleção dos enunciados} 
 	\label{selecao}
+
+	Ainda que sejam aplicáveis a qualquer extensão da fala, as métricas de ritmo foram pensadas para
+	calcular o ritmo da fala num enunciado \citep{Fuchs2016}. No entanto, a maioria dos trabalhos
+	que utilizaram métricas rítmicas se baseou em amostras de fala lida e considerou cada período do
+	texto lido como o equivalente de um enunciado. Esse critério de delimitação do enunciado não
+	funciona, no entanto, para amostras de fala espontânea ou semiespontânea.
 
 	\subsection{Segmentação e etiquetagem} 
 	\label{segm}

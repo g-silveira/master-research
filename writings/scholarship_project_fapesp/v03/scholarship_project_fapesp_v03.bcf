@@ -2043,6 +2043,21 @@
     <bcf:citekey order="32">Fuchs2016</bcf:citekey>
     <bcf:citekey order="33">Boersma.Weenink2019</bcf:citekey>
     <bcf:citekey order="34">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="35">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="36">Barbosa2003</bcf:citekey>
+    <bcf:citekey order="37">Junior.Barbosa2019</bcf:citekey>
+    <bcf:citekey order="38">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="39">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="40">RCoreTeam2019</bcf:citekey>
+    <bcf:citekey order="41">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="42">Ramus.etal1999</bcf:citekey>
+    <bcf:citekey order="43">Dellwo2006</bcf:citekey>
+    <bcf:citekey order="44">Low.etal2000</bcf:citekey>
+    <bcf:citekey order="45">Low.etal2000</bcf:citekey>
+    <bcf:citekey order="46">Gibbon.Gut2001</bcf:citekey>
+    <bcf:citekey order="47">Deterding1994</bcf:citekey>
+    <bcf:citekey order="47">Deterding2001</bcf:citekey>
+    <bcf:citekey order="48">Wagner.Dellwo2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

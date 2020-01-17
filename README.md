@@ -13,10 +13,12 @@ All files were created or manipulated using free softwares (like [LibreOffice](h
 
 You're free to take, copy, modify and share all these data. There's only one request I make: if you are going to share some data from here (in its original version or modified by you), I ask you to always give, by citation, the source of the information. More than for personal credits, correct referencing is important for us to be able to track the relation of our scientific work to previous ones and to find out other interesting materials.
 
-In terms of licenses, my request puts this repository under [3.0 Creative Commons Attribution (BY)](https://creativecommons.org/licenses/by/3.0/br/deed.en) license.
+In terms of licenses, my request puts this repository under [4.0 Creative Commons Attribution (BY)](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
 Most of the data is written in Brazilian Portuguese, but I'll translate into English the materials that have reached a more stable and conclusive state.
 
 Last, but not least, feel free to write me questions, suggestions, criticisms, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" section of this repository or you can send a message to my email (silveira.gustavocampos@gmail.com). It will be a pleasure to reply.
 
 For the time being, that's it! Thank you for your interest!
+
+[cc-by](/images/cc-by.svg)

@@ -72,7 +72,8 @@
 			natbib=true,			% Ativar compatibilidade com Natbib
 			]{biblatex}	
 		
-	\addbibresource{bibliography.bib}	% Caminho do arquivo .bib
+%	\addbibresource{bibliography.bib}	% Caminho do arquivo .bib
+    \bibliography{bibliography}
 	\DeclareNameAlias{sortname}{last-first}				% Último nome antes dos demais
 
 	% SEÇÕES
@@ -90,15 +91,34 @@
 	\usepackage{tipa}			% Permite inserir caracteres fonéticos do IPA
 	\usepackage{csquotes}		% Melhora as marcas de citação direta (e.g, aspas)
 	\usepackage[page]{appendix}	% Permite criar apêndices
+    \usepackage{comment}
+    \usepackage{trivfloat}\trivfloat{quadro}
 
 	\begin{document}
+	
+	%%%QUESTAO PRATICA: 
+	%%% - preencha completamente as referencias bibliográficas no arquivo bib. Parece-me que há artigos e scripts com referência incompleta. É importante tê-los completos para saber o quanto eles vão ocupar nas páginas finais. Ainda sobre a bibliografia, estou achando demais ter 2,5 páginas para um projeto de mestrado; mais importante: acho que vamos precisar de mais uma página para algumas coisas que precisam ser incluídas no TEXTO. Então veja se consegue diminuir a bibliografia pra 1,5 página, selecionando melhor as referências. 
+	
+	%%%Há vários trabalhos referenciados mas não resenhados. Alguns mereceriam algumas palavras a mais (como Bortoni-Ricardo2011: é uma obra importante, que só é mencionada, mas nada se diz sobre ela). Ao só mencionar certos trabalhos, sem resenhá-los, vc assume que seu leitor os conhece, mas é muito mais provável que não. Uma coisa é citar Labov 1966 (todo mundo leu, ou pelo menos deveria ter lido), outra é citar Carter 2005 (a maioria não sabe quem é). Vc deverá falar um pouco mais sobre alguns dos trabalhos citados. (indico abaixo no texto)
+	
+	%%%Por outro, tenho certeza de que dá pra diminuir o número de referências para outros pontos. Vá treinando: quando vc for fazer artigos e tiver limite de páginas, eliminar referências é um jeito fácil de ganhar espaço para outras coisas que não podem ficar de fora. 
+	
+	
+    %%%COMENTARIO GERAL: Nesta primeira leitura, ainda não estou cuidando tanto do texto em si, de questões formais; estou pensando mais no CONTEUDO. De modo geral, a parte de Introdução + resenhas precisa ser mais extensa. 
+    
+    %%%Uma parte de que senti falta é falar mais sobre como é a prosódia brasileira, e quais são (ou seriam) as diferenças entre uma prosódia alagoana/nordestina e paulista/sudestina. Sem uma tal descrição, ainda que breve, o leitor não entende direito o que vc vai analisar nos "parâmetros rítmicos" que serão extraídos pelos scripts do Praat. 
+    
+    %%%Também está faltando uma seção de justificativa, destacada da introdução. Entendo que vc está justificando a pesquisa ao longo da revisão bibliográfica. Mas é importante ter uma seção que retoma os argumentos de por que uma tal pesquisa é relevante (e que, sim, vai repetir resumidamente argumentos já colocados em outros pontos do texto). No manuscrito, coloco onde deve entrar a Justificativa. 
+    
+    
+    %%%Menos central, mas também importante: faltou colocar trechos da fala "leiga", que aponta para o ritmo como um diferenciador de dialetos, no senso comum; e as menções de Faraco e Bagno sobre isso (como sendo um dos traços diferenciadores de dialetos do nordeste e do sudeste). 
 		
 	% TÍTULO
 	{\setstretch{1.5} % Espaçamento simples
 		\begin{center} {\bfseries\Large\scshape Acomodação dialetal na dimensão
-				rítmica da fala: um estudo sociolinguístico sobre a fala de
+				prosódica da fala: \\um estudo sociolinguístico sobre a fala de
 				migrantes alagoanos em São Paulo } \end{center} }
-		
+	%%%O termo "prosódia" é mais conhecido do que "ritmo". 
 	\vspace{0.35em}
 
 	{\setstretch{1.1} % Espaçamento simples	
@@ -107,10 +127,11 @@
 		\begin{flushright} 
 			Gustavo de Campos Pinheiro da Silveira \\ 
 			\vspace{5pt}
-			Orientadora: Prof.\textsuperscript{a} Dr.\textsuperscript{a} Livia Oushiro
+			Orientadora: Prof\textsuperscript{a} Dr\textsuperscript{a} Livia Oushiro
 		\end{flushright}
 
 		% RESUMO
+		%%% O resumo do projeto FAPESP pode ter até 20 linhas. Quando o projeto estiver concluído, vamos desenvolver esse resumo pra que fique mais informativo e atraente. É a primeira coisa que o parecerista lê! Ele já precisa estar "fisgado" neste ponto. Mas mantenha o resumo como está, por enquanto.
 		\begin{center} 
 			{\bfseries\scshape Resumo} \\ 
 		\end{center}
@@ -129,24 +150,26 @@
 			acomodação dialetal ao ritmo da fala paulista?
 		\par
 		\vspace{1.35em}
-		\noindent{\bfseries\scshape Palavras-chave:} sociolinguística; acomodação dialetal;
-			contato dialetal; ritmo da fala; prosódia.
+		\noindent{\bfseries\scshape Palavras-chave}: acomodação dialetal;
+			contato dialetal; ritmo da fala; prosódia; migrantes alagoano; português paulista.
 			
 	}
 
-	\section{Introdução e justificativa} 
+	\section{Introdução} 
 	\label{intro}
-
-	Este projeto propõe uma investigação sociolinguística dos padrões rítmicos
-	da fala de migrantes alagoanos que residem no Estado de São Paulo. O
+    %%%Depois, também vamos pensar em como deixar esse início mais atraente. Esse formato "O objetivo desta pesquisa é... " está muito "duro". Essa já vai ser uma informação que vai estar no resumo; aqui, vale mais começar com a apresentação do problema geral, antes de afirmar qual é o seu objetivo nesta pesquisa. Mas, novamente, por enquanto deixe assim. Concentre-se primeiro na inclusão de partes faltantes. 
+	Este projeto propõe uma investigação sociolinguística dos padrões prosódicos 
+	da fala de migrantes alagoanos que residem no Estado de São Paulo, em comparação com a fala de alagoanos e paulistas não migrantes. O
 	objetivo central é investigar em que medida esses migrantes se acomodaram à
 	variedade paulista na dimensão rítmica da fala. Para isso, será realizada
-	uma análise quantitativa da distribuição de um conjunto de métricas
+	uma análise qualitativa e quantitativa da distribuição de um conjunto de métricas
 	rítmicas, extraídas de uma amostra sociolinguística da fala de alagoanos
-	moradores de São Paulo, em função de duas variáveis sociais: a idade com que
-	o migrante chegou na comunidade anfitriã e o tempo residindo nela.
+	moradores de São Paulo, em função de variáveis sociais e linguísticas. 
+	%de duas variáveis sociais: a idade com que
+	%o migrante chegou na comunidade anfitriã e o tempo residindo nela.
+	%%%Embora essas duas variáveis sejam de especial interesse para você, a análise sociolinguística é sempre MULTIvariada -- analisa a influência de múltiplas variáveis previsoras. Fica estranho falar que vc vai analisar só essas duas variáveis. 
 	Espera-se, com isso, obter dados que ajudem a compreender as consequências
-	rítmicas do contato e da acomodação dialetal na fala de migrantes internos
+	do contato e da acomodação dialetal para a variação prosódica na fala de migrantes internos
 	no Brasil.
 	
 	\subsection{O estudo da fala de migrantes}
@@ -175,7 +198,7 @@
 	adquiridos no decorrer da infância. É com base nesse raciocínio que muitas
 	pesquisas sociolinguísticas decidem excluir de suas amostras os residentes
 	migrantes que chegaram na comunidade depois da puberdade \citep[p. ex.][p.
-	111]{Labov1966}.
+	111]{Labov1966}.%%% Cite como Labov 2006 [1966]. Imagino que vc não teve acesso à versão de 1966. Cite apenas as obras a que teve acesso (e leu, evidentemente). 
 
 	Ainda que a restrição da análise sociolinguística à fala dos nativos seja
 	compreensível, diversos estudos têm mostrado a importância de se considerar o
@@ -248,6 +271,8 @@
 	iniciação científica estão dando continuidade à análise sociolinguística do
 	\emph{corpus} coletado pelo já mencionado Projeto coordenado por
 	\citet{Oushiro2018}.
+	
+	%%%Precisa de algumas palavras aqui sobre o que tudo isso tem a ver com sua pesquisa. "O presente estudo se situa nesse contexto de expansão de pesquisas sobre a fala de migrantes..." -- algo assim
 
 	\subsection{A prosódia da fala nos estudos sociolinguísticos}
 	\label{prosodia-socio}
@@ -261,23 +286,28 @@
 	contexto dos estudos sobre a fala de migrantes, mas na pesquisa
 	sociolinguística de modo mais geral, ainda são poucos os trabalhos acerca da
 	variação prosódica se comparados àqueles que se dedicam à variação de
-	segmentos vocálicos e consonantais \citep{Thomas2013, Hay.Drager2007}.
-	Apesar disso, as pesquisas realizadas até o momento já indicam que o ritmo e
+	segmentos vocálicos e consonantais \citep{Thomas2013, Hay.Drager2007}, bem como à variação nos níveis morfológico e sintático. As poucas pesquisas realizadas até o momento, a maioria sobre ((quais línguas e variedades?)), já indicam que o ritmo e
 	a entoação da fala não apenas variam regionalmente
 	\citep{Clopper.Smiljanic2015, Grabe.etal2000}, como também podem apresentar
 	estratificações sociais de gênero \citep{Lowry2011} e de etnia
 	\citep{Thomas2013, Szakay2006}.  Os resultados a que \citet{Podesva2011}
 	chegou mostram que as variáveis prosódicas podem inclusive ter função
-	estilística, sendo usadas pelos falantes como uma forma de modelar
-	significados identitários.
+	estilística, sendo usadas pelos falantes como uma forma de sinalizar identidades.
+	
+	%%%Esse ponto precisa ser mais desenvolvido, sobretudo no que tange à variação regional. Resenhe pelo menos uma das obras. Todos esses estudos são nos EUA? 
+	
 
 	No entanto, ainda continuam muito raras as pesquisas sociolinguísticas que
-	se dedicam às consequências prosódicas do contato linguístico e dialetal. E
+	se dedicam à influência do contato linguístico e dialetal sobre a prosódia. E
 	as que foram realizadas até o momento se concentram, sobretudo, na fala de
 	migrantes internacionais que se veem inseridos numa situação de contato de
-	línguas \citep{Carter2005}. Alguns estudos chegam a considerar os efeitos do
+	línguas. Por exemplo, \citep{Carter2005}, XXXXX.
+	%%%Resenhe brevemente Carter 2005. Do que trata? qual é a comunidade? quantos falantes? qual a principal conclusão? 
+	Alguns estudos chegam a considerar os efeitos do
 	contato de dialetos como fatores importantes para explicar os resultados a que
-	chegaram \citep{Torgersen.Szakay2012, Fagyal2010}, mas não trabalham
+	chegaram \citep{Torgersen.Szakay2012, Fagyal2010}, 
+	%%%Essa afirmação está super vaga!!! precisa ser mais claro e preciso. 
+	mas não trabalham
 	diretamente com dados da fala de migrantes internos, nem analisam
 	sistematicamente variáveis relacionadas ao contato e à acomodação dialetal.
 	Pouco se sabe sobre quais fatores sociais e linguísticos se correlacionam
@@ -285,18 +315,21 @@
 	uma série de perguntas relevantes ainda estão à espera de análises
 	sistemáticas para serem respondidas: qual é o papel da idade de migração e
 	do tempo de residência na comunidade anfitriã sobre a prosódia da fala? A
-	acomodação de variáveis prosódicas acompanha a de variáveis segmentais ou
+	acomodação de variáveis prosódicas acompanha a de variáveis segmentais, como a altura de vogais médias pretônicas ou a realização de /r/ em coda, ou
 	segue uma dinâmica própria? Os migrantes tendem a se acomodar mais à
 	prosódia da fala do que às realizações segmentais? Ou o inverso? 
 		
 	Esta pesquisa não tem a pretensão de responder a todas essas perguntas, mas
 	busca contribuir com análises que permitam começar a esboçar algumas
 	possíveis respostas no âmbito da fala de migrantes internos no Brasil.
+	%%%Este objetivo também está muito vago. 
+	
+	%%%O que caracteriza a diferença prosódica entre o falar alagoano/nordestino e o paulista/sudestino? Qual parâmetro acústico? Precisa falar alguma coisa sobre isso. 
 
 	\section{Objetivos} \label{objetivos}
 
-	O objetivo central deste projeto é investigar em que medida o ritmo da fala
-	de migrantes alagoanos que residem no Estado de São Paulo sofreu alterações
+	O objetivo central deste projeto é investigar em que medida a prosódia -- mais especificamente, o ritmo -- 
+	sofreu alterações na fala de migrantes alagoanos que residem no Estado de São Paulo 
 	em função do contato com a fala paulista. Para atingir essa meta, serão
 	realizadas análises acústicas e estatísticas com os seguintes objetivos
 	específicos:
@@ -308,13 +341,20 @@
 		seguintes variáveis sociais: a idade com que o migrante se mudou para o
 		Estado de São Paulo e o tempo residindo nele;
 	\end{easylist}
+	
+	%%%outras variáveis (incluir na parte de metodologia, como hipóteses a serem testadas)
+	
+	\section{Justificativa}
+	
+	%%%Incluir aqui a justificativa (desenvolva de modo mais elegante o que coloco aqui informalmente): ainda há poucos trabalhos sobre a fala de migrantes, e é um tópico que vem se expandindo; dentro desse tópico, nao há trabalhos sobre variação prosódica, o que é algo raro nos estudos sociolinguísticos brasileiros de modo geral. No entanto, a prosódia, mais especificamente o ritmo, parece ser um dos maiores diferenciadores dialetais no português brasileiro. Esta pesquisa contribuirá, então, para a agenda de estudos sobre a fala de migrantes e sobre a variação prosódica nas variedades do PB. Indiretamente, também trará contribuiçòes metodológicas, ao trazer novas técnicas de análise da variação (com scripts no Praat e no R).
 
 	\section{Plano de trabalho e cronograma} \label{plano}
 
-	O plano de trabalho deste projeto pode ser visualizado na Tab.
+	O plano de trabalho deste projeto pode ser visualizado no Quadro
 	\ref{tab-crono} a seguir:
+    %%%De acordo com a ABNT, se não tem número, trata-se de Quadro, e não de tabela. Chatices da ABNT....
 
-	\begin{table}[h!]
+	\begin{quadro}[h!]
 		\vspace{1em}
 		\caption{\rmfamily Cronograma de pesquisa}
 		\vspace{.5em}
@@ -349,13 +389,13 @@
 			Extração das métricas rítmicas e codificação dos dados &&\vdots&\vdots&\vdots&\vdots&&$\bullet$&\vdots&\vdots &\vdots \\  
 			Análise quantitativa &&\vdots&\vdots&\vdots&\vdots&&$\bullet$&$\bullet$&$\bullet$ &\vdots \\  
 			\rowcolor{cinza1}
-			Exame de qualificação &&\vdots&\vdots&\vdots&$\bullet$&&\vdots&\vdots&\vdots &\vdots \\  
-			Apresentação de trabalho no IV Encontro de Sociolinguistas &&\vdots&$\bullet$&\vdots&\vdots&&\vdots&$\bullet$&\vdots
+			Exame de qualificação &&\vdots&\vdots&\vdots&\vdots&&\vdots&$\bullet$&\vdots &\vdots \\  
+			Participação em encontros científicos\footnote{IV Encontro de Sociolinguistas, XX Seminário do GEL e XX Congresso Internacional da ABRALIN} &&\vdots&$\bullet$&\vdots&\vdots&&$\bullet$&$\bullet$&$\bullet$
 			&\vdots \\  
-			\rowcolor{cinza1}
-			Apresentação de trabalho no GEL &&\vdots&\vdots&\vdots&\vdots&&\vdots&\vdots&$\bullet$&\vdots \\  
-			Apresentação de trabalho no Congresso Internacional da Abralin
-			&&\vdots&\vdots&\vdots&\vdots&&$\bullet$&\vdots&\vdots&\vdots\\
+%			\rowcolor{cinza1}
+%			Apresentação de trabalho no GEL &&\vdots&\vdots&\vdots&\vdots&&\vdots&\vdots&$\bullet$&\vdots \\  
+%			Apresentação de trabalho no Congresso Internacional da Abralin
+%			&&\vdots&\vdots&\vdots&\vdots&&$\bullet$&\vdots&\vdots&\vdots\\
 			\rowcolor{cinza1}
 			Redação do relatório parcial para a FAPESP &&\vdots&\vdots&\vdots&$\bullet$&&\vdots&\vdots&\vdots &\vdots \\  
 			Redação do relatório final para a FAPESP &&\vdots&\vdots&\vdots&\vdots&&\vdots&\vdots&$\bullet$ & $\bullet$\\  
@@ -365,15 +405,18 @@
 			\hline
 			\hline
 		\end{tabular}
-	\end{table}
+	\end{quadro}
 		
 	\section{Materiais, métodos e formas de análise} \label{metodo}
 
+\begin{comment}
 	A metodologia adotada nesta pesquisa terá como objetivo central determinar
 	como se dá a distribuição de um conjunto de métricas rítmicas, extraídas de
 	gravações da fala de uma amostra de migrantes alagoanos moradores de São
 	Paulo, em função de duas variáveis sociais: a idade de migração e o tempo de
 	residência na comunidade anfitriã.
+	%%%Repetido dos objetivos. Desnecessário.
+\end{comment}
 
 	\subsection{Amostras} \label{amostra}
 
@@ -415,6 +458,8 @@
 	seus conterrâneos e se aproximam do ritmo da fala paulista. Será isso que
 	permitirá saber se está ou não ocorrendo um processo de acomodação dialetal
 	na dimensão rítmica da fala dos alagoanos em São Paulo.
+	
+	%%%essa afirmação implica uma linearidade nos padrões prosódicos entre as variedades, em que se vai de um polo A para o B. existe ainda uma outra possibilidade (lógica, não sei se factual): os falantes se distanciam da fala dos conterrâneos, mas não se aproximam da fala dos paulistas - formam algum terceiro padrão, distinto dos dois grupos controle
 		
 	\subsection{Seleção dos enunciados} \label{selecao}
 
@@ -501,7 +546,7 @@
 		\label{praat}
 		\centering
 		\includegraphics{praat_sample_01}
-	\end{figure}
+	\end{figure} %%%ref da imagem? 
 		
 	\subsection{Medições acústicas} \label{medicoes}
 
@@ -531,8 +576,8 @@
 	esses intervalos são mais variáveis e vice-versa. As principais diferenças
 	entre as métricas são o tipo de intervalo a que se aplicam, qual cálculo de
 	dispersão adotam (no caso do segundo grupo) e se utilizam alguma forma de
-	normalização da taxa de elocução. Um resumo das métricas que serão
-	usadas nesta pesquisa pode ser visualizado no Apêndice \ref{metricas} .
+	normalização da taxa de elocução. %Um resumo das métricas que serão
+	%usadas nesta pesquisa pode ser visualizado no Apêndice \ref{metricas} .%%%Não é muito bom ter anexo em projeto, a menos que imprescindível!
 
 	\section{Formas de análise dos resultados} \label{analise}
 
@@ -552,6 +597,9 @@
 	{\setstretch{1.3} % Espaçamento entre linhas
 		\printbibliography
 	}
+
+\begin{comment}
+%%%Guarde a tabela abaixo para relatórios e a própria dissertação. Aqui, num projeto, ela parece "fora de lugar". Como conversamos, não é seu papel "ensinar" ao parecerista sobre prosódia (vc pode acabar fazendo isso no desenvolver da pesquisa, na dissertação). Aqui, seu papel é convencer o leitor de que a pesquisa vale a pena ser feita. Tudo o que for necessário para entender seus objetivos e métodos tem que estar explicado no texto. 
 
 \pagebreak
 
@@ -598,5 +646,6 @@ Coeficiente de variabilidade (Varco) &  Desvio padrão dos intervalos\textsupers
 	início de vogais ou intervalo VV.} \\ 
 \end{tabular}  
 \end{table}
+\end{comment}
 
 	\end{document}

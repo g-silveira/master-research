@@ -21,4 +21,6 @@ Last, but not least, feel free to write me questions, suggestions, criticisms, r
 
 For the time being, that's it! Thank you for your interest!
 
-[cc-by](/images/cc-by.svg)
+![cc-by](/images/cc-by.svg)
+
+*Except where otherwise noted, content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).*

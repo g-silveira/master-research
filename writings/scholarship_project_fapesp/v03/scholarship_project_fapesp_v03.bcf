@@ -151,7 +151,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -2049,15 +2049,6 @@
     <bcf:citekey order="38">Ramus.etal1999</bcf:citekey>
     <bcf:citekey order="39">Ramus.etal1999</bcf:citekey>
     <bcf:citekey order="40">RCoreTeam2019</bcf:citekey>
-    <bcf:citekey order="41">Ramus.etal1999</bcf:citekey>
-    <bcf:citekey order="42">Ramus.etal1999</bcf:citekey>
-    <bcf:citekey order="43">Dellwo2006</bcf:citekey>
-    <bcf:citekey order="44">Low.etal2000</bcf:citekey>
-    <bcf:citekey order="45">Low.etal2000</bcf:citekey>
-    <bcf:citekey order="46">Gibbon.Gut2001</bcf:citekey>
-    <bcf:citekey order="47">Deterding1994</bcf:citekey>
-    <bcf:citekey order="47">Deterding2001</bcf:citekey>
-    <bcf:citekey order="48">Wagner.Dellwo2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.7)  14 JAN 2020 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.7)  17 JAN 2020 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,64 +1435,72 @@ Package biblatex Info: ... file 'brazilian.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
 File: brazilian.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ))
+
+Package biblatex Warning: Conflicting options.
+(biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
+(biblatex)                Setting 'uniquename=init' on input line 100.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-
 (./scholarship_project_fapesp_v03.aux)
 \openout1 = `scholarship_project_fapesp_v03.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 94.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 94.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 100.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 100.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 94.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 100.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 94.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 100.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 94.
-
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 100
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 100.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Try loading font information for T1+jkp on input line 94.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for T1+jkp on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
@@ -1531,7 +1539,7 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 94.
+LaTeX Info: Redefining \microtypecontext on input line 100.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1580,7 +1588,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 94.
+Package hyperref Info: Link coloring ON on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1590,9 +1598,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (./scholarship_project_fapesp_v03.out) (./scholarship_project_fapesp_v03.out)
 \@outlinefile=\write5
@@ -1607,12 +1615,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'scholarship_project_fapesp_v03.bbl' found.
 
 (./scholarship_project_fapesp_v03.bbl)
-Package biblatex Info: Reference section=0 on input line 94.
-Package biblatex Info: Reference segment=0 on input line 94.
+Package biblatex Info: Reference section=0 on input line 100.
+Package biblatex Info: Reference segment=0 on input line 100.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkp/b/sc/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 110.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 124.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
@@ -1622,25 +1630,25 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 110
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 124
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 110
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 124
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 110
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 124
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 110
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 124
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
@@ -1658,7 +1666,7 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkp/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for TS1+jkp on input line 323.
+LaTeX Font Info:    Try loading font information for TS1+jkp on input line 338.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
@@ -1669,88 +1677,74 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (2.70682pt too wide) in paragraph at lines 322--368
+Overfull \hbox (2.70682pt too wide) in paragraph at lines 337--383
 [][] 
  []
 
 [7] [8] [9] [10]
 </home/gustavo/Documentos/Universidade/Unicamp/master-research/images/praat_sam
-ple_01.png, id=194, 433.62pt x 281.1303pt>
+ple_01.png, id=190, 433.62pt x 281.1303pt>
 File: /home/gustavo/Documentos/Universidade/Unicamp/master-research/images/praa
 t_sample_01.png Graphic file (type png)
 <use /home/gustavo/Documentos/Universidade/Unicamp/master-research/images/praat
 _sample_01.png>
 Package pdftex.def Info: /home/gustavo/Documentos/Universidade/Unicamp/master-r
-esearch/images/praat_sample_01.png  used on input line 503.
+esearch/images/praat_sample_01.png  used on input line 518.
 (pdftex.def)             Requested size: 433.61894pt x 281.12961pt.
  [11]
 
-Package caption Warning: \label without proper reference on input line 562.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `metricas' on page 12 undefined on input line 535.
+LaTeX Warning: Reference `metricas' on page 12 undefined on input line 548.
 
 [12 </home/gustavo/Documentos/Universidade/Unicamp/master-research/images/praat
-_sample_01.png>]
-
-Package biblatex Warning: Name format 'last-first' deprecated.
-(biblatex)                Please use 'family-given' instead.
-(biblatex)                Using 'family-given' now.
-
-[13] [14]
+_sample_01.png>] [13] [14]
 
 Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 553.
+(biblatex)                Using fallback driver on input line 567.
 
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
-[]|\T1/jkp/m/n/12 (+20) Wagner e Dellwo,
- []
-
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
  (./scholarship_project_fapesp_v03.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `scholarship_project_fapesp_v03.out' has not 
 changed.
-(rerunfilecheck)             Checksum: ED42F52871F52CABBE47F3376B672035;962.
+(rerunfilecheck)             Checksum: 281B21A6AC80C6095C7E54B4259BA09F;905.
 
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'scholarship_project_fapesp_v03.run.xm
 l'.
 \openout1 = `scholarship_project_fapesp_v03.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
  ) 
 Here is how much of TeX's memory you used:
- 30710 strings out of 494468
- 548404 string characters out of 6175091
- 1016724 words of memory out of 5000000
- 33523 multiletter control sequences out of 15000+600000
- 144002 words of font info for 312 fonts, out of 8000000 for 9000
+ 30675 strings out of 494468
+ 547481 string characters out of 6175091
+ 1017239 words of memory out of 5000000
+ 33502 multiletter control sequences out of 15000+600000
+ 143549 words of font info for 309 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 55i,15n,55p,1702b,1770s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}{/u
-sr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/tex
-mf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/kpfonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/k
-pfonts/jkpmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkp
-mit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/kpfonts/jkpmsc8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on scholarship_project_fapesp_v03.pdf (17 pages, 1082275 bytes).
+ 55i,12n,55p,1701b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/kpfonts/jkpbsc8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/kpfonts/jkpmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/kpfonts/jkpmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfont
+s/jkpmit8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmn8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpmsc8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on scholarship_project_fapesp_v03.pdf (15 pages, 1069000 bytes).
 
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 38010 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 38002 words of extra memory for PDF output out of 42996 (max. 10000000)
 

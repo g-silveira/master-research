@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'scholarship_project_fapesp_v03.blg'
-[24] biber:315> INFO - === ter jan 14, 2020, 19:26:06
-[53] Biber.pm:371> INFO - Reading 'scholarship_project_fapesp_v03.bcf'
-[132] Biber.pm:889> INFO - Found 41 citekeys in bib section 0
-[145] Biber.pm:4093> INFO - Processing section 0
-[154] Biber.pm:4254> INFO - Looking for bibtex format file '/home/gustavo/Zotero/zotero.bib' for section 0
-[215] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1576] bibtex.pm:1329> INFO - Found BibTeX data source '/home/gustavo/Zotero/zotero.bib'
-[1616] Utils.pm:193> WARN - BAD RECURSION! Entry alias 'labov2010' is identical to the entry key, skipping ...
-[1878] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1879] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1879] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
-[1879] Biber.pm:3927> INFO - No sort tailoring available for locale 'pt-BR'
-[1922] bbl.pm:636> INFO - Writing 'scholarship_project_fapesp_v03.bbl' with encoding 'UTF-8'
-[1945] bbl.pm:739> INFO - Output to scholarship_project_fapesp_v03.bbl
-[1945] Biber.pm:110> INFO - WARNINGS: 1
+[24] biber:315> INFO - === sex jan 17, 2020, 18:13:06
+[50] Biber.pm:371> INFO - Reading 'scholarship_project_fapesp_v03.bcf'
+[121] Biber.pm:889> INFO - Found 35 citekeys in bib section 0
+[134] Biber.pm:4093> INFO - Processing section 0
+[144] Biber.pm:4254> INFO - Looking for bibtex format file '/home/gustavo/Zotero/zotero.bib' for section 0
+[201] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1685] bibtex.pm:1329> INFO - Found BibTeX data source '/home/gustavo/Zotero/zotero.bib'
+[1720] Utils.pm:193> WARN - BAD RECURSION! Entry alias 'labov2010' is identical to the entry key, skipping ...
+[1957] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1958] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1958] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
+[1958] Biber.pm:3927> INFO - No sort tailoring available for locale 'pt-BR'
+[1996] bbl.pm:636> INFO - Writing 'scholarship_project_fapesp_v03.bbl' with encoding 'UTF-8'
+[2023] bbl.pm:739> INFO - Output to scholarship_project_fapesp_v03.bbl
+[2023] Biber.pm:110> INFO - WARNINGS: 1

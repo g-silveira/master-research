@@ -1,0 +1,160 @@
+Planejamento do projeto de pesquisa para ser enviado à FAPESP
+--------------------------------------------------------------------------------
+
+Tema: Processos de acomodação dialetal no ritmo da fala de migrantes alagoanos que residem
+no Estado de São Paulo
+Problema: 
+Variáveis dependentes: Conjunto de métricas de ritmo
+Variáveis independentes: Idade de Migração e Tempo de Residência
+
+Assuntos que devem ser tratados:
+• Variáveis independentes relacionadas à acomodação dialetal
+• Análise de variáveis contínuas
+• Como medir grau de acomodação dialetal no ritmo da fala
+
+Justificar:
+• Por que acomodação dialetal?
+• Por que fala de migrantes?
+• Por que ritmo da fala?
+• Por que métricas rítmicas?
+• Por que idade de migração e tempo de residência?
+• Por que tantas métricas rítmicas?
+• Por que migrantes alagoanos em São Paulo?
+
+                                          * * *
+
+*1 Introdução e justificativa*
+   Começarei fazendo uma síntese da proposta de pesquisa. Neste parágrafo, devo deixar
+   explícito o tema da minha pesquisa, o problema, as variáveis dependentes e
+   independentes, o método e os dados. Devo encerrar o parágrafo com uma breve descrição
+   da contribuição que será feita caso a pesquisa seja realizada.
+
+   *1.1 O estudo da fala de migrantes*
+   Nesta subseção, devo justificar o porquê de se estudar a fala de migrantes e o
+   processo de acomodação dialetal. Questões que devem orientar a escrita desta subseção:
+   por que a fala de migrantes é importante? Por que estudar processos de acomodação
+   dialetal?
+
+   1.2. O estágio atual da pesquisa sobre a fala de migrantes em São Paulo
+
+   Nesta subseção, devo mostrar que a minha proposta de pesquisa se insere num contexto
+   mais amplo de pesquisas sobre a fala de migrantes em São Paulo. É nesse momento que
+   devo justificar a razão de ter escolhido migrantes alagoanos (aqui já posso acenar
+   sobre a existência de uma amostra já formada, sobre a expansão de estudos sobre uma
+   comunidade que já está sendo estudada, etc.)
+
+   1.3. Variáveis dependentes 
+
+   Nesta subsção, deve argumentar que ainda falta investigar as consequências prosódicas
+   _acomodação dialetal. Devo falar sobre como são poucos os trabalhos sociolinguísticos
+   _acerca da prosódia, mas indicar que os poucos já feitos têm mostrado que essa é uma
+   _linha promissora de pesquisa. Por fim, devo argumentar que ainda faltam pesquisas que
+   _para que seja possível responder uma série de questões.  Nesse momento, já devo pegar
+   o gancho para falar que o contexto dos migrantes _nordestinos em São Paulo é propício
+   para se realizar esses estudos, pois os próprios _falantes parecem perceber diferentes
+   prosódicas entre a região sudeste e nordeste do _país. Aqui devo trazer algumas
+   citações de entrevistas sociolinguísticas e de _linguistas renomados (Bagno e Faraco).
+
+   1.4. Variáveis independentes
+
+   _Esta subseção deve ter uma retórica de convencimento do tipo: tais desafios tem
+   _dificultado as pesquisas sobre acomodação e sobre prosódia em contexto social, mas
+   _conhecemos métodos e estratégias que podem superar esses desafios.
+
+   1.5. Desafios
+   
+      • Múltiplas variáveis independentes
+     _Aqui devo seguir a mesma argumentação que a Livia fez no seu projeto: devo falar que
+     _as variáveis clássicas não são as principais da acomodação dialetal, mas sim
+     _Região de Origem, Proveniência (Rural ou Urbana), Tempo de Residência, Idade de
+     _Migração, Nível Socioeconômico e Grau de Identificação.
+
+2 Objetivos e expectativas
+
+3 Plano de trabalho e cronograma
+
+4 Materiais e métodos
+
+5 Formas de análise dos resultados
+
+
+Planejamento do projeto de pesquisa a ser enviado para a FAPESP
+--------------------------------------------------------------------------------
+* Se inspirar nos textos de Labov na hora de escrever ;)
+
+Comunidade de fala: migrantes alagoanos em São Paulo
+Variáveis linguísticas: conjunto de métricas rítmicas
+Variáveis sociais: Idade de Migração e Tempo de Residência
+Objetivo:
+
+No projeto, devo justificar:
+- Por que acomodação dialetal? -> 
+- Por que fala de migrantes? -> 
+- Por que ritmo da fala? ->
+- Por que métricas rítmicas? -> 
+- Por que idade de migração e tempo de residência?
+- Por que tantas métricas rítmicas?
+- Por que migrantes alagoanos em São Paulo?
+- Quais serão suas contribuições?
+- Quais dados você vai usar e por quê?
+- Por que essas variáveis e não outras?
+- Quais métricas vão ser usadas e por quê?
+- Quais softwares serão usados e por quê?
+
+Devo colocar:
+- Citações de entrevistas sociolinguísticas e de linguistas renomados falando sobre suas
+  impressões de diferenças rítmicas entre a região sudeste e nordeste do Brasil
+- Imagem de como será realizada a segmentação no Praat
+- Tabela com resumo das métricas de ritmo
+- Tabela sintética com as fórmulas matemáticas das métricas de ritmo
+
+--------------------------------------------------------------------------------
+
+* Introdução e justificativa
+
+Nesta primeiro parágrafo do texto, devo realizar uma exposição sintética da proposta de
+pesquisa. Devo deixá-los explícitos: o tema, o problema, as variáveis dependentes, as
+independentes, os métodos e os materiais. Devo concluir com uma breve descrição das
+contribuições que serão feitas caso esteja pesquisa seja realizada.
+
+	* O estudo da fala de migrantes
+
+	Nesta subseção, devo justificar o porquê de se estudar a fala de migrantes e o
+	processo de acomodação dialetal. 
+
+	* O estágio atual da pesquisa sobre a fala de migrantes em São Paulo
+
+	Nesta subseção, devo mostrar que a minha proposta de pesquisa se insere num cenário
+	mais amplo de pesquisas sobre a fala de migrantes em São Paulo. É nesse momento que
+	devo justificar a decisão de estudar os migrantes alagoanos (dizendo que é uma
+	comunidade que já está sendo estudada, e que posso contribuir com esse estudo, e
+	dizendo que já existe uma amostra da fala deles, etc.). 
+
+	* As consequências prosódicas da acomodação dialetal
+
+	Nesta subseção, devo argumentar que ainda falta investigar as consequências prosódicas
+	da acomodação dialetal. Devo falar sobre como são poucos os trabalhos
+	sociolinguísticos acerca da prosódia, mas já indicar que os poucos que já foram feitos
+	têm mostrado que essa é uma linha de pesquisa promissora. Devo falar que, dos
+	trabalhos sociolinguísticos sobre prosódia, quase nenhum trata do contato de dialetos
+	e da fala de migrantes internos. Devo pegar o gancho para falar que o contexto dos
+	migrantes nordestinos em São Paulo é propício para se realizar esses estudos, pois os
+	próprios falantes percebem diferenças prosódicas entre a região sudeste e nordeste do
+	Brasil. Aqui devo trazer citações de entrevistas sociolinguísticas e de linguistas
+	renomados (p. ex., Bagno e Faraco).
+
+	* Desafios científicos e tecnológicos e os meios para superá-los
+
+	Esta subseção deve ter uma retórica de convencimento da seguinte forma: tais e tais
+	desafios têm dificultado as pesquisas sobre acomodação e prosódia em contexto social,
+	mas conhecemos métodos e estratégias que podem superá-los. Os seguintes desafios:
+	variáveis contínuas, medição do ritmo, medição do grau de acomodação, variação
+	individual.
+
+* Objetivos
+
+* Plano de trabalho
+
+* Materiais e métodos
+
+* Formas de análise dos resultados

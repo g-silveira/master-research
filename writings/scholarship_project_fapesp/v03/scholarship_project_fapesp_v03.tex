@@ -72,11 +72,14 @@
 		backend=biber,			% Compilador de bibliografia
 		style=authoryear,		% Estilo de bibliografia
 		citestyle=authoryear,	% Estilo de citação
-		giveninits=true,
+		giveninits=true,		% Primeiro nome e do médio em iniciais
 		natbib=true,			% Ativar compatibilidade com Natbib
 		]{biblatex}	
-	
-\addbibresource{/home/gustavo/Zotero/zotero.bib}	% Caminho do arquivo .bib
+
+% Arquivo de configuração avançada do estilo bibliográfico
+\input{../../../bibliography/bibconfig}
+
+\addbibresource{../../../bibliography/bibliography.bib}	% Caminho do arquivo .bib
 
 % SEÇÕES
 \usepackage{titlesec}				% Modificar parâmetros dos títulos de seções
@@ -169,7 +172,7 @@ Tradicionalmente, a pesquisa sociolinguística privilegiou a análise da fala
 dos membros considerados mais \enquote{prototípicos} de suas respectivas
 comunidades, isto é, dos residentes que nasceram e cresceram na região
 estudada, sobretudo daqueles cujos pais também são nativos
-\citep{Britain2018, Oushiro2016, Milroy2002, Kerswill1993}. A restrição da
+\citep{Britain2018, Oushiro2018, Milroy2002, Kerswill1993}. A restrição da
 comunidade de fala aos falantes nativos é um procedimento metodológico que
 busca circunscrever a investigação sociolinguística apenas aos processos de
 variação e de mudança linguística desencadeados por fatores internos a uma
@@ -190,7 +193,7 @@ refletirão os padrões das variedades de suas respectivas regiões de origem,
 adquiridos no decorrer da infância. É com base nesse raciocínio que muitas
 pesquisas sociolinguísticas decidem excluir de suas amostras os residentes
 migrantes que chegaram na comunidade depois da puberdade \citep[p. ex.][p.
-111]{Labov1966}.
+111]{Labov2006}.
 
 Ainda que a restrição da análise sociolinguística à fala dos nativos seja
 compreensível, diversos estudos têm mostrado a importância de se considerar o
@@ -213,7 +216,7 @@ tais alterações não sejam tão frequentes, nem tão drásticas como as que
 acontecem na fala de crianças \citep{Cukor-Avila.Bailey2013}. E mesmo quando
 se consideram as crianças migrantes (portanto, em fase de aquisição da
 linguagem), uma série de perguntas ainda estão à espera de respostas
-\citep{Oushiro2016, Nycz2015, Chambers1992, Trudgill1986}: até que idade a
+\citep{Oushiro2018, Nycz2015, Chambers1992, Trudgill1986}: até que idade a
 criança deve chegar na comunidade anfitriã para adquirir total competência
 na variedade dessa comunidade? Quais fatores linguísticos e sociais podem
 acelerar ou inibir a aquisição de traços próprios da nova comunidade?
@@ -249,7 +252,7 @@ das vogais médias pretônicas.  Seus resultados indicam que houve acomodação
 à pronúncia paulistana da vogal média /e/, mas não da vogal média /o/,
 sugerindo que o processo de acomodação fonética não necessariamente segue o
 princípio do paralelismo, um resultado que também foi observado por
-\citet{Oushiro2019}. Por sua vez, \citet{Souza2017} e \citet{Oliveira2019}
+\citet{Oushiro2018}. Por sua vez, \citet{Souza2017} e \citet{Oliveira2019}
 estão analisando a fala de migrantes baianos no estado paulista.
 \citet{Souza2017} está investigando, em sua pesquisa de doutorado, os
 processos de acomodação dialetal na fala de residentes baianos na Região
@@ -334,7 +337,7 @@ O plano de trabalho deste projeto pode ser visualizado na Tab.
 	\caption{\rmfamily Cronograma de pesquisa}
 	\vspace{.5em}
 	\label{tab-crono}
-	\begin{tabular}{m{.44\linewidth}cccccccccc}
+	\begin{tabular}{m{.40\linewidth}cccccccccc}
 		&& \multicolumn{4}{c}{\scshape\normalsize 1º Ano} &&
 		\multicolumn{4}{c}{\scshape\normalsize 2º Ano} \\
 		\cline{3-6}\cline{8-11}
@@ -503,7 +506,7 @@ coda, serão consideradas parte do intervalo vocálico.
 
 Essa etapa será realizada com precedimentos semiautomáticos. Os intervalos
 entre inícios de vogais serão marcados automaticamente com o uso do script
-\emph{Beat Extractor} desenvolvido por \citet{Barbosa2003} para ser
+\emph{Beat Extractor} desenvolvido por \citet{Barbosa2016} para ser
 executado no Praat. Já as demais unidades serão segmentadas manualmente, mas
 aproveitando as marcações já realizadas por esse script. Um exemplo visual
 de como serão feitas a segmentação e a etiquetagem pode ser observado na
@@ -523,7 +526,7 @@ Fig. \ref{praat}.
 Quando as amostras já estiverem devidamente segmentadas e etiquetadas, as
 métricas rítmicas já poderão ser calculadas. Isso será feito de modo
 completamente automático por meio do algoritmo \emph{Metrics and Acoustics
-	Extractor} desenvolvido recentemente por \citet{Junior.Barbosa2019} para ser
+	Extractor} desenvolvido recentemente por \citet{SilvaJr.Barbosa2019} para ser
 executado no Praat. Basicamente, esse algoritmo aplica as equações matemáticas
 de cada métrica às durações dos intervalos segmentados previamente e então gera
 uma planilha organizada com os índices rítmicos de cada enunciado
@@ -544,8 +547,6 @@ um enunciado. Valores mais altos dessa métrica indicam que esses intervalos sã
 mais variáveis e vice-versa. As principais diferenças entre as métricas são o
 tipo de intervalo a que se aplicam, qual cálculo de dispersão adotam (no caso do
 segundo grupo) e se utilizam alguma forma de normalização da taxa de elocução.
-Um resumo das métricas que serão usadas nesta pesquisa pode ser visualizado no
-Apêndice \ref{metricas} .
 
 \section{Formas de análise dos resultados} \label{analise}
 
@@ -568,3 +569,4 @@ de interesse e as de controle.
 }
 
 \end{document}
+

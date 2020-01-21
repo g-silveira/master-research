@@ -1993,17 +1993,17 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">/home/gustavo/Zotero/zotero.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../../../bibliography/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Britain2018</bcf:citekey>
-    <bcf:citekey order="1">Oushiro2016</bcf:citekey>
+    <bcf:citekey order="1">Oushiro2018</bcf:citekey>
     <bcf:citekey order="1">Milroy2002</bcf:citekey>
     <bcf:citekey order="1">Kerswill1993</bcf:citekey>
     <bcf:citekey order="2">Milroy2002</bcf:citekey>
     <bcf:citekey order="2">Labov2001</bcf:citekey>
     <bcf:citekey order="3">Lenneberg1967</bcf:citekey>
-    <bcf:citekey order="4">Labov1966</bcf:citekey>
+    <bcf:citekey order="4">Labov2006</bcf:citekey>
     <bcf:citekey order="5">Britain2018</bcf:citekey>
     <bcf:citekey order="5">Bortoni-Ricardo2011</bcf:citekey>
     <bcf:citekey order="5">Trudgill1986</bcf:citekey>
@@ -2011,14 +2011,14 @@
     <bcf:citekey order="7">Trudgill1986</bcf:citekey>
     <bcf:citekey order="8">Lenneberg1967</bcf:citekey>
     <bcf:citekey order="9">Cukor-Avila.Bailey2013</bcf:citekey>
-    <bcf:citekey order="10">Oushiro2016</bcf:citekey>
+    <bcf:citekey order="10">Oushiro2018</bcf:citekey>
     <bcf:citekey order="10">Nycz2015</bcf:citekey>
     <bcf:citekey order="10">Chambers1992</bcf:citekey>
     <bcf:citekey order="10">Trudgill1986</bcf:citekey>
     <bcf:citekey order="11">Oushiro2018</bcf:citekey>
     <bcf:citekey order="12">Oushiro2018</bcf:citekey>
     <bcf:citekey order="13">Santana2019</bcf:citekey>
-    <bcf:citekey order="14">Oushiro2019</bcf:citekey>
+    <bcf:citekey order="14">Oushiro2018</bcf:citekey>
     <bcf:citekey order="15">Souza2017</bcf:citekey>
     <bcf:citekey order="16">Oliveira2019</bcf:citekey>
     <bcf:citekey order="17">Souza2017</bcf:citekey>
@@ -2044,8 +2044,8 @@
     <bcf:citekey order="33">Boersma.Weenink2019</bcf:citekey>
     <bcf:citekey order="34">Ramus.etal1999</bcf:citekey>
     <bcf:citekey order="35">Ramus.etal1999</bcf:citekey>
-    <bcf:citekey order="36">Barbosa2003</bcf:citekey>
-    <bcf:citekey order="37">Junior.Barbosa2019</bcf:citekey>
+    <bcf:citekey order="36">Barbosa2016</bcf:citekey>
+    <bcf:citekey order="37">SilvaJr.Barbosa2019</bcf:citekey>
     <bcf:citekey order="38">Ramus.etal1999</bcf:citekey>
     <bcf:citekey order="39">Ramus.etal1999</bcf:citekey>
     <bcf:citekey order="40">RCoreTeam2019</bcf:citekey>

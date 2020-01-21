@@ -1,0 +1,271 @@
+% Formatação dos nomes dos autores
+\DeclareNameFormat{author}{%
+	\ifthenelse{\value{listcount}=1}
+	{\textsc{\namepartfamily}%
+		\ifdefvoid{\namepartgiven}{}{
+	\addcomma\space\namepartgiven}}
+	{\textsc{\namepartfamily}%
+		\ifdefvoid{\namepartgiven}{}{
+	\addcomma\space\namepartgiven}}
+	\ifthenelse{\value{listcount}<\value{liststop}}
+	{\addsemicolon\space}{}
+}
+
+% Formatação da data de acesso
+\DeclareFieldFormat{urldate}{#1}
+\renewbibmacro*{urldate}{%
+	\printtext{Acessado em:}%
+	\addspace
+	\printurldate
+}
+
+% Formatação da URL
+\DeclareFieldFormat{url}{\url{#1}}
+\renewbibmacro*{url}{%
+	\iffieldundef{url}
+	{}
+	{\printtext{Disponível em:}%
+	\addspace
+	\printfield{url}%
+	\adddot}
+}
+
+% Títulos sem itálico
+\DeclareFieldFormat{title}{#1}
+
+% Títulos de períodos sem "In:/Em:"
+\renewbibmacro{in:}{%
+	\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+
+% Config. dos nomes de tradutores
+\DeclareNameFormat{translator}{%
+	\ifthenelse{\value{listcount}=1}
+	{\namepartgiven%
+		\ifdefvoid{\namepartfamily}{}{
+	\namepartfamily}}
+	{\namepartgiven%
+		\ifdefvoid{\namepartfamily}{}{
+	\namepartfamily}}
+	\ifthenelse{\value{listcount}<\value{liststop}\AND\ifmorenames}%
+	{\addcomma\addspace}{}%
+	\ifthenelse{\value{listcount}<\value{liststop}}%
+	{\printtext{e}\addspace}{}%
+}
+
+% Config. do campo "tradutores"
+\renewbibmacro*{bytranslator+others}{%
+	\ifnameundef{translator}
+	{}
+	{\printtext{Tradução:}%
+	\setunit{\addspace}%
+	\printnames{translator}}
+	\setunit{\addspace}%
+}
+
+% Desativar campos
+\AtEveryBibitem{
+	\clearfield{pagetotal}		% Não imprimir total de páginas
+}
+
+
+% Config. dos nomes de editores
+\DeclareNameFormat{editor}{%
+	\ifthenelse{\value{listcount}=1}
+	{\namepartfamily%
+		\ifdefvoid{\namepartgiven}{}{
+		\addcomma\addspace\namepartgiven}}
+	{\namepartfamily%
+		\ifdefvoid{\namepartgiven}{}{
+		\addcomma\addspace\namepartgiven}}
+	\ifthenelse{\value{listcount}<\value{liststop}}
+	{\addsemicolon\addspace}{}%
+	\ifthenelse{\value{listcount}=\value{liststop}}
+	{\printtext{(ed.).}}{}%
+}
+
+% Config. do campo "editores"
+\renewbibmacro*{byeditor}{%
+	\ifnameundef{editor}%
+	{}
+	{\printnames{editor}%
+	}}
+
+% Config. da entrada "incollection"
+\DeclareBibliographyDriver{incollection}{%
+\usebibmacro{bibindex}%
+\usebibmacro{begentry}%
+\usebibmacro{author}%
+\setunit{\printdelim{nametitledelim}}\newblock
+\usebibmacro{title}%
+\newunit
+\newunit\newblock
+\newunit\newblock  
+\usebibmacro{in:}%
+\usebibmacro{byeditor}%
+\newunitpunct
+\usebibmacro{maintitle+booktitle}%
+\newunit\newblock
+\newunit\newblock
+\printfield{edition}%
+\newunit
+\iffieldundef{maintitle}
+{\printfield{volume}%
+\printfield{part}}
+{}%
+\newunit
+\printfield{volumes}%
+\newunit\newblock
+\usebibmacro{series+number}%
+\newunit\newblock
+\printfield{note}%
+\newunit\newblock
+\usebibmacro{publisher+location+date}%
+\newunit\newblock
+\usebibmacro{chapter+pages}% <- change
+\iftoggle{bbx:isbn}
+{\printfield{isbn}}
+{}%
+\newunit\newblock
+\usebibmacro{doi+eprint+url}%
+\newunit\newblock
+\usebibmacro{addendum+pubstate}%
+\setunit{\bibpagerefpunct}\newblock
+\usebibmacro{pageref}%
+\newunit\newblock
+\iftoggle{bbx:related}
+{\usebibmacro{related:init}%
+\usebibmacro{related}}
+{}%
+\usebibmacro{finentry}}
+
+% Config. de volume e número de artigos
+\DeclareFieldFormat[article]{volume}{#1}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+\renewbibmacro*{volume+number+eid}{%
+	\printfield{volume}%
+	\setunit{\addspace}%
+	\printfield{number}%
+	\setunit{\addspace}%
+	\printfield{eid}%
+}
+
+% Tirar "pp." antes da numeração de páginas
+\DeclareFieldFormat{pages}{#1}
+
+% Adicionar vírgula após título
+\newbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addcomma\addspace}% <- Editado
+  \iffieldundef{series}
+    {}
+    {\newunit
+     \printfield{series}%
+     \setunit{\addspace}}%
+  \usebibmacro{volume+number+eid}%
+  \setunit{\addspace}%
+  \usebibmacro{issue+date}%
+  \setunit{\addcolon\space}%
+  \usebibmacro{issue}%
+  \newunit}
+
+% Criar novo macro para ser usado apenas em articles
+\newbibmacro*{note+page}{%
+  \printfield{note}%
+  \setunit{\addcolon\addspace}% <- Editado: alterei vírgula por dois pontos
+  \printfield{pages}%
+  \newunit}
+
+% Substitui o macro note+pages por note+page
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\printdelim{nametitledelim}}\newblock
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{bytranslator+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{in:}%
+  \usebibmacro{journal+issuetitle}%
+  \newunit
+  \usebibmacro{byeditor+others}%
+  \newunit
+  \usebibmacro{note+page}% <- Editado
+  \newunit\newblock
+  \iftoggle{bbx:isbn}
+    {\printfield{issn}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \newunit\newblock
+  \iftoggle{bbx:related}
+    {\usebibmacro{related:init}%
+     \usebibmacro{related}}
+    {}%
+  \usebibmacro{finentry}}
+
+% Criar novo macro para modificar campo "edition"
+\newbibmacro*{edition1}{%
+	\setunit{\addspace\textendash\addspace}%
+	\printfield{edition}}
+
+% Substitui \printfield{edition} por macro "edition1"
+\DeclareBibliographyDriver{book}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/editor+others/translator+others}%
+  \setunit{\printdelim{nametitledelim}}\newblock
+  \usebibmacro{maintitle+title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{byeditor+others}%
+  \newunit\newblock
+  \iffieldundef{maintitle}
+    {\printfield{volume}%
+     \printfield{part}}
+    {}%
+  \newunit
+  \printfield{volumes}%
+  \newunit\newblock
+  \usebibmacro{series+number}%
+  \newunit\newblock
+  \printfield{note}%
+  \newunit\newblock
+  \usebibmacro{publisher+location+date}%
+  \newunit\newblock
+  \usebibmacro{edition1}%
+  \newunit
+  \usebibmacro{chapter+pages}%
+  \newunit
+  \printfield{pagetotal}%
+  \newunit\newblock
+  \iftoggle{bbx:isbn}
+    {\printfield{isbn}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \newunit\newblock
+  \iftoggle{bbx:related}
+    {\usebibmacro{related:init}%
+     \usebibmacro{related}}
+    {}%
+  \usebibmacro{finentry}}
+

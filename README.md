@@ -3,7 +3,7 @@
 ### Hello! My name is Gustavo Silveira and I'm a brazilian student of Linguistics at the [University of Campinas](https://www.unicamp.br/unicamp/english) (Unicamp) in Brazil. I'm glad you've found this repository! Here you'll find almost everything that I'm producing in my on going academic research (2020 - 2021) for master's degree in Linguistics, under the supervision of Professor [Livia Oushiro](https://oushiro.github.io/).
 
 #### Until now, the title of the research is this:
-#### *Rhythmic variation in dialect contact situation: a sociolinguistic study of Northeastern migrants in São Paulo*
+#### *Dialect accommodation in the rhythmic dimension of speech: a sociolinguistic study of Northeastern migrants in São Paulo*
 
 I advocate [open science](https://www.fosteropenscience.eu/content/what-open-science-introduction) (scientific knowledge accessible for everybody in everywhere) and I'm trying to make available for you all files, data, versions of writings, scripts (e.g., R and Praat scripts), notes, meeting agendas, bibliografies, figures, etc., of my research. With Git, you can also see all the change history of these files and have a better understanding of the real research process (with many corrections, revisions, modifications...) that was took to reach their actual state. 
 
@@ -17,7 +17,7 @@ In terms of licenses, my request puts this repository under [Creative Commons At
 
 Most of the data is written in Brazilian Portuguese, but I'll translate into English the materials that have reached a more stable and conclusive state.
 
-Last, but not least, feel free to write me questions, suggestions, criticisms, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" section of this repository or you can send a message to my email (silveira.gustavocampos@gmail.com). It will be a pleasure to reply.
+Last, but not least, feel free to write me questions, suggestions, criticisms, recommendations or just to say hello. You can do it here in Github creating a new issue in the "Issues" section of this repository or you can send a message to my email (guscps@pm.me). It will be a pleasure to reply.
 
 For the time being, that's it! Thank you for your interest!
 
